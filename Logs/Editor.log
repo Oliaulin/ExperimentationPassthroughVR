@@ -1,0 +1,904 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau" at "2026-09-30T12:18:31.9218057Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'fr' Physical Memory: 28330 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-30T12:18:31Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 52100, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              4f083d88de0641cd94d7e5b5b8cbd720
+  Correlation Id:          3181d5afd8bd4664c9961d12dc74b40f
+  External correlation Id: 7340935170545768873
+  Machine Id:              38a2xp5jTUHMWTaAZnWFeybQ1e8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-oliau" (connect: 0.00s, validation: 0.01s, handshake: 0.16s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau-notifications" at "2026-09-30T12:18:32.0947042Z"
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token 7_Xd1Ll85k...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 3574297690481-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.25s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-projectpath
+C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-oliau
+-hubSessionId
+6880d165-52bf-43a8-b9b4-c25de64e31d6
+-accessToken
+7_Xd1Ll85kPXdQph3KZJ59iN3xd2W1FS31fcyl3oLkE003f
+Successfully changed project path to: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [38428]  Target information:
+
+Player connection [38428]  * "[IP] 10.50.8.67 [Port] 55504 [Flags] 2 [Guid] 1121898085 [EditorId] 1121898085 [Version] 1048832 [Id] WindowsEditor(7,OLI-SCHOOL-LAP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [38428] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [38428] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-41136" after 0.3 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 30 unused hashed content files
+[Licensing::Client] Successfully resolved entitlement details
+Refreshing native plugins compatible for Editor in 6.89 ms, found 0 plugins.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon 780M Graphics (ID=0x1900)
+    Vendor:   ATI
+    VRAM:     14165 MB
+    Driver:   32.0.22024.19001
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.005808 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.134 seconds
+Domain Reload Profiling: 1811ms
+	BeginReloadAssembly (151ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (89ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (134ms)
+		AnalyzeDomain (255ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (228ms)
+	FinalizeReload (1136ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (138ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (649ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 77 packages:
+  Packages from [https://packages.unity.com]:
+    com.meta.xr.sdk.all@207.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.meta.xr.sdk.all@1e7997713645)
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.timeline@1.8.12 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.xr.meta-openxr@2.6.1 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.meta-openxr@20c9b19f5e28)
+    com.unity.xr.openxr@1.18.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be)
+    com.unity.xr.core-utils@2.6.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.core-utils@a8b900321199)
+    com.unity.xr.management@4.7.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.management@2ad85c7dd480)
+    com.unity.xr.arfoundation@6.6.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.arfoundation@41a353b6038b)
+    com.unity.xr.compositionlayers@2.5.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.compositionlayers@2843cb312e13)
+    com.meta.xr.sdk.core@207.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.meta.xr.sdk.core@3c8a98bf2e9a)
+    com.meta.xr.sdk.audio@85.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.meta.xr.sdk.audio@baafb66e77db)
+    com.meta.xr.sdk.voice@85.0.1 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.meta.xr.sdk.voice@856439ff2689)
+    com.meta.xr.sdk.haptics@207.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.meta.xr.sdk.haptics@882aeaf3e33f)
+    com.meta.xr.mrutilitykit@207.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.meta.xr.mrutilitykit@2693f4226edc)
+    com.meta.xr.sdk.platform@207.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.meta.xr.sdk.platform@1b765c01c84f)
+    com.meta.xr.sdk.interaction@207.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.meta.xr.sdk.interaction@0eb6eb677898)
+    com.meta.xr.sdk.interaction.ovr@207.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.meta.xr.sdk.interaction.ovr@3080a3dd7412)
+    com.unity.editorcoroutines@1.1.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.editorcoroutines@87a15ed012c2)
+    com.unity.xr.legacyinputhelpers@3.0.1 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.legacyinputhelpers@3f62d634f63b)
+    com.unity.searcher@4.9.5 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.burst@1.8.30 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.burst@2f3d916873ea)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.xr.hands@1.8.1 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.hands@0908de89928b)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.render-pipelines.universal@17.5.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.render-pipelines.universal@d7774c218bdf)
+    com.unity.test-framework@1.7.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.test-framework@1405238725ab)
+    com.unity.ugui@2.5.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.ugui@1c4864518158)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.ext.nunit@44f7d31723bd)
+    com.unity.render-pipelines.core@17.5.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.render-pipelines.core@a4c9a9793789)
+    com.unity.shadergraph@17.5.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.shadergraph@8d7376ec43ee)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.render-pipelines.universal-config@fdda01c80fe3)
+    com.unity.mathematics@1.4.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.mathematics@981956d94fb6)
+    com.unity.collections@6.5.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.collections@ec2c217e4cb2)
+    com.unity.textmeshpro@5.0.0 (location: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.textmeshpro@53f43edfd2e0)
+[Subsystems] Looking for new subsystems at path C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.meta-openxr@20c9b19f5e28
+[Subsystems] Novel subsystem found at Library/PackageCache/com.unity.xr.meta-openxr@20c9b19f5e28/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1/Assets
+[Subsystems] Discovering subsystems at path C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.meta-openxr@20c9b19f5e28
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.meta-openxr@20c9b19f5e28/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] No descriptors matched for  inputs in Library/PackageCache/com.unity.xr.meta-openxr@20c9b19f5e28/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] No descriptors matched for  displays in Library/PackageCache/com.unity.xr.meta-openxr@20c9b19f5e28/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'meshings' descriptors matched in Library/PackageCache/com.unity.xr.meta-openxr@20c9b19f5e28/Runtime/UnitySubsystemsManifest.json
+[Subsystems] Discovering subsystems at path C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.openxr@b5b77b4027be
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] 1 'displays' descriptors matched in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  meshings in Library/PackageCache/com.unity.xr.openxr@b5b77b4027be/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] Discovering subsystems at path C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\Library\PackageCache\com.unity.xr.arfoundation@41a353b6038b
+[Subsystems] No descriptors matched for  examples in Library/PackageCache/com.unity.xr.arfoundation@41a353b6038b/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'inputs' descriptors matched in Library/PackageCache/com.unity.xr.arfoundation@41a353b6038b/Runtime/UnitySubsystemsManifest.json
+[Subsystems] No descriptors matched for  displays in Library/PackageCache/com.unity.xr.arfoundation@41a353b6038b/Runtime/UnitySubsystemsManifest.json.
+[Subsystems] 1 'meshings' descriptors matched in Library/PackageCache/com.unity.xr.arfoundation@41a353b6038b/Runtime/UnitySubsystemsManifest.json
+[Package Manager] Done registering packages in 0.26 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:80
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 32.4675ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll" in favor of "C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll"
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.burst@2f3d916873ea\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff\Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 114.5618ms
+ExitCode: 0 Duration: 1s60ms
+[1804/2441  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.87 seconds), 1 items updated, 2441 evaluated
+AssetDatabase: script compilation time: 1.857520s
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 66.76 ms, found 23 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 25.97 ms, found 23 plugins.
+[OVRPlugin][INFO] UnityPluginLoad called
+I0930 08:18:46.112332 38428 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+I0930 08:18:48.566482 38428 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+I0930 08:18:49.614499 38428 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+I0930 08:18:52.058024 38428 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 11.797 seconds
+Domain Reload Profiling: 13438ms
+	BeginReloadAssembly (368ms)
+		DisableScriptedObjects (51ms)
+		CreateAndSetChildDomain (148ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (1156ms)
+		LoadAssemblies (680ms)
+		AnalyzeDomain (390ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (229ms)
+			BuildScriptInfoCaches (128ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (11798ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (11029ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Starting new worker id: 0 with log in C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=50710efa184b01146a8c709bc5b28819): Total: 18.010 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=13582 ms
+		Asset DB Callback time: managed=364 ms, native=263 ms
+		Scripting: domain reloads=1, domain reload time=1783 ms, compile time=1859 ms, other=156 ms
+		Project Asset Count: scripts=3284, non-scripts=4970
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 266.363ms
+	ApplyChangesToAssetFolders: 0.914ms
+	Scan: 532.219ms
+	Collect global state as custom dependencies: 26.556ms
+	CategorizeScriptCompilationAssets: 148.100ms
+	ProcessAssetsWithTransientArtifactChanges: 173.838ms
+	CategorizeAssets: 127.028ms
+	CompileScripts: 1858.926ms
+	ImportOutOfDateAssets: 12091.320ms (11945.986ms without children)
+		ReloadNativeAssets: 0.084ms
+		UnloadImportedAssets: 2.146ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.533ms
+		ImportSchedulerStart: 141.568ms
+	PostProcessAllAssets: 364.614ms
+		MonoPostProcessAllAssets: 364.531ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 12.589ms
+			SyncVS.PostprocessSyncProject 4.546ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.361ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.349ms
+			AssetPostProcessor.OnPostprocessAllAssets 1.159ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 1.038ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.926ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.463ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.319ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.303ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.260ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.229ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.219ms
+	UnloadStreamsBegin: 3.788ms
+	PersistCurrentRevisions: 0.261ms
+	GenerateScriptTypeHashes: 12.856ms
+	GenerateScriptTypeSerializationHashes: 19.764ms
+	Untracked: 2392.806ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Scanning for USB devices : 5.777ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-meta1
+Worker ready: AssetImportWorkerHW0 0
+Unloading 43 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/xx_Environnement_debut.unity'
+	Deserialize:            33.759 ms
+	Integration:            858.806 ms
+	Integration of assets:  0.038 ms
+	Thread Wait Time:       0.029 ms
+	Total Operation Time:   892.631 ms
+Unloading 11151 unused Assets / (15.3 MB). Loaded Objects now: 23149.
+Memory consumption went from 0.68 GB to 0.66 GB.
+Total: 44.859300 ms (FindLiveObjects: 2.564700 ms CreateObjectMapping: 6.455400 ms MarkObjects: 27.724000 ms  DeleteObjects: 7.899000 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/oliau/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+D3D11 device created for Microsoft Media Foundation video decoding.
+[Project] Loading completed in 28.700 seconds
+	Project init time: 				22.794 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.334 seconds
+		Asset Database init time: 		0.615 seconds
+		Global illumination init time: 	0.011 seconds
+		Assemblies load time: 			1.932 seconds
+		Unity extensions init time: 	0.042 seconds
+		Asset Database refresh time: 	18.011 seconds
+	Scene opening time: 			5.552 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790770740609,"processId":41136,"projectLoad":28.6998231,"projectInit":22.7940335,"templateInit":0.0,"packageManagerInit":0.3338296,"assetDatabaseInit":0.6145485,"globalIlluminationInit":0.0113696,"assembliesLoad":1.9317606,"unityExtensionsInit":0.0421446,"assetDatabaseRefresh":18.0108886,"sceneOpening":5.5516053}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790770740609,"processId":41136,"editorVersion":"6000.5.9f1 (b57deb96f08d)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=2acf3856cb90b2d44a2ef082d9d09f32): Total: 0.201 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Request Asset Garbage Collect because used heap size increased from 0.66 GB to 1.10 GB, exceeding the threshold of 256.0 MB.
+Created GICache directory at C:/Users/oliau/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.044s, timestamps: [30.949 - 30.993]
+Unloading 152 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (17.1 MB). Loaded Objects now: 27050.
+Memory consumption went from 1.10 GB to 1.08 GB.
+Total: 53.198700 ms (FindLiveObjects: 2.062300 ms CreateObjectMapping: 4.086100 ms MarkObjects: 41.752600 ms  DeleteObjects: 5.295800 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Android Extension - Scanning For ADB Devices 2585 ms
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "7_Xd1Ll8"... (expires: 2026-09-30T14:17:13Z)
+[Licensing::Client] Successfully resolved entitlement details
+Multiple ADB server instances found, the following ADB server instance have been terminated due to being run from another SDK. 
+If instance restarts during deployment, this may cause unexpected issues. Please check that ADB versions are consistent across instances. 
+Process paths: 
+C:\Program Files\Meta Quest Developer Hub\resources\bin\adb.exe
+C:\Program Files\Meta Quest Developer Hub\resources\bin\adb.exe
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs:384)
+UnityEditor.Android.TargetScanWorker:DoScan (UnityEditor.DeploymentTargets.IDeploymentTargetsExtension,UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,System.Threading.CancellationToken) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/TargetScanWorker.cs:188)
+UnityEditor.Android.TargetScanWorker/<>c__DisplayClass15_0:<MainThreadProcessing>b__0 () (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/TargetScanWorker.cs:227)
+System.Threading.Tasks.Task:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs Line: 384)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Starting new worker id: 1 with log in C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1/Logs/AssetImportWorkerHW1.log
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Project Setup Tool] There are 3 outstanding Recommended fixes.
+For more information, go to <a href="OpenProjectSetupTool">Edit > Project Settings > Meta XR</a>
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+OVRConfigurationTaskUpdaterSummary:Log () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs:222)
+OVRConfigurationTaskUpdater:Complete () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdater.cs:130)
+OVRConfigurationTaskProcessorQueue:Dequeue (OVRConfigurationTaskProcessor) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:115)
+OVRConfigurationTaskProcessorQueue:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:136)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs Line: 222)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Project Setup Tool] There are 3 outstanding Recommended fixes.
+For more information, go to <a href="OpenProjectSetupTool">Edit > Project Settings > Meta XR</a>
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+OVRConfigurationTaskUpdaterSummary:Log () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs:222)
+OVRConfigurationTaskUpdater:Complete () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdater.cs:130)
+OVRConfigurationTaskProcessorQueue:Dequeue (OVRConfigurationTaskProcessor) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:115)
+OVRConfigurationTaskProcessorQueue:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:136)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskUpdaterSummary.cs Line: 222)
+
+[Licensing::Client] Successfully resolved entitlement details
+UPID Received '255ae3f9-6f55-4ab8-baff-0676fe1de3d8'.
+Android Extension - Scanning For ADB Devices 2849 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 607 ms
+Worker ready: AssetImportWorkerHW1 1
+Starting new worker id: 2 with log in C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1/Logs/AssetImportWorkerHW2.log
+Android Extension - Scanning For ADB Devices 667 ms
+[Worker0] Imported GUID: a8d9c02204c87d04eb90fdff5a4e80df - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a401745ab0c93e19cee8909b1a04f68f') in 0.1481122 seconds
+[Worker0] Imported GUID: 806ea42881952474d9064a87615fbe64 - Path: Assets/Models3D/Textures/Watertank/Moonbase_watertank_MoonBase_WaterTank_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '82833ee373a44cd1e768026ad12c78b7') in 0.0655904 seconds
+[Worker0] Imported GUID: a4acf45856a174d4d9b6ec13672fbdee - Path: Assets/Models3D/Textures/Gun - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e4343f0e94c12c535804f57c02359316') in 0.0352143 seconds
+[Worker0] Imported GUID: c146daf0163687f47b4c34424b41c4be - Path: Assets/Models3D/Textures/StarTexture/2048/StarTexture_HIRES.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0a1e2a99360e45385f5ba9601e3ba360') in 0.1494497 seconds
+[Worker0] Imported GUID: 5fc54d723b0c145b89f5da887e27d075 - Path: Assets/MateriauxPerso - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0c0f22216f9a62d77abf0685692099f4') in 0.0346037 seconds
+[Worker0] Imported GUID: b358e84c59b174ad0b858ce5f7ea0669 - Path: Assets/Models3D/Textures - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e6bcceab2a65a1bcf0b65d9eb189e6b0') in 0.0324061 seconds
+[Worker0] Imported GUID: b570ee268795c9241a9344d9b0d64b1a - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_Emission.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dc3eb9985be2d54fd6b7f665af8e9022') in 0.0435779 seconds
+[Worker0] Imported GUID: b050b6ce54d078940824613b9d80bd7d - Path: Assets/Models3D/Materials/MoonBase_OxygenTanks.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '246f5d40e1ff045c6d8269bc267bccb3') in 0.0841755 seconds
+[Worker0] Imported GUID: c289f9e04cda4434689410544e4c6df0 - Path: Assets/Models3D/Textures/Watertank/Moonbase_watertank_MoonBase_WaterTank_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '19cc4c49c0f4c6dde1523fb9092acaf0') in 0.1056171 seconds
+[Worker0] Imported GUID: 10246a5674bbf6044a1f3ea85d0eb9a7 - Path: Assets/Models3D/Materials/Moonbase_Gun.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '738cfd29a78123e2eaf384631b141a17') in 0.101709 seconds
+[Worker0] Imported GUID: b673e000254bed04c87d8b54ef2f0a7c - Path: Assets/Models3D/Textures/Terrain/MoonGround2k_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0ff1e0262a9adb02de2de25be9181072') in 0.0471348 seconds
+[Worker0] Imported GUID: 4698fc9ff25584363bf5b1483c120102 - Path: Assets/Reticule - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '39adbe3d182e22496ba534d85b8459eb') in 0.0248874 seconds
+[Worker0] Imported GUID: 8ceb15c58f616e742b45f9fdf028c16c - Path: Assets/Models3D/FBX/Moonbase_Terminal.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '80f9e2ba593b0b3b23cfd81ee5235282') in 0.1066957 seconds
+[Worker0] Imported GUID: f818b2ecc07aace409e961db92d2891c - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ee107def05d83e45db956bfd4eb51b44') in 0.0339086 seconds
+[Worker0] Imported GUID: b2d245e1084354544bb6f16011c2fa8d - Path: Assets/Models3D/Textures/StarTexture - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8a38382cd67e7bfb8ff77ff100ebd562') in 0.0250773 seconds
+[Worker0] Imported GUID: f63c1669893e76f4ab51193148fcb534 - Path: Assets/Models3D/Prefabs/MoonBase_Capsule.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '58b75d3f77ce89df898217e4355a1017') in 0.0281056 seconds
+[Worker0] Imported GUID: 5b0ca51485db381459deda61512194a6 - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '06114828c13f6045a0c6287345dba2b5') in 0.0298133 seconds
+[Worker0] Imported GUID: 3edb8452b18f9f14ba50c7bdb744b610 - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_Moonbase_SatDish_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b514e1b70c983df1aa6eaf7c0a3438ff') in 0.0477753 seconds
+[Worker0] Imported GUID: df3a7ebff94f340d0843bc6505f9005e - Path: Assets/Models3D/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4b696b754d0298ff44acfcd7bbf8e7d4') in 0.0230014 seconds
+[Worker0] Imported GUID: 6e35c16d0360946d1bba59d692e6fc49 - Path: Assets/CompteurFPS - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3ee2e0bbd03e942f4a1050e537959e0d') in 0.0208612 seconds
+[Worker0] Imported GUID: 14ab8690ef2136b40876f986b041cc3c - Path: Assets/Models3D/Materials/Moonbase_SatDish.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '25ac41219ec2dbc33f8e21de5e102b75') in 0.1197272 seconds
+[Worker0] Imported GUID: b6aebcaf4952243eea63dc0e6662870e - Path: Assets/TextMesh Pro/Resources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '894b6aa7712734ed1bb5c1627faf346a') in 0.0427454 seconds
+[Worker0] Imported GUID: 32e4b831375de46f3933ebe180cf0aca - Path: Assets/CompteurFPS/Canvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '34e586f6a8b68dcd83dd7d4c0dc11753') in 0.1076601 seconds
+[Worker0] Imported GUID: 15f3b317ab8454d31b7d083f5faa98a3 - Path: Assets/CompteurFPS/CompteurFPS.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c232aab8ed3988b8fdd82cfe8c428e9d') in 0.0309332 seconds
+[Worker0] Imported GUID: 7f9f1d5da707f844aa70a40974a37525 - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '011e6563a5e7597b8cc306e01e9dc546') in 0.0451828 seconds
+[Worker0] Imported GUID: ca72d2295f706d84cb6e69da5fb67ebc - Path: Assets/Models3D/Prefabs/BalleTennis.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '452d259c27984a610f291937e203ee07') in 0.0362776 seconds
+[Worker0] Imported GUID: 47eb4836177f75e42996ca5123d10160 - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9fb7f05ee709a94ef6874de552e0e58a') in 0.0330673 seconds
+[Worker0] Imported GUID: 7ad486939b8bf4ad2abf104132752cd4 - Path: Assets/Models3D/Textures/MoonBase - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '93812a14521cffc57e7398da3237bd4e') in 0.0233444 seconds
+[Worker0] Imported GUID: 788c471cbeecd40e48958712c7b004ab - Path: Assets/Models3D/Terrain - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0c1b6a7ece9308c2a7aed23bcf368cbe') in 0.0292373 seconds
+[Worker0] Imported GUID: a9ea36847b6f394458b37a05b98a3aa3 - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '041fa5a2a7875b5d27e50a73fa85473a') in 0.0370268 seconds
+[Worker0] Imported GUID: a9e0378f8ad82d544a7b41ef19487e6e - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '11e14021d65c797f8c4b0203b0f96182') in 0.0509411 seconds
+[Worker0] Imported GUID: fe45aefac1b5ad44b840b3011a0ac1e9 - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_Moonbase_Habitat_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0e603670616bf5e0e2c8dce1096c85e1') in 0.0579792 seconds
+[Worker0] Imported GUID: efe086015070f38468ea90fd0968a1b9 - Path: Assets/Models3D/Prefabs/MoonBase_Platform.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'def0e480428d32f7adcae460d34432d9') in 0.0373141 seconds
+[Worker0] Imported GUID: 279c864359c5c49fda399dab7ed6fe14 - Path: Assets/echelle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9fcc15fa281e02638232318457f9e0a9') in 0.0386533 seconds
+[Worker0] Imported GUID: 0aef6fea00372e7448912e30ad68d8de - Path: Assets/Models3D/Textures/Asteriod/LowPolyAsteriod_Asteriod_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '934910fa7a77463b88c12c8c45234e20') in 0.0309891 seconds
+[Worker0] Imported GUID: 9e4a0cc45bb932a4db5660396090a927 - Path: Assets/Models3D/Textures/Watertank/MoonBase_WaterTank_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'b4eeadfb753e7c7e2677cd42c1d93d10') in 0.0468377 seconds
+[Worker0] Imported GUID: 191d541b3875078439ef427af721421f - Path: Assets/Models3D/Textures/MoonBase/MoonCapsule_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8caca0fbdf0fa858aa94aaba9e007f03') in 0.0348577 seconds
+[Worker0] Imported GUID: 39f1f559e1e980c49967ee95e6c2d40c - Path: Assets/Models3D/Textures/terminal/Moonbase_Terminal_Moonbase_terminal_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5bb1f2fe1f032fe432b6727beab8dc0d') in 0.0483767 seconds
+[Worker0] Imported GUID: 7e49cfd9fc82232439e19c6997141ab6 - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_Moonbase_SolarPanel_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '59cacfb3b5b3e1a69ca466d644660b02') in 0.054674 seconds
+[Worker0] Imported GUID: c4817226e877a884b997daef6559cff0 - Path: Assets/Models3D/Textures/Terrain/MoonGround2k_AlbedoTiff.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '03c2dd7cd752057979067cdde94914b7') in 0.0381788 seconds
+[Worker0] Imported GUID: 97707c929e9dfc1448093f7c04548bf8 - Path: Assets/Models3D/FBX/LowPolyAsteriod.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4aeb968b577d890e69cb08bd445a816a') in 0.0286258 seconds
+[Worker0] Imported GUID: fd7a090cc49066b4890bb6415a4972f9 - Path: Assets/Models3D/Textures/terminal/Moonbase_terminal_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd06f0a384d0009049db6b83cc1f1644e') in 0.0427773 seconds
+[Worker0] Imported GUID: fa84fb9b94c0943898a0ff781ceb8ae4 - Path: Assets/Models3D/Animations/Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '01ee004e880c11bdfb0d0972822170b6') in 0.0219778 seconds
+[Worker0] Imported GUID: a83255fa05c7bc84abb5b39f52887ee8 - Path: Assets/Models3D/Prefabs/MoonBase_WaterTank.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a2b358f34eb9920abf2cbcb998b55d9b') in 0.0261338 seconds
+[Worker0] Imported GUID: c7457e486f0a7f8488f3028cde24b3d4 - Path: Assets/Models3D/Materials/Asteriod.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6eefab6d3513bb813fe5c407715c64c1') in 0.0554242 seconds
+[Worker0] Imported GUID: ce7678c9cbba22f4fa838e73018a9272 - Path: Assets/Models3D/Materials/Moonbase_Platform.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0bcfa50ecdd1bca0ff1dad3fdaedbcbc') in 0.0712015 seconds
+[Worker0] Imported GUID: 31ea6eb6ab693d14c854ee0177b723fa - Path: Assets/Models3D/Textures/Asteriod/LowPolyAsteriod_Asteriod_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd6cfd2d724d302276a5b64e25f5a44da') in 0.0402586 seconds
+[Worker0] Imported GUID: db286e8731c9d85478b1704f0f1f71a1 - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_Moonbase_SolarPanel_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '47489bb9ccacdfc1c9b7116b4d608a73') in 0.0615145 seconds
+[Worker0] Imported GUID: 659d3d41ab26c7840bad20afa0c1a2ba - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_Moonbase_SatDish_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2e219c50dc4e89fb130a110c15a68a3a') in 0.0590595 seconds
+[Worker0] Imported GUID: c1c39a7b1ae95054bae7859a0f19393f - Path: Assets/Models3D/Textures/StarTexture/2048/upImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4b1618688fc587e1a597c59759158861') in 0.0453232 seconds
+[Worker0] Imported GUID: fe393ace9b354375a9cb14cdbbc28be4 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e1ae38c3abb1bec65675d50950f3df8f') in 0.0347482 seconds
+[Worker0] Imported GUID: e4f01919de907934ab1aea4976e7f412 - Path: Assets/Models3D/FBX/Moonbase_OxygenTanks.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bd033f9605c4ba9f1167c05b99a46bf9') in 0.0370839 seconds
+[Worker0] Imported GUID: d420344f28725fb4b96b0d0980ba31bc - Path: Assets/Models3D/Textures/StarTexture/2048/rightImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f866b6b741b5d3b6670081e65b5a5794') in 0.0450837 seconds
+[Worker0] Imported GUID: fa697f452e9ed416bb4419bf6426dc6e - Path: Assets/Models3D/Textures/Habitat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f74475bd45293c816fea54499774125c') in 0.0268215 seconds
+[Worker0] Imported GUID: 342a1b253568e854f9a2e953d07332d3 - Path: Assets/Models3D/Prefabs/Gun.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'aaea06f58c2b73cf75cc0bd70fd54c76') in 0.0338907 seconds
+[Worker0] Imported GUID: ed6a47d957b344cdda452966f9a4018f - Path: Assets/Models3D/Animations/Controllers - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8a0401ac1c3afc30df7f16b959a2f48e') in 0.0269961 seconds
+[Worker0] Imported GUID: e09ab55ffa19b4747b7707d1ca09f0c5 - Path: Assets/Models3D/Textures/Watertank/Moonbase_watertank_MoonBase_WaterTank_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0ebae108e280ecb4e217223da0c4ca6f') in 0.0560228 seconds
+[Worker0] Imported GUID: 48760a921dd92ff488bb4572c0d21979 - Path: Assets/Models3D/Prefabs/Moonbase_OxygenTank.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '73c2e7cdcef2fa4b9458101385acd50d') in 0.0334288 seconds
+[Worker0] Imported GUID: 7e51e9fc339e8ae44b7bd49378bc23de - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'aa6f7b505b8668af2697b60f23fcb21e') in 0.0457816 seconds
+[Worker0] Imported GUID: e350518416e4f7f4c8c56367ac5efa02 - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '622ecef3e33b7cebee08ac1ad3600c9d') in 0.0407298 seconds
+[Worker0] Imported GUID: 3b8d75d0143cb41ed9ba3452236511c6 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0e4b9774ade6aaac300ce41d65e7b9dc') in 0.0302838 seconds
+[Worker0] Imported GUID: 811ad48b91b606b469b801d87551684e - Path: Assets/Models3D/Textures/StarTexture/2048/frontImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '924531bdfaf445d0c6dbf4dd2325041b') in 0.045808 seconds
+[Worker0] Imported GUID: 49329d1ce7863164b8db933f2cf81bd2 - Path: Assets/Models3D/Textures/MoonBase/moonCapsule_MoonCapsule_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a80c954503c39ad312221382e9c52f80') in 0.0421125 seconds
+[Worker0] Imported GUID: 8a0ff692cce26a844a5a2b79be9817ee - Path: Assets/Models3D/Textures/StarTexture/2048/downImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ec841ab7b387f7dc800e87fcaddefdd3') in 0.0476845 seconds
+Worker ready: AssetImportWorkerHW2 2
+[Worker0] Imported GUID: 4805ba9a1e941a54788b045329582024 - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_Emission.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5f6e9e0c48b80dd88ab956aa0d685bed') in 0.0348385 seconds
+[Worker0] Imported GUID: 44911638d6e003a4182c32b071419904 - Path: Assets/MateriauxPerso/Checker.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd0659e6048a40a7c18bab43e36d62083') in 0.0391129 seconds
+[Worker0] Imported GUID: f898ba78d5bb54631b24143790f84e54 - Path: Assets/Models3D/Textures/Watertank - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fa45deb8d86a1b0f107cf78ad6cba2c6') in 0.0299136 seconds
+[Worker0] Imported GUID: 7dd6a23146dbb76408e054c793f5a8ce - Path: Assets/Models3D/Terrain/New Terrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6290be6af9cc66a9a47d61bc4bef88ab') in 0.086425 seconds
+[Worker0] Imported GUID: 4a3d01642383b4349a6c2778e1f1516a - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_Moonbase_Habitat_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fcf20ac3d9da13c83e6a4c52ea36efe3') in 0.0598174 seconds
+[Worker0] Imported GUID: 97ae155ec028ea449950619be7efa89a - Path: Assets/Models3D/Animations/Controllers/Guncontroller.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2d950f832e27418476af283e59316c74') in 0.038803 seconds
+[Worker0] Imported GUID: d9cb2653eef21354a93301925bd98af7 - Path: Assets/Models3D/Textures/OxygenTank/Moonbase_OxygenTanks_MoonBase_OxygenTanks_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '36205717ef1c7655ad556effc824edfa') in 0.0458896 seconds
+[Worker0] Imported GUID: 70bd919e2389b084381161dbbf2d6e28 - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_Moonbase_SolarPanel_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9a859b8c68138a46af200e88d7d05505') in 0.0609628 seconds
+[Worker0] Imported GUID: 15319f73ee1d84ca590c6693ca82a77f - Path: Assets/TextMesh Pro - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '70b1d0bd4047726ecadb02f913a4f358') in 0.0322225 seconds
+[Worker0] Imported GUID: 5806b7c9fd6d7eb4faeeaf7d730dedba - Path: Assets/Scenes/xx_Environnement_debut.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e023738b12d225e799801dee1adc7f7c') in 0.0406347 seconds
+[Worker0] Imported GUID: 789b1400e68ed4a4b80c792b837b2713 - Path: Assets/Models3D/Textures/Asteriod - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1f2429c3618386de88194bbf7e0c6f24') in 0.02868 seconds
+[Worker0] Imported GUID: 71aead153a51edc4093e3b9556d6c10a - Path: Assets/Models3D/Prefabs/MoonBaseSatelliteDish.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '5e95c430565f568d619b7949653ba0ae') in 0.0342566 seconds
+[Worker0] Imported GUID: e92b2d314c172ac42a362b0610a18736 - Path: Assets/Reticule/wp6604198.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0b6bb55646b732569802b616d2fdd678') in 0.0413099 seconds
+[Worker0] Imported GUID: c2f5c5a5e48cdbb48ba1e0d5e74528c7 - Path: Assets/Models3D/FBX/Moonbase_Platform.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '45ac7b5641a59d0d4a811a582829c0db') in 0.0328669 seconds
+[Worker0] Imported GUID: 6db343f9d3c7fa2438ff801949b44e9a - Path: Assets/Models3D/Materials/Moonbase_Habitat.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7cb8cbd2513e064f9c9694bd5bcb571a') in 0.1440719 seconds
+[Worker0] Imported GUID: 1643951e71e9710458c3366d1cca6673 - Path: Assets/Models3D/FBX/Moonbase_Habitat.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'eb8e7e02dd86574b73aef740fff42025') in 0.0408697 seconds
+[Worker0] Imported GUID: b92c03cb6dd3d8d43907dcd3e2aa6489 - Path: Assets/Models3D/Textures/Asteriod/LowPolyAsteriod_Asteriod_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '3ab41de0f9b67750b0ea02073da6e1be') in 0.05077 seconds
+[Worker0] Imported GUID: 0afc530c0cf7088408383c57ff0b437f - Path: Assets/Models3D/Textures/terminal/Moonbase_Terminal_Moonbase_terminal_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7fc3dcd1379a6d3d0e278f4f6f23b0f8') in 0.0591681 seconds
+[Worker0] Imported GUID: 62c63c058e8ab5d448f7c06cdac94089 - Path: Assets/Models3D/FBX/Moonbase_watertank.FBX - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '62c2ba34534703651cbd6f5d8e2ade93') in 0.0427252 seconds
+[Worker0] Imported GUID: adfc3193a15464814a5facfd5810d25d - Path: Assets/Models3D/Textures/Terrain - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6a9cbb2d6e42c9758721f62a339108f9') in 0.0415786 seconds
+[Worker0] Imported GUID: 3123566d8233ab344993cb0ae99a661a - Path: Assets/Models3D/FBX/Moonbase_SatDish.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c413b6f57a9dcd3d69bced95d0a5f4fb') in 0.0484497 seconds
+[Worker0] Imported GUID: 1df504c37319bf24592fc91e7687203f - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0f5623348a3835d48d29f33e29ad196b') in 0.0527622 seconds
+[Worker0] Imported GUID: 760eaa912333d574aa32054ac824b382 - Path: Assets/Models3D/Materials/Moonbase_SolarPanel.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8a636c68309a95e939d803fa03b40514') in 0.1482504 seconds
+[Worker0] Imported GUID: 561a425a9d5d04b0580997bf3a432848 - Path: Assets/Models3D/Textures/StarTexture/2048 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ec64d0fc2a53acc3b45c7b142548eb3a') in 0.0400236 seconds
+[Worker0] Imported GUID: d0984186a18f44fb7877907b35195704 - Path: Assets/TextMesh Pro/Fonts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1856ff815d50f3b756a31fa232a967c0') in 0.0583176 seconds
+[Worker0] Imported GUID: b221de8d2c2724011860ead15419ff52 - Path: Assets/Models3D/Textures/terminal - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7fb41bc941c3ebbcfb47fea71db72c06') in 0.0328701 seconds
+[Worker0] Imported GUID: 297d46fb97b604f48880aa092b6ade79 - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2195e657b14ee8de7f5baede1d4300ba') in 0.0581654 seconds
+[Worker0] Imported GUID: aa210487499ec974981cbb6b3655b04d - Path: Assets/Models3D/FBX/Moonbase_SolarPanel.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '4e6b97796df30f48e6190b94c5975177') in 0.0421581 seconds
+[Worker0] Imported GUID: 8d64277840fd71d42a3fc16ad0622f01 - Path: Assets/MateriauxPerso/tennisBall 1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '742c83b016180fe33f951c48025fe847') in 0.0267464 seconds
+[Worker0] Imported GUID: c0b685de4ccee7a4f9a800605e675347 - Path: Assets/Models3D/Textures/OxygenTank/Moonbase_OxygenTanks_MoonBase_OxygenTanks_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '40aa8a6b37bfd313042fb993729aaa49') in 0.031066 seconds
+[Worker0] Imported GUID: 3997e2241185407d80309a82f9148466 - Path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '06f8c016294d85e8ece075443a5a2161') in 0.0234758 seconds
+[Worker0] Imported GUID: 4ab07ac3e1aac41479dc71bd4c20fced - Path: Assets/Models3D/Textures/MoonBase/moonCapsule_MoonCapsule_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6bf982872a3aa75a4443a9d13b476506') in 0.0325356 seconds
+[Worker0] Imported GUID: 9a2b334da50fc4dc09799a97527fe5ec - Path: Assets/Models3D/Textures/SolarPanel - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '87bcd3f08930b1c83c766c986663d64b') in 0.0311154 seconds
+[Worker0] Imported GUID: a4a2ead619cd17745940ab6d92ebc912 - Path: Assets/Models3D/Materials/MoonBase_WaterTank.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '84c3e8a986c59f433ace9f11d1755218') in 0.1637764 seconds
+[Worker0] Imported GUID: 8f586378b4e144a9851e7b34d9b748ee - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'fdc7b23d298439ced29c17b73abbe06b') in 0.1011506 seconds
+[Worker0] Imported GUID: c2dc74200b32eca4389daac3248743ad - Path: Assets/Models3D/Materials/tennisBall.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '776e6fbf83af629964c22336382d293f') in 0.0405559 seconds
+[Worker0] Imported GUID: ca0c99d793887c245bbe0597159863a7 - Path: Assets/Models3D/Prefabs/MoonBase_Terminal.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c81208bbdfa8781a044de26055d0e97b') in 0.0333345 seconds
+[Worker0] Imported GUID: d639c1f9bdfee4c629a2bab6618871fe - Path: Assets/MateriauxPerso/BlancMetal.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9c653f898150716284b429f4acf8316f') in 0.0375707 seconds
+[Worker0] Imported GUID: f7844234efcf0524abe2fff8bbe9e1be - Path: Assets/Models3D/Prefabs/New Physics Material.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '11f589db28abe2a18b77cbeeaccbd537') in 0.0337001 seconds
+[Worker0] Imported GUID: bdec4e5b2b6f5484a937ff3d1a68c90c - Path: Assets/Models3D/Materials/MoonCapsule.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '94d50146b840e0004e4d8709e4a138de') in 0.065902 seconds
+[Worker0] Imported GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '113847dd760314e8b50405c4cfb6c3c3') in 0.0348884 seconds
+[Worker0] Imported GUID: bd4229443d846446f86b109a3afae379 - Path: Assets/Models3D/Textures/OxygenTank - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '014389d0144dfa4b45b7b4067fd4f0b7') in 0.027248 seconds
+[Worker0] Imported GUID: 599647dc3358d58488e142324f78da27 - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_Moonbase_Habitat_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '020150bd986330562ed96a12d5f455e0') in 0.0533467 seconds
+[Worker0] Imported GUID: a6753a2286761bb4fa85c341ce644ab4 - Path: Assets/Models3D/Textures/terminal/Moonbase_Terminal_Moonbase_terminal_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6be09c4acec8ae990a85abf943a17a3d') in 0.0603226 seconds
+[Worker0] Imported GUID: 0d791980aec33b549b12da08490ddfe5 - Path: Assets/Models3D/Prefabs/Moonbase_Habitat.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd843d83805a11857837abeba0a94850f') in 0.0317864 seconds
+[Worker0] Imported GUID: 209ee38e7816be941b7252492e10e600 - Path: Assets/Models3D/Materials/Moonbase_terminal.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '31d1445abd88535bb2792bb4abc46f47') in 0.1165595 seconds
+[Worker0] Imported GUID: 97be0a649d74d4a6c9909de0a9410f7b - Path: Assets/Models3D/Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1e82cc2d72275f3ae40f847367849f60') in 0.030014 seconds
+[Worker0] Imported GUID: c03e176118ce95241ad31ae68cdb4293 - Path: Assets/Models3D/FBX/Moonbase_Gun.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '0015fe1081445d82a7441d5464a9dd81') in 0.0599266 seconds
+[Worker0] Imported GUID: a7c2d32481230184187ce13bfeb37a8f - Path: Assets/Models3D/Textures/StarTexture/2048/backImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e68945be25fd93fb0b6bd23edf1d1e0e') in 0.0427069 seconds
+[Worker0] Imported GUID: 394a6fb029e057e429da551b7091f319 - Path: Assets/Models3D/Prefabs/SolarPanel.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'a6dc35ddaecb7a85a91f63d9c44e28e1') in 0.03055 seconds
+[Worker0] Imported GUID: 5a4de52b696e33344b82ae6b67222bb2 - Path: Assets/Models3D/Textures/OxygenTank/Moonbase_OxygenTanks_MoonBase_OxygenTanks_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '99533e689865a6d2d272d36885a99564') in 0.042412 seconds
+[Worker0] Imported GUID: d2ccdd3f5fac4994ea89a1f295f22a86 - Path: Assets/Models3D/Textures/OxygenTank/MoonBase_OxygenTanks_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '10c90f554d91be488cf996e53219a4ff') in 0.0401849 seconds
+[Worker0] Imported GUID: 713b784fb19dcca4d9196d9b7df6adf8 - Path: Assets/Models3D/Textures/Asteriod/Asteriod_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'd5921c56f191a3fc53b666c26cf69fb9') in 0.0379617 seconds
+[Worker0] Imported GUID: a50bf7a349b4e5a4d90dee61c17b8541 - Path: Assets/Models3D/FBX/moonCapsule.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '1b1871faaf51abc7b3869f1cbf0e65e8') in 0.0336507 seconds
+[Worker0] Imported GUID: 96a3c2236a1c6974da595c10642abfce - Path: Assets/Models3D/Textures/StarTexture/2048/leftImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ddf500de741b287a4d7e883e8a9cd38d') in 0.0439986 seconds
+[Worker0] Imported GUID: 5286ebae3da754c0b859956df208e77e - Path: Assets/Models3D/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9a15b5f4c63e7e26dd1f28ae8607d221') in 0.0274359 seconds
+[Worker0] Imported GUID: 091d72eb460f44dd192f387c7125146b - Path: Assets/Models3D - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'be84f8f6d268eab3deee6ccabb42a75b') in 0.0291566 seconds
+[Worker0] Imported GUID: 690a28728391c3a4f90a9b1ae501ba91 - Path: Assets/Models3D/Animations/Animations/GunFire.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'bd1ca8776c9b2e515a5a864fbd565395') in 0.0294156 seconds
+[Worker0] Imported GUID: 4ed55ba8ad4d1421d92499c345602853 - Path: Assets/TextMesh Pro/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '82f5fa1debd59f686dfdf02c23afa1fc') in 0.0285498 seconds
+[Worker0] Imported GUID: 15a2077f68f904f4d8012f50ab44b602 - Path: Assets/Models3D/Textures/Platform - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9835e346fce6808d6cd377a6511a07d8') in 0.0215482 seconds
+[Worker0] Imported GUID: d3bbd1a4016d1b34aa1e756490829ebb - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_Moonbase_SatDish_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2f89ab4ff2f7f4a71a9969d782fa344d') in 0.0496712 seconds
+[Worker0] Imported GUID: 5f01730d794be4583a5912a7220b4b7a - Path: Assets/Models3D/FBX - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e81e4bb74bea68d57210b7a1429d7756') in 0.0276873 seconds
+[Worker0] Imported GUID: bea67fa3f9c32a74eaf4b70109465de2 - Path: Assets/Models3D/Textures/MoonBase/moonCapsule_MoonCapsule_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'ab25386764c04723ea39067626d75b8d') in 0.0449697 seconds
+[Worker0] Imported GUID: f9e1600d71b1411458300eec55b56f05 - Path: Assets/Models3D/Textures/Terrain/BaseLayer.terrainlayer - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'dbb4138525d5667009f5eb35086cdeb4') in 0.0520789 seconds
+[Worker0] Imported GUID: fa69697be3070b04a893666f5947f18c - Path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/RuntimeDebugWindow_PanelSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '6ae1df80863144ce77d6fdcf82d7af39') in 0.0637427 seconds
+[Worker0] Imported GUID: e3265ab4bf004d28a9537516768c1c75 - Path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'e222611ddadbe8261513670a9c5dfd86') in 0.0355046 seconds
+[Worker0] Imported GUID: dce3da72783309e49a01920c0ff13f84 - Path: Assets/Oculus/OculusProjectConfig.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2fef6d032b5f085a2ab657de26ccf01e') in 0.0328676 seconds
+[Worker0] Imported GUID: b50e7913b81709a43a910af57879f24b - Path: Assets/StreamingAssets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '9bdaa5409d938cca9c699ac37490bd42') in 0.0278799 seconds
+[Worker0] Imported GUID: 6ed2983a3c2b641d586e0335d138f3a5 - Path: Assets/Models3D/Textures/Satellite Dish - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '75737aeeaef18aac475719e5e3da5f52') in 0.0315584 seconds
+[Worker0] Imported GUID: 3ac3d2d9c7e5a0249b795343151a34b4 - Path: Assets/Resources/OculusRuntimeSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7fcd06871b880cc499724961839ced1e') in 0.0332139 seconds
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=63b26144df767414cb901f82e821ced1): Total: 0.020 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=42848ae11c0cd854b8cd7bf11198e152): Total: 0.007 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Worker2] Imported GUID: 9078ec8908c6a9643b0c4175e54110e0 - Path: Assets/Scenes - Importer: PreviewImporter -> (ImportResultId: '45f11f3d397dcc2b493f6c65c2cd1372') in 0.0380439 seconds
+Opening scene 'Assets/Scenes/Meta1.unity'
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Meta1.unity'
+	Deserialize:            2.341 ms
+	Integration:            1355.171 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.048 ms
+	Total Operation Time:   1357.564 ms
+Unloading 4962 unused Assets / (58.9 MB). Loaded Objects now: 16528.
+Memory consumption went from 0.95 GB to 0.89 GB.
+Total: 100.956600 ms (FindLiveObjects: 3.241600 ms CreateObjectMapping: 4.096100 ms MarkObjects: 78.705600 ms  DeleteObjects: 14.911200 ms)
+
+Asset Pipeline Refresh (id=ebd251173e711a0459d437ef6ebf054d): Total: 0.028 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Meta1.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '4b4da0f7d3a21dfa38f419e5900ffae7') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=d5c1df2a2f12ab18d4c03bb9631a924b DependenciesID=be8bcb6521f30ba74550691b7b100f18 StaticDependenciesID=e1df45e96d7841be5c923639bdd07f91 
+Refreshing native plugins compatible for Editor in 23.07 ms, found 23 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene)
+Meta.XR.BuildingBlocks.Editor.BlockData:SaveScene () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/BuildingBlocks/BlockData.cs:464)
+Meta.XR.BuildingBlocks.Editor.BlockData/<InstallWithDependenciesAndCommit>d__38:MoveNext () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/BuildingBlocks/BlockData.cs:178)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Meta.XR.BuildingBlocks.Editor.BlockData/<InstallWithDependenciesAndCommit>d__38> (Meta.XR.BuildingBlocks.Editor.BlockData/<InstallWithDependenciesAndCommit>d__38&)
+Meta.XR.BuildingBlocks.Editor.BlockData:InstallWithDependenciesAndCommit (System.Collections.Generic.List`1<UnityEngine.GameObject>)
+Meta.XR.BuildingBlocks.Editor.BlockData/<InstallWithDependenciesAndCommit>d__39:MoveNext () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/BuildingBlocks/BlockData.cs:223)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Meta.XR.BuildingBlocks.Editor.BlockData/<InstallWithDependenciesAndCommit>d__39> (Meta.XR.BuildingBlocks.Editor.BlockData/<InstallWithDependenciesAndCommit>d__39&)
+Meta.XR.BuildingBlocks.Editor.BlockData:InstallWithDependenciesAndCommit (UnityEngine.GameObject)
+Meta.XR.BuildingBlocks.Editor.BlockData/<AddToProject>d__35:MoveNext () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/BuildingBlocks/BlockData.cs:140)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder:Start<Meta.XR.BuildingBlocks.Editor.BlockData/<AddToProject>d__35> (Meta.XR.BuildingBlocks.Editor.BlockData/<AddToProject>d__35&)
+Meta.XR.BuildingBlocks.Editor.BlockData:AddToProject (UnityEngine.GameObject,System.Action)
+Meta.XR.BuildingBlocks.Editor.BuildingBlocksWindow/<>c__DisplayClass48_0:<ShowBlockInstallButton>b__1 () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/BuildingBlocks/BlocksWindow.cs:591)
+UnityEditor.EditorApplication:Internal_CallDelayFunctions ()
+
+[./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/BuildingBlocks/BlocksWindow.cs line 591]
+
+Preloading 2 native plugins for Editor in 2.12 ms.
+
+Asset Pipeline Refresh (id=3bac3c4815120704fb136691f5862537): Total: 0.310 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=153 ms
+		Asset DB Callback time: managed=88 ms, native=66 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=3284, non-scripts=4970
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 3
+	ApplyChangesToAssetFolders: 0.254ms
+	Scan: 14.035ms
+	Collect global state as custom dependencies: 0.522ms
+	OnSourceAssetsModified: 2.578ms
+	ProcessAssetsWithTransientArtifactChanges: 0.356ms
+	CategorizeAssets: 29.064ms
+	ImportOutOfDateAssets: 98.733ms (27.727ms without children)
+		ImportManagerImport: 17.452ms (4.762ms without children)
+		ReloadNativeAssets: 0.432ms
+		UnloadImportedAssets: 0.653ms
+		ReloadImportedAssets: 0.158ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.682ms
+		ImportSchedulerStart: 50.769ms
+	PostProcessAllAssets: 127.111ms
+		XRBuildSystem.XRAssetImported 38.084ms
+		MonoPostProcessAllAssets: 87.085ms
+			AssetPostprocessor.OnPostprocessAllAssets 60.532ms
+			AssetCallbacks.OnPostprocessAllAssets 16.679ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.311ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.931ms
+			SyncVS.PostprocessSyncProject 0.767ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 0.636ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.478ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.407ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.300ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.292ms
+			AssetChangedListener.OnPostprocessAllAssets 0.279ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.278ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.250ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.249ms
+			SceneRenameHandler.OnPostprocessAllAssets 0.236ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.221ms
+			WitConfigurationPostprocessor.OnPostprocessAllAssets 0.212ms
+			EnvironmentAssetPostprocessor.OnPostprocessAllAssets 0.208ms
+			PostProcessor.OnPostprocessAllAssets 0.193ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.187ms
+			AssetEvents.OnPostprocessAllAssets 0.164ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.156ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.140ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.139ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.132ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.123ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.098ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.059ms
+	PostAssetChangesProfiler: 25.791ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.393ms
+	UnloadStreamsBegin: 1.670ms
+	PersistCurrentRevisions: 0.333ms
+	Untracked: 9.219ms
+
+[Project Setup Tool] Fixed task "There can only be one active main camera in this scene" : Disable the main cameras outside of the camera rig
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRConfigurationTask:Fix (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/OVRConfigurationTask.cs:320)
+OVRConfigurationTaskFixer:ProcessTask (OVRConfigurationTask) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskFixer.cs:71)
+OVRConfigurationTaskProcessor:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessor.cs:122)
+OVRConfigurationTaskFixer:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskFixer.cs:117)
+OVRConfigurationTaskProcessorQueue:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:132)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/OVRConfigurationTask.cs Line: 320)
+
+[Project Setup Tool] Fixed task "There can only be one active audio listener in this scene" : Disable the audio listeners outside of the camera rig
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRConfigurationTask:Fix (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/OVRConfigurationTask.cs:320)
+OVRConfigurationTaskFixer:ProcessTask (OVRConfigurationTask) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskFixer.cs:71)
+OVRConfigurationTaskProcessor:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessor.cs:122)
+OVRConfigurationTaskFixer:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskFixer.cs:117)
+OVRConfigurationTaskProcessorQueue:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:132)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/OVRConfigurationTask.cs Line: 320)
+
+[Worker2] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Meta1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '38ca05208dc0b569ba4ad255961a749b') in 0.0678199 seconds
+Importing 'GUID: 3ac3d2d9c7e5a0249b795343151a34b4 - Path: Assets/Resources/OculusRuntimeSettings.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 3ac3d2d9c7e5a0249b795343151a34b4' -> (Import Result ID: 'f425fb30e20255a57a1f82780db9f67f') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=32ce998ea5819f4192cda5815180940c DependenciesID=74924b4681d038a2ce283e03672bca8a StaticDependenciesID=a6895dbf2c7357dee62033008e289f67 
+Refreshing native plugins compatible for Editor in 21.86 ms, found 23 plugins.
+Asset Pipeline Refresh (id=8577b34cdbb12c940a59750322f75483): Total: 0.129 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Meta1.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '2003c428287397125bd98f92b2f3a438') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d5c1df2a2f12ab18d4c03bb9631a924b DependenciesID=bef0767b6b915f9edd132c91193bb352 StaticDependenciesID=e1c3d6ca37075a3cc833e932109d8da2 
+Refreshing native plugins compatible for Editor in 20.26 ms, found 23 plugins.
+Asset Pipeline Refresh (id=5c325778b9716f1458a03ed4b395aaee): Total: 0.136 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Project Setup Tool] Fixed task "When using Passthrough in your project it's required to enable it in OVRManager" : Enable Passthrough in the OVRManager
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRConfigurationTask:Fix (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/OVRConfigurationTask.cs:320)
+OVRConfigurationTaskFixer:ProcessTask (OVRConfigurationTask) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskFixer.cs:71)
+OVRConfigurationTaskProcessor:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessor.cs:122)
+OVRConfigurationTaskFixer:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskFixer.cs:117)
+OVRConfigurationTaskProcessorQueue:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:132)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/OVRConfigurationTask.cs Line: 320)
+
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Meta1.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '5114cdb2fcaeb8880538ad0e0f6e237a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d5c1df2a2f12ab18d4c03bb9631a924b DependenciesID=9370f6cbd6eea1d0bce33d186b66372c StaticDependenciesID=0fce0cc96bfd279b53a0c8e6de220f94 
+Refreshing native plugins compatible for Editor in 21.27 ms, found 23 plugins.
+Asset Pipeline Refresh (id=338fa0737de54a14ea0fc9f30581edaf): Total: 0.137 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Project Setup Tool] Fixed task "When using Passthrough Building Block as an underlay it's required set the camera background to transparent" : Clear background of OVRCameraRig
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+OVRConfigurationTask:Fix (UnityEditor.BuildTargetGroup) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/OVRConfigurationTask.cs:320)
+OVRConfigurationTaskFixer:ProcessTask (OVRConfigurationTask) (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskFixer.cs:71)
+OVRConfigurationTaskProcessor:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessor.cs:122)
+OVRConfigurationTaskFixer:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskFixer.cs:117)
+OVRConfigurationTaskProcessorQueue:Update () (at ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/Processors/OVRConfigurationTaskProcessorQueue.cs:132)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.meta.xr.sdk.core@3c8a98bf2e9a/Editor/OVRProjectSetup/Tasks/OVRConfigurationTask.cs Line: 320)
+
+[Worker2] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Meta1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '58958e46525cf2cf955f17f637d315b5') in 0.0225475 seconds
+Scanning for USB devices : 4.691ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Scanning for USB devices : 5.347ms
+Scanning for USB devices : 5.264ms
+Scanning for USB devices : 4.042ms
+Scanning for USB devices : 4.190ms
+Android Extension - Scanning For ADB Devices 694 ms
+Android Extension - Scanning For ADB Devices 1316 ms
+Scanning for USB devices : 5.605ms
+Scanning for USB devices : 5.319ms
+Asset Pipeline Refresh (id=f1838ea102964e9428afea47aa680590): Total: 0.023 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=2e38a7a63abe6254bad970ce71c30e08): Total: 0.013 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=939675d4a857f454c9c5dea0a20f4398): Total: 0.008 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 3ac3d2d9c7e5a0249b795343151a34b4 - Path: Assets/Resources/OculusRuntimeSettings.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 3ac3d2d9c7e5a0249b795343151a34b4' -> (Import Result ID: 'f425fb30e20255a57a1f82780db9f67f') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=32ce998ea5819f4192cda5815180940c DependenciesID=74924b4681d038a2ce283e03672bca8a StaticDependenciesID=a6895dbf2c7357dee62033008e289f67 
+Refreshing native plugins compatible for Editor in 29.26 ms, found 23 plugins.
+Asset Pipeline Refresh (id=17e39df3e4d95154282c35ba85152a6e): Total: 0.193 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Meta1.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '74c328429898aeba204c347a38af07ac') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d5c1df2a2f12ab18d4c03bb9631a924b DependenciesID=6fe8ecc9b22fc20bd70dddf54c13b8e4 StaticDependenciesID=aeea0785fc28ee3fdc41f5d876d5598e 
+Refreshing native plugins compatible for Editor in 24.16 ms, found 23 plugins.
+Asset Pipeline Refresh (id=4cdcc3b3d62c75e4d889886990458699): Total: 0.232 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker2] Imported GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Meta1.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c637db965af59384b5eae6d7346974a4') in 0.0267341 seconds
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Meta1.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '5114cdb2fcaeb8880538ad0e0f6e237a') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=d5c1df2a2f12ab18d4c03bb9631a924b DependenciesID=9370f6cbd6eea1d0bce33d186b66372c StaticDependenciesID=0fce0cc96bfd279b53a0c8e6de220f94 
+Refreshing native plugins compatible for Editor in 20.96 ms, found 23 plugins.
+Asset Pipeline Refresh (id=4c2342b3c5a09084186fb67f1a8f1b74): Total: 0.196 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: dce3da72783309e49a01920c0ff13f84 - Path: Assets/Oculus/OculusProjectConfig.asset' with importer (NativeFormatImporter)
+Imported 'GUID: dce3da72783309e49a01920c0ff13f84' -> (Import Result ID: '08a81f31ad3d09d66a000e9eb28fbae4') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=78d7651e16fe56ce9f127c10ea4ea0b8 DependenciesID=a57100d56da293f08093ec432c5d487f StaticDependenciesID=71e0a652ccc9a9cdbb5547a47ef5eaca 
+Refreshing native plugins compatible for Editor in 24.67 ms, found 23 plugins.
+Asset Pipeline Refresh (id=d935d0adcdc831d40bd5b3ef8594e295): Total: 0.144 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Meta1.unity' with importer (DefaultImporter)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '5114cdb2fcaeb8880538ad0e0f6e237a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d5c1df2a2f12ab18d4c03bb9631a924b DependenciesID=9370f6cbd6eea1d0bce33d186b66372c StaticDependenciesID=0fce0cc96bfd279b53a0c8e6de220f94 
+Refreshing native plugins compatible for Editor in 20.99 ms, found 23 plugins.
+Asset Pipeline Refresh (id=c9b37f4a9746dc741875971c297d0d77): Total: 0.126 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Worker2] Imported GUID: dce3da72783309e49a01920c0ff13f84 - Path: Assets/Oculus/OculusProjectConfig.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'c7966b6c94bd28a87e3dc59ae4a7296f') in 0.0507164 seconds
+Asset Pipeline Refresh (id=edc0b29fe0cd5bd4fa7054a206daa9e4): Total: 0.019 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+MonoPathRemapper: Attempts to remap: 109208; Successful remaps: 37832
+Serialized file version minimum: 22, current 23
+[LAYOUT] About to save layout C:\Users\oliau\Desktop\TIM 2026\2-Automne\5-ExperimentationJeu\projets\meta1\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/oliau/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+Killing ADB server in 0,2206319 seconds.
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+[Licensing::IpcConnector] LicenseClient-oliau-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-oliau channel disconnected successfully.
+* daemon not running; starting now at tcp:5037
+Lingering sessions upon destruction of worker manager
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+debugger-agent: Unable to listen on 6072
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1790771641114,"processId":41136,"allocatedMemory":57429970,"memoryLabels":[{"Default":303678},{"Permanent":15516},{"NewDelete":76821},{"Thread":4197560},{"Manager":821413},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":859766},{"Material":24},{"GfxDevice":55328},{"Animation":1526840},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":38736},{"Input":45280},{"JobScheduler":256},{"TextLib":44500},{"Mono":48},{"MonoCode":64},{"ScriptingNativeRuntime":1982996},{"BaseObject":1627016},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":21835},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":10786},{"StaticString":3808},{"Utility":2673970},{"PoolAlloc":2360},{"AI":80},{"TypeTree":18701},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"CloudService":7928},{"WebRequest":5930},{"VR":47546},{"SceneManager":608},{"Video":208},{"LazyScriptCache":32},{"NativeArray":33162624},{"Camera":17},{"Secure":265},{"SerializationCache":1576},{"APIUpdating":10320},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"NativePlugin":8},{"Analytics":728},{"Hierarchy":1176},{"UIElements":1289128},{"CoreStats":13688},{"Identifiers":6768},{"Gui":562},{"EditorUtility":377898},{"VersionControl":8},{"Undo":931},{"AssetDatabase":9283317},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":35345},{"Upm":1988},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":260},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3480},{"Windowing":456},{"Licensing":776},{"AssetReference":32},{"IPCStream":32}]}
+* daemon started successfully

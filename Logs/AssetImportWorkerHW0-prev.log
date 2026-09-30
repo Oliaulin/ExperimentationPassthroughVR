@@ -1,0 +1,1548 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'fr' Physical Memory: 28330 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau" at "2026-09-30T12:18:53.7404804Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-30T12:18:53Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 52100, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              67a347a96be44ea0a6d15842158a8241
+  Correlation Id:          3181d5afd8bd4664c9961d12dc74b40f
+  External correlation Id: 6558843839250895632
+  Machine Id:              38a2xp5jTUHMWTaAZnWFeybQ1e8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-oliau" (connect: 0.00s, validation: 0.01s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau-notifications" at "2026-09-30T12:18:53.7949018Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+62805
+-parentPid
+41136
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+255ae3f9-6f55-4ab8-baff-0676fe1de3d8
+-analyticsLocalProjectId
+466d8d0e3112ba14ca9dbc940286bbd6
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+8c1a9f4e1690790c866bd886746040db216e6665
+-cbmMachineId
+38a2xp5jTUHMWTaAZnWFeybQ1e8=
+-licensingIpc
+LicenseClient-oliau
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [43620]  Target information:
+
+Player connection [43620]  * "[IP] 10.50.8.67 [Port] 0 [Flags] 2 [Guid] 1028863028 [EditorId] 1028863028 [Version] 1048832 [Id] WindowsEditor(7,OLI-SCHOOL-LAP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [43620] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [43620] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 3574297690481-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 59.34 ms, found 23 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 5.25 ms.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/meta1/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon 780M Graphics (ID=0x1900)
+    Vendor:          ATI
+    VRAM:            14165 MB
+    App VRAM Budget: 17399 MB
+    Driver:          32.0.22024.19001
+    Unified Memory Architecture
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003323 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.530 seconds
+Domain Reload Profiling: 1101ms
+	BeginReloadAssembly (149ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (144ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (228ms)
+				TypeCache.ScanAssembly (212ms)
+	FinalizeReload (531ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (254ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 23.13 ms, found 23 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 21.78 ms, found 23 plugins.
+I0930 08:18:59.882488 43620 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+* daemon not running; starting now at tcp:5037
+* daemon started successfully
+I0930 08:19:02.438193 43620 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+I0930 08:19:03.017601 43620 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+* daemon not running; starting now at tcp:5037
+I0930 08:19:08.100855 43620 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 12.085 seconds
+Domain Reload Profiling: 13800ms
+	BeginReloadAssembly (297ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (1284ms)
+		LoadAssemblies (693ms)
+		AnalyzeDomain (506ms)
+			TypeCache.Refresh (326ms)
+				TypeCache.ScanAssembly (291ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (12086ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (11374ms)
+			ProcessInitializeOnLoadMethodAttributes (284ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 30.28 ms, found 23 plugins.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 11136 unused Assets / (14.2 MB). Loaded Objects now: 12248.
+Memory consumption went from 490.9 MB to 476.7 MB.
+Total: 44.856100 ms (FindLiveObjects: 2.389500 ms CreateObjectMapping: 5.502000 ms MarkObjects: 28.363300 ms  DeleteObjects: 8.596800 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 29.22 ms, found 23 plugins.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (3.2 MB). Loaded Objects now: 12248.
+Memory consumption went from 478.8 MB to 475.6 MB.
+Total: 26.861700 ms (FindLiveObjects: 0.831900 ms CreateObjectMapping: 1.864600 ms MarkObjects: 23.212600 ms  DeleteObjects: 0.950800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:12.342385Z
+  Time since last request: 1104498.18084140005521 seconds.
+  importAddress: GUID: a8d9c02204c87d04eb90fdff5a4e80df - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a8d9c02204c87d04eb90fdff5a4e80df - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a8d9c02204c87d04eb90fdff5a4e80df' -> (Import Result ID: 'a401745ab0c93e19cee8909b1a04f68f') in 0.134 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1932995f6b1f60f79e775ca3c7f93567 DependenciesID=41f411842c8adb71acb220915ecc8312 StaticDependenciesID=67397c168e656c1092d9620a46375a2e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:12.4916963Z
+  Time since last request: 0.0007194 seconds.
+  importAddress: GUID: 806ea42881952474d9064a87615fbe64 - Path: Assets/Models3D/Textures/Watertank/Moonbase_watertank_MoonBase_WaterTank_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 806ea42881952474d9064a87615fbe64 - Path: Assets/Models3D/Textures/Watertank/Moonbase_watertank_MoonBase_WaterTank_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 806ea42881952474d9064a87615fbe64' -> (Import Result ID: '82833ee373a44cd1e768026ad12c78b7') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d07cae22f705b9f224bf8a3c7a6ef47 DependenciesID=d794c87dfaa779478431ee897a583de6 StaticDependenciesID=87b5510e7051fb38f35220f7396a2d38 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:12.5581718Z
+  Time since last request: 0.0006731 seconds.
+  importAddress: GUID: a4acf45856a174d4d9b6ec13672fbdee - Path: Assets/Models3D/Textures/Gun - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a4acf45856a174d4d9b6ec13672fbdee - Path: Assets/Models3D/Textures/Gun - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a4acf45856a174d4d9b6ec13672fbdee' -> (Import Result ID: 'e4343f0e94c12c535804f57c02359316') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48c1ca21f514c8e80e89caca1c25528a DependenciesID=0c48745736362d7d60a76e3447686f0a StaticDependenciesID=d3178229972b4aeb1dea4439bf69ac57 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:12.5941733Z
+  Time since last request: 0.0005756 seconds.
+  importAddress: GUID: c146daf0163687f47b4c34424b41c4be - Path: Assets/Models3D/Textures/StarTexture/2048/StarTexture_HIRES.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c146daf0163687f47b4c34424b41c4be - Path: Assets/Models3D/Textures/StarTexture/2048/StarTexture_HIRES.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c146daf0163687f47b4c34424b41c4be' -> (Import Result ID: '0a1e2a99360e45385f5ba9601e3ba360') in 0.128 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4212d57120e8bcf1df0d762bd74c647f DependenciesID=b9a1ff6e9f4672cb9efc9e7df64d43b7 StaticDependenciesID=d91be82a98a091169eccfe4bcf087ef5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:12.7444649Z
+  Time since last request: 0.0004635 seconds.
+  importAddress: GUID: 5fc54d723b0c145b89f5da887e27d075 - Path: Assets/MateriauxPerso - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5fc54d723b0c145b89f5da887e27d075 - Path: Assets/MateriauxPerso - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5fc54d723b0c145b89f5da887e27d075' -> (Import Result ID: '0c0f22216f9a62d77abf0685692099f4') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4944cd13a9327845e5f1cb4eb2403794 DependenciesID=3d98174714cd399a277ae072216c0715 StaticDependenciesID=7eafbdb171a7cd3974d0891d546a2890 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:12.7798449Z
+  Time since last request: 0.0005933 seconds.
+  importAddress: GUID: b358e84c59b174ad0b858ce5f7ea0669 - Path: Assets/Models3D/Textures - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b358e84c59b174ad0b858ce5f7ea0669 - Path: Assets/Models3D/Textures - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b358e84c59b174ad0b858ce5f7ea0669' -> (Import Result ID: 'e6bcceab2a65a1bcf0b65d9eb189e6b0') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5f7a055522a7f9d8f38f5f03a5ea475 DependenciesID=c8c96668e17b8b078731ff94a20cc7fa StaticDependenciesID=d9bd63a6624a835f1f5c6aa07a523b39 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:12.8131105Z
+  Time since last request: 0.0006907 seconds.
+  importAddress: GUID: b570ee268795c9241a9344d9b0d64b1a - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_Emission.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b570ee268795c9241a9344d9b0d64b1a - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_Emission.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b570ee268795c9241a9344d9b0d64b1a' -> (Import Result ID: 'dc3eb9985be2d54fd6b7f665af8e9022') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f642d772b415df0d7f35bdae6a8c685 DependenciesID=a3ba015bf3f43b75637cd53d57afc0dc StaticDependenciesID=0de11a02333a66a60b48c5c5b7f3fe4f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:12.857537Z
+  Time since last request: 0.0006007 seconds.
+  importAddress: GUID: b050b6ce54d078940824613b9d80bd7d - Path: Assets/Models3D/Materials/MoonBase_OxygenTanks.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b050b6ce54d078940824613b9d80bd7d - Path: Assets/Models3D/Materials/MoonBase_OxygenTanks.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b050b6ce54d078940824613b9d80bd7d' -> (Import Result ID: '246f5d40e1ff045c6d8269bc267bccb3') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95285b6677fc3d67490544d98cbba368 DependenciesID=8dd4cc49f3bbae3e436f90b24e4c09f4 StaticDependenciesID=3c2c9deffae7244c250aaeacab1e40d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:12.9426633Z
+  Time since last request: 0.0002979 seconds.
+  importAddress: GUID: c289f9e04cda4434689410544e4c6df0 - Path: Assets/Models3D/Textures/Watertank/Moonbase_watertank_MoonBase_WaterTank_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c289f9e04cda4434689410544e4c6df0 - Path: Assets/Models3D/Textures/Watertank/Moonbase_watertank_MoonBase_WaterTank_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c289f9e04cda4434689410544e4c6df0' -> (Import Result ID: '19cc4c49c0f4c6dde1523fb9092acaf0') in 0.084 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=887d0e460f3f5394fb4b582af03b4246 DependenciesID=adbe7f58e7b5d8b9d7747224bb8c12fc StaticDependenciesID=3799f4c002f28234278ff1c5c2ccae9e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.0494727Z
+  Time since last request: 0.0009698 seconds.
+  importAddress: GUID: 10246a5674bbf6044a1f3ea85d0eb9a7 - Path: Assets/Models3D/Materials/Moonbase_Gun.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 10246a5674bbf6044a1f3ea85d0eb9a7 - Path: Assets/Models3D/Materials/Moonbase_Gun.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 10246a5674bbf6044a1f3ea85d0eb9a7' -> (Import Result ID: '738cfd29a78123e2eaf384631b141a17') in 0.073 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8daa573154e831b5e16b39da32fbebe6 DependenciesID=7c6ea468ba2ebf43d71837143d66e693 StaticDependenciesID=437076a08a80609e9560120cfde5e959 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.1524555Z
+  Time since last request: 0.0003673 seconds.
+  importAddress: GUID: b673e000254bed04c87d8b54ef2f0a7c - Path: Assets/Models3D/Textures/Terrain/MoonGround2k_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b673e000254bed04c87d8b54ef2f0a7c - Path: Assets/Models3D/Textures/Terrain/MoonGround2k_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b673e000254bed04c87d8b54ef2f0a7c' -> (Import Result ID: '0ff1e0262a9adb02de2de25be9181072') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0db8e2906e3da8b4d211209b636ca779 DependenciesID=c803cd33a703df46bc23dda365491153 StaticDependenciesID=fdc71dd3e46a48248917f8f96973621b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.2002364Z
+  Time since last request: 0.0004527 seconds.
+  importAddress: GUID: 4698fc9ff25584363bf5b1483c120102 - Path: Assets/Reticule - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4698fc9ff25584363bf5b1483c120102 - Path: Assets/Reticule - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4698fc9ff25584363bf5b1483c120102' -> (Import Result ID: '39adbe3d182e22496ba534d85b8459eb') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b4f92b26d63ab48307d0978b9e8fdb2 DependenciesID=d35be929bdb4652d03d488ccf0080ab4 StaticDependenciesID=95b2a1e34531af76d2adb779d4e01982 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.2258208Z
+  Time since last request: 0.0004933 seconds.
+  importAddress: GUID: 8ceb15c58f616e742b45f9fdf028c16c - Path: Assets/Models3D/FBX/Moonbase_Terminal.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8ceb15c58f616e742b45f9fdf028c16c - Path: Assets/Models3D/FBX/Moonbase_Terminal.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8ceb15c58f616e742b45f9fdf028c16c' -> (Import Result ID: '80f9e2ba593b0b3b23cfd81ee5235282') in 0.093 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f195cc44221706f2f567f90dc4dc6775 DependenciesID=4b5cadb3159be87855b40015e6d01572 StaticDependenciesID=1866be708b9163a62723821c76d8c07c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.3333973Z
+  Time since last request: 0.0002651 seconds.
+  importAddress: GUID: f818b2ecc07aace409e961db92d2891c - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f818b2ecc07aace409e961db92d2891c - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f818b2ecc07aace409e961db92d2891c' -> (Import Result ID: 'ee107def05d83e45db956bfd4eb51b44') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1b22bbcf75250b9b16d5091ebc1dea0 DependenciesID=fd337d0f33237a50a426fee4d7725cef StaticDependenciesID=16ce732f1ca0e1d35b72543994e19182 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.3680651Z
+  Time since last request: 0.0005987 seconds.
+  importAddress: GUID: b2d245e1084354544bb6f16011c2fa8d - Path: Assets/Models3D/Textures/StarTexture - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b2d245e1084354544bb6f16011c2fa8d - Path: Assets/Models3D/Textures/StarTexture - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b2d245e1084354544bb6f16011c2fa8d' -> (Import Result ID: '8a38382cd67e7bfb8ff77ff100ebd562') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aed0968c890e14175587369b86465094 DependenciesID=e903d33aa8537e9737dcd0b83866306f StaticDependenciesID=a81546850bd19a862c8d8863d7d0854e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.3938532Z
+  Time since last request: 0.0005293 seconds.
+  importAddress: GUID: f63c1669893e76f4ab51193148fcb534 - Path: Assets/Models3D/Prefabs/MoonBase_Capsule.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f63c1669893e76f4ab51193148fcb534 - Path: Assets/Models3D/Prefabs/MoonBase_Capsule.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f63c1669893e76f4ab51193148fcb534' -> (Import Result ID: '58b75d3f77ce89df898217e4355a1017') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c934fd0c385d21def99b7e5cfc6d50a8 DependenciesID=7e3690eee4843e7a730e93934c31644e StaticDependenciesID=f2336fe8e8817dc8b03f78754d2fc34e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.4225964Z
+  Time since last request: 0.0002944 seconds.
+  importAddress: GUID: 5b0ca51485db381459deda61512194a6 - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5b0ca51485db381459deda61512194a6 - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5b0ca51485db381459deda61512194a6' -> (Import Result ID: '06114828c13f6045a0c6287345dba2b5') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa1edb92432fdcde35dd92ad9696e8f2 DependenciesID=0522eb3b1f000f47df6de43f4f46fbfd StaticDependenciesID=9747448035d2c8317b6764d91c6a4c43 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.4532434Z
+  Time since last request: 0.000615 seconds.
+  importAddress: GUID: 3edb8452b18f9f14ba50c7bdb744b610 - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_Moonbase_SatDish_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3edb8452b18f9f14ba50c7bdb744b610 - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_Moonbase_SatDish_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3edb8452b18f9f14ba50c7bdb744b610' -> (Import Result ID: 'b514e1b70c983df1aa6eaf7c0a3438ff') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d83fac9fd494ef9ce6f9bd97775377e DependenciesID=c81f262a4f9ef1d1a96637365a1af5ae StaticDependenciesID=8ba887ea7a2656358d7a7c9817ed80d1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.5019263Z
+  Time since last request: 0.0007056 seconds.
+  importAddress: GUID: df3a7ebff94f340d0843bc6505f9005e - Path: Assets/Models3D/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: df3a7ebff94f340d0843bc6505f9005e - Path: Assets/Models3D/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: df3a7ebff94f340d0843bc6505f9005e' -> (Import Result ID: '4b696b754d0298ff44acfcd7bbf8e7d4') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c639b705d449566a218414ed2d32f54 DependenciesID=4b8949f0ddadda2db7f494dd2b1adee9 StaticDependenciesID=d5a4d218bae68933103898c600375b92 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.5255813Z
+  Time since last request: 0.0005002 seconds.
+  importAddress: GUID: 6e35c16d0360946d1bba59d692e6fc49 - Path: Assets/CompteurFPS - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6e35c16d0360946d1bba59d692e6fc49 - Path: Assets/CompteurFPS - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6e35c16d0360946d1bba59d692e6fc49' -> (Import Result ID: '3ee2e0bbd03e942f4a1050e537959e0d') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b288b820a11b338423a10af73973cc0b DependenciesID=9bab04eaf60b0fd5ed63b87ed640637c StaticDependenciesID=14083c40e58297552b68b5026d6bfc58 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.5471417Z
+  Time since last request: 0.0005239 seconds.
+  importAddress: GUID: 14ab8690ef2136b40876f986b041cc3c - Path: Assets/Models3D/Materials/Moonbase_SatDish.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 14ab8690ef2136b40876f986b041cc3c - Path: Assets/Models3D/Materials/Moonbase_SatDish.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 14ab8690ef2136b40876f986b041cc3c' -> (Import Result ID: '25ac41219ec2dbc33f8e21de5e102b75') in 0.106 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8df663917ed87bff90a090760172d1fd DependenciesID=f19319af658f04012daebffb6e067bc6 StaticDependenciesID=9dd3c079f07896fc197d339525e01c79 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.6681633Z
+  Time since last request: 0.0000428 seconds.
+  importAddress: GUID: b6aebcaf4952243eea63dc0e6662870e - Path: Assets/TextMesh Pro/Resources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b6aebcaf4952243eea63dc0e6662870e - Path: Assets/TextMesh Pro/Resources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b6aebcaf4952243eea63dc0e6662870e' -> (Import Result ID: '894b6aa7712734ed1bb5c1627faf346a') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40ae1a985b926fb8bdc7c98458e1bb3e DependenciesID=7f8886561b00b9cadc13e6761f9e2ec2 StaticDependenciesID=ca8a511cb2c8c4b360476cba2c7027f1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.7124013Z
+  Time since last request: 0.0007843 seconds.
+  importAddress: GUID: 32e4b831375de46f3933ebe180cf0aca - Path: Assets/CompteurFPS/Canvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 32e4b831375de46f3933ebe180cf0aca - Path: Assets/CompteurFPS/Canvas.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 32e4b831375de46f3933ebe180cf0aca' -> (Import Result ID: '34e586f6a8b68dcd83dd7d4c0dc11753') in 0.079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5e74b6a29efed4f319742661f19993db DependenciesID=6e1895c62b1d0eb7576cb4b2a3282672 StaticDependenciesID=bd6c16774d5fab04a1bab5e1e3208b88 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.8209331Z
+  Time since last request: 0.0003995 seconds.
+  importAddress: GUID: 15f3b317ab8454d31b7d083f5faa98a3 - Path: Assets/CompteurFPS/CompteurFPS.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 15f3b317ab8454d31b7d083f5faa98a3 - Path: Assets/CompteurFPS/CompteurFPS.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 15f3b317ab8454d31b7d083f5faa98a3' -> (Import Result ID: 'c232aab8ed3988b8fdd82cfe8c428e9d') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72aebb7ec447edeee99c28991a995753 DependenciesID=3e37932b3456ce0e2f2c16151b5862a6 StaticDependenciesID=9bc0c19200df84136b3a7d6d833a35e7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.852585Z
+  Time since last request: 0.0005643 seconds.
+  importAddress: GUID: 7f9f1d5da707f844aa70a40974a37525 - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7f9f1d5da707f844aa70a40974a37525 - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7f9f1d5da707f844aa70a40974a37525' -> (Import Result ID: '011e6563a5e7597b8cc306e01e9dc546') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f33c116296e8b69e505e0158a37f19d5 DependenciesID=4b60ace9cd398944553fd029f64f18ab StaticDependenciesID=4672bdcd75ea606c6a116338b71598aa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.8988042Z
+  Time since last request: 0.0007503 seconds.
+  importAddress: GUID: ca72d2295f706d84cb6e69da5fb67ebc - Path: Assets/Models3D/Prefabs/BalleTennis.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ca72d2295f706d84cb6e69da5fb67ebc - Path: Assets/Models3D/Prefabs/BalleTennis.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ca72d2295f706d84cb6e69da5fb67ebc' -> (Import Result ID: '452d259c27984a610f291937e203ee07') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b0933a73d021759a963e81b7689f64d DependenciesID=0f1494a43cf2663d8f50e98eba34a50e StaticDependenciesID=aae24f5b8da82fa6a1367a33f804b94d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.9359756Z
+  Time since last request: 0.0004813 seconds.
+  importAddress: GUID: 47eb4836177f75e42996ca5123d10160 - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 47eb4836177f75e42996ca5123d10160 - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 47eb4836177f75e42996ca5123d10160' -> (Import Result ID: '9fb7f05ee709a94ef6874de552e0e58a') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c3bcdf87d3bbf4e3db0fdc91a08ef3d DependenciesID=88dae2308ec9b04052ca41412b71d018 StaticDependenciesID=c4e29c3826672d54fad23e992a0e7b24 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.9699239Z
+  Time since last request: 0.0007052 seconds.
+  importAddress: GUID: 7ad486939b8bf4ad2abf104132752cd4 - Path: Assets/Models3D/Textures/MoonBase - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7ad486939b8bf4ad2abf104132752cd4 - Path: Assets/Models3D/Textures/MoonBase - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7ad486939b8bf4ad2abf104132752cd4' -> (Import Result ID: '93812a14521cffc57e7398da3237bd4e') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7b77d375e3a03591e02a512b1ee89489 DependenciesID=129ab8208889c945fefff9e4edd7fd80 StaticDependenciesID=ecaef4e7e087ba206e60daaf452d3a4a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:13.9939786Z
+  Time since last request: 0.0005228 seconds.
+  importAddress: GUID: 788c471cbeecd40e48958712c7b004ab - Path: Assets/Models3D/Terrain - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 788c471cbeecd40e48958712c7b004ab - Path: Assets/Models3D/Terrain - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 788c471cbeecd40e48958712c7b004ab' -> (Import Result ID: '0c1b6a7ece9308c2a7aed23bcf368cbe') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9bb95fec64176415f730ecb3e23afcea DependenciesID=a62c9029a8d6443f16efb760ff57581f StaticDependenciesID=536a5cb1589cc656239901a7b02e6fae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.0240569Z
+  Time since last request: 0.0006127 seconds.
+  importAddress: GUID: a9ea36847b6f394458b37a05b98a3aa3 - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a9ea36847b6f394458b37a05b98a3aa3 - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a9ea36847b6f394458b37a05b98a3aa3' -> (Import Result ID: '041fa5a2a7875b5d27e50a73fa85473a') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab773968a3eea8c1f57e2f81e184860f DependenciesID=cf4f9500001baa13863da8b8cd340b14 StaticDependenciesID=415cc41a6f2fffca4b1114d55235bdf4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.0619442Z
+  Time since last request: 0.0006556 seconds.
+  importAddress: GUID: a9e0378f8ad82d544a7b41ef19487e6e - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a9e0378f8ad82d544a7b41ef19487e6e - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a9e0378f8ad82d544a7b41ef19487e6e' -> (Import Result ID: '11e14021d65c797f8c4b0203b0f96182') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cc8b3ec1c4f805ebf4736ac936c62b4 DependenciesID=948a96b04c47dc75ce9ca885c397c2ea StaticDependenciesID=cb90308bbf7acd0a03f62e832996984f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.1136752Z
+  Time since last request: 0.0004872 seconds.
+  importAddress: GUID: fe45aefac1b5ad44b840b3011a0ac1e9 - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_Moonbase_Habitat_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fe45aefac1b5ad44b840b3011a0ac1e9 - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_Moonbase_Habitat_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fe45aefac1b5ad44b840b3011a0ac1e9' -> (Import Result ID: '0e603670616bf5e0e2c8dce1096c85e1') in 0.045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a03dd53094ddb8aba1c43553cdf9293 DependenciesID=ac8b006ff23a9ab1224b0e0eb226acad StaticDependenciesID=e12aae9a99f98f85140824496dc1fbff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.1728227Z
+  Time since last request: 0.0009594 seconds.
+  importAddress: GUID: efe086015070f38468ea90fd0968a1b9 - Path: Assets/Models3D/Prefabs/MoonBase_Platform.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: efe086015070f38468ea90fd0968a1b9 - Path: Assets/Models3D/Prefabs/MoonBase_Platform.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: efe086015070f38468ea90fd0968a1b9' -> (Import Result ID: 'def0e480428d32f7adcae460d34432d9') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b34f350af3e0046aa1df053fa0d4e0ad DependenciesID=169ee69f4d2aaa090b6358547ff04904 StaticDependenciesID=53a74ddca6512822e4fe19365259ed96 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.2110632Z
+  Time since last request: 0.0004616 seconds.
+  importAddress: GUID: 279c864359c5c49fda399dab7ed6fe14 - Path: Assets/echelle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 279c864359c5c49fda399dab7ed6fe14 - Path: Assets/echelle.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 279c864359c5c49fda399dab7ed6fe14' -> (Import Result ID: '9fcc15fa281e02638232318457f9e0a9') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf47a96cd092c50828b0f90be76d470c DependenciesID=dadf9dee617d6fbd1b711dc8ed16ac8f StaticDependenciesID=07c8f57f0330364cbf769a65286009f0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.2504883Z
+  Time since last request: 0.0003142 seconds.
+  importAddress: GUID: 0aef6fea00372e7448912e30ad68d8de - Path: Assets/Models3D/Textures/Asteriod/LowPolyAsteriod_Asteriod_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0aef6fea00372e7448912e30ad68d8de - Path: Assets/Models3D/Textures/Asteriod/LowPolyAsteriod_Asteriod_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0aef6fea00372e7448912e30ad68d8de' -> (Import Result ID: '934910fa7a77463b88c12c8c45234e20') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=965b1495340a2848db34449e19e81e1c DependenciesID=c55e30bb4b15ad5374dfa3f908befbfb StaticDependenciesID=8f61c6fe6f9d4aa3ab34fd304293b3f0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.2823679Z
+  Time since last request: 0.0006698 seconds.
+  importAddress: GUID: 9e4a0cc45bb932a4db5660396090a927 - Path: Assets/Models3D/Textures/Watertank/MoonBase_WaterTank_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9e4a0cc45bb932a4db5660396090a927 - Path: Assets/Models3D/Textures/Watertank/MoonBase_WaterTank_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9e4a0cc45bb932a4db5660396090a927' -> (Import Result ID: 'b4eeadfb753e7c7e2677cd42c1d93d10') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c18fdc8246f591f9cc86aab34566674 DependenciesID=b05101dc148ef839bc8c48df005367ee StaticDependenciesID=f80ab67a587b699661385e4bbc2c17ef 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.329922Z
+  Time since last request: 0.0005153 seconds.
+  importAddress: GUID: 191d541b3875078439ef427af721421f - Path: Assets/Models3D/Textures/MoonBase/MoonCapsule_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 191d541b3875078439ef427af721421f - Path: Assets/Models3D/Textures/MoonBase/MoonCapsule_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 191d541b3875078439ef427af721421f' -> (Import Result ID: '8caca0fbdf0fa858aa94aaba9e007f03') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7698c5fa2b6f6d099c8332a0ff40e0c DependenciesID=d5fa6e077db7e441c637b94a64318604 StaticDependenciesID=e99f94b1725ba721d928cad151aab27e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.365472Z
+  Time since last request: 0.0005287 seconds.
+  importAddress: GUID: 39f1f559e1e980c49967ee95e6c2d40c - Path: Assets/Models3D/Textures/terminal/Moonbase_Terminal_Moonbase_terminal_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 39f1f559e1e980c49967ee95e6c2d40c - Path: Assets/Models3D/Textures/terminal/Moonbase_Terminal_Moonbase_terminal_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 39f1f559e1e980c49967ee95e6c2d40c' -> (Import Result ID: '5bb1f2fe1f032fe432b6727beab8dc0d') in 0.035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3de41179461fa0021a483d9f1eb2aa36 DependenciesID=06167f1e11d39300a13456ec98618fbf StaticDependenciesID=a3f332cb771ee7dda8bda9db976beeb5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.4145246Z
+  Time since last request: 0.0004818 seconds.
+  importAddress: GUID: 7e49cfd9fc82232439e19c6997141ab6 - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_Moonbase_SolarPanel_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7e49cfd9fc82232439e19c6997141ab6 - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_Moonbase_SolarPanel_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7e49cfd9fc82232439e19c6997141ab6' -> (Import Result ID: '59cacfb3b5b3e1a69ca466d644660b02') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4473af64e62956290afe307624fa4224 DependenciesID=f0f5969e1f1f7e07dcb12c13246a5165 StaticDependenciesID=41a5c3b5113955542be0d785f86fce1f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.4700529Z
+  Time since last request: 0.0006605 seconds.
+  importAddress: GUID: c4817226e877a884b997daef6559cff0 - Path: Assets/Models3D/Textures/Terrain/MoonGround2k_AlbedoTiff.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c4817226e877a884b997daef6559cff0 - Path: Assets/Models3D/Textures/Terrain/MoonGround2k_AlbedoTiff.tif - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c4817226e877a884b997daef6559cff0' -> (Import Result ID: '03c2dd7cd752057979067cdde94914b7') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=66bb13370139b5be0359d5d8686f6063 DependenciesID=d22d0623f1760cc3c95d8c5bdbb23410 StaticDependenciesID=1c1157a412486ac2488049066a928d65 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.5089391Z
+  Time since last request: 0.0005273 seconds.
+  importAddress: GUID: 97707c929e9dfc1448093f7c04548bf8 - Path: Assets/Models3D/FBX/LowPolyAsteriod.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 97707c929e9dfc1448093f7c04548bf8 - Path: Assets/Models3D/FBX/LowPolyAsteriod.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 97707c929e9dfc1448093f7c04548bf8' -> (Import Result ID: '4aeb968b577d890e69cb08bd445a816a') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7102127ef550daa37bd25a7640ab6598 DependenciesID=3ecd4074ddc10b5d604b932b80471518 StaticDependenciesID=2c5ba3036cf4603b224b9b509d1238db 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.5382696Z
+  Time since last request: 0.0004186 seconds.
+  importAddress: GUID: fd7a090cc49066b4890bb6415a4972f9 - Path: Assets/Models3D/Textures/terminal/Moonbase_terminal_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fd7a090cc49066b4890bb6415a4972f9 - Path: Assets/Models3D/Textures/terminal/Moonbase_terminal_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fd7a090cc49066b4890bb6415a4972f9' -> (Import Result ID: 'd06f0a384d0009049db6b83cc1f1644e') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d480bf65dfbe46bd081292a93c6fe837 DependenciesID=c1498ba9d95d4e21ed1d1ca333f44393 StaticDependenciesID=8232169689fe547052cd4f0f1d81a8ad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.5818151Z
+  Time since last request: 0.0005973 seconds.
+  importAddress: GUID: fa84fb9b94c0943898a0ff781ceb8ae4 - Path: Assets/Models3D/Animations/Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fa84fb9b94c0943898a0ff781ceb8ae4 - Path: Assets/Models3D/Animations/Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fa84fb9b94c0943898a0ff781ceb8ae4' -> (Import Result ID: '01ee004e880c11bdfb0d0972822170b6') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=97ef5e26e37b0f3f5acc58695fa36b40 DependenciesID=cef5c07a0aa871790c672cc528991704 StaticDependenciesID=4a177d3dfc9e13a9bc36c5e611ba11f6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.604477Z
+  Time since last request: 0.0005305 seconds.
+  importAddress: GUID: a83255fa05c7bc84abb5b39f52887ee8 - Path: Assets/Models3D/Prefabs/MoonBase_WaterTank.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a83255fa05c7bc84abb5b39f52887ee8 - Path: Assets/Models3D/Prefabs/MoonBase_WaterTank.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a83255fa05c7bc84abb5b39f52887ee8' -> (Import Result ID: 'a2b358f34eb9920abf2cbcb998b55d9b') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7dc05fbc5259b0a40b1026e332c33538 DependenciesID=d54aadf05201b36f5884309acb6cbc75 StaticDependenciesID=e6be5c7799eb9c0f7329cdf52a962f6f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.6312747Z
+  Time since last request: 0.0003795 seconds.
+  importAddress: GUID: c7457e486f0a7f8488f3028cde24b3d4 - Path: Assets/Models3D/Materials/Asteriod.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c7457e486f0a7f8488f3028cde24b3d4 - Path: Assets/Models3D/Materials/Asteriod.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c7457e486f0a7f8488f3028cde24b3d4' -> (Import Result ID: '6eefab6d3513bb813fe5c407715c64c1') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a9257e256b06cda7d4b710d1246ff63 DependenciesID=79a9ebb343f32ea35a92a09ccd6ffe87 StaticDependenciesID=00935badd0b781f48e5318b0d0a231ea 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.6876169Z
+  Time since last request: 0.0003653 seconds.
+  importAddress: GUID: ce7678c9cbba22f4fa838e73018a9272 - Path: Assets/Models3D/Materials/Moonbase_Platform.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ce7678c9cbba22f4fa838e73018a9272 - Path: Assets/Models3D/Materials/Moonbase_Platform.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ce7678c9cbba22f4fa838e73018a9272' -> (Import Result ID: '0bcfa50ecdd1bca0ff1dad3fdaedbcbc') in 0.051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6068f4b9419cf90c0f9b21ed8560c9d3 DependenciesID=45856387dae61557f76df7f555e9432d StaticDependenciesID=f172a3fa8b4b16b6f0c3b5ce6e702257 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.7595529Z
+  Time since last request: 0.0002766 seconds.
+  importAddress: GUID: 31ea6eb6ab693d14c854ee0177b723fa - Path: Assets/Models3D/Textures/Asteriod/LowPolyAsteriod_Asteriod_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 31ea6eb6ab693d14c854ee0177b723fa - Path: Assets/Models3D/Textures/Asteriod/LowPolyAsteriod_Asteriod_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 31ea6eb6ab693d14c854ee0177b723fa' -> (Import Result ID: 'd6cfd2d724d302276a5b64e25f5a44da') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b023b6c70d695f0da03b30ecb3439dca DependenciesID=8af1df3ba72386fa871ddf54a8853e9e StaticDependenciesID=2d63194eb7595d2a83d22a197f84c608 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.8005018Z
+  Time since last request: 0.0005322 seconds.
+  importAddress: GUID: db286e8731c9d85478b1704f0f1f71a1 - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_Moonbase_SolarPanel_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: db286e8731c9d85478b1704f0f1f71a1 - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_Moonbase_SolarPanel_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: db286e8731c9d85478b1704f0f1f71a1' -> (Import Result ID: '47489bb9ccacdfc1c9b7116b4d608a73') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc07806a78c36b500bc69f879ba05a7a DependenciesID=1118b23cc45574e2de690d93a6010f5e StaticDependenciesID=a7c390033b818f193f42d184559b0a13 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.8629649Z
+  Time since last request: 0.0006381 seconds.
+  importAddress: GUID: 659d3d41ab26c7840bad20afa0c1a2ba - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_Moonbase_SatDish_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 659d3d41ab26c7840bad20afa0c1a2ba - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_Moonbase_SatDish_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 659d3d41ab26c7840bad20afa0c1a2ba' -> (Import Result ID: '2e219c50dc4e89fb130a110c15a68a3a') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7c9776ce06d3fe198d7561f3efce9d3 DependenciesID=b0c25f65b60e7ad03600f1d92375cf14 StaticDependenciesID=246e3281d523ae6f9e9897fe9a4cc03e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.9227444Z
+  Time since last request: 0.0005451 seconds.
+  importAddress: GUID: c1c39a7b1ae95054bae7859a0f19393f - Path: Assets/Models3D/Textures/StarTexture/2048/upImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c1c39a7b1ae95054bae7859a0f19393f - Path: Assets/Models3D/Textures/StarTexture/2048/upImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c1c39a7b1ae95054bae7859a0f19393f' -> (Import Result ID: '4b1618688fc587e1a597c59759158861') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7591091e05c4ceb66e9b01dc9363c81e DependenciesID=09037c16621a952a06c1a5ff11d38b4e StaticDependenciesID=8ca6aec88032d66ed701ef364197a417 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:14.9687652Z
+  Time since last request: 0.0004956 seconds.
+  importAddress: GUID: fe393ace9b354375a9cb14cdbbc28be4 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fe393ace9b354375a9cb14cdbbc28be4 - Path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fe393ace9b354375a9cb14cdbbc28be4' -> (Import Result ID: 'e1ae38c3abb1bec65675d50950f3df8f') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99c2329a85606d1d6940420c69961626 DependenciesID=b93fcc73a159916ad100367524721bca StaticDependenciesID=3e6e2f4896fbb623ae7879b3066ff14a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.0045681Z
+  Time since last request: 0.0008843 seconds.
+  importAddress: GUID: e4f01919de907934ab1aea4976e7f412 - Path: Assets/Models3D/FBX/Moonbase_OxygenTanks.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e4f01919de907934ab1aea4976e7f412 - Path: Assets/Models3D/FBX/Moonbase_OxygenTanks.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e4f01919de907934ab1aea4976e7f412' -> (Import Result ID: 'bd033f9605c4ba9f1167c05b99a46bf9') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5a3bdf12e1d27e0380f2e8328ad04b5 DependenciesID=8c2b34dff5dde7e4d9acc06f261172f5 StaticDependenciesID=f9983b89d011bfeeaa45f80bd89b5d28 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.0424564Z
+  Time since last request: 0.0004018 seconds.
+  importAddress: GUID: d420344f28725fb4b96b0d0980ba31bc - Path: Assets/Models3D/Textures/StarTexture/2048/rightImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d420344f28725fb4b96b0d0980ba31bc - Path: Assets/Models3D/Textures/StarTexture/2048/rightImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d420344f28725fb4b96b0d0980ba31bc' -> (Import Result ID: 'f866b6b741b5d3b6670081e65b5a5794') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1005e3b7e6e7fe8278f218e84349002 DependenciesID=50eaf156359d09e4ea6433b064591979 StaticDependenciesID=2718b0e94ac9d874a39d48bc670593c0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.0885016Z
+  Time since last request: 0.000754 seconds.
+  importAddress: GUID: fa697f452e9ed416bb4419bf6426dc6e - Path: Assets/Models3D/Textures/Habitat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fa697f452e9ed416bb4419bf6426dc6e - Path: Assets/Models3D/Textures/Habitat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fa697f452e9ed416bb4419bf6426dc6e' -> (Import Result ID: 'f74475bd45293c816fea54499774125c') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=acc3e6644d62ba75da9f3cf4683444b9 DependenciesID=ca30215202a9f828108da71b953102d0 StaticDependenciesID=a7a5c083eb845d6d7668b052c21e3452 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.1159961Z
+  Time since last request: 0.0005235 seconds.
+  importAddress: GUID: 342a1b253568e854f9a2e953d07332d3 - Path: Assets/Models3D/Prefabs/Gun.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 342a1b253568e854f9a2e953d07332d3 - Path: Assets/Models3D/Prefabs/Gun.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 342a1b253568e854f9a2e953d07332d3' -> (Import Result ID: 'aaea06f58c2b73cf75cc0bd70fd54c76') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0ec7151e75e2983d879801baf17310a DependenciesID=7e1595ad18660b75e177a8f380959c12 StaticDependenciesID=99788ad9ee9fe9583d0ec66b969da043 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.1506759Z
+  Time since last request: 0.0003755 seconds.
+  importAddress: GUID: ed6a47d957b344cdda452966f9a4018f - Path: Assets/Models3D/Animations/Controllers - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ed6a47d957b344cdda452966f9a4018f - Path: Assets/Models3D/Animations/Controllers - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ed6a47d957b344cdda452966f9a4018f' -> (Import Result ID: '8a0401ac1c3afc30df7f16b959a2f48e') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f13a32aa3e2eaa74f6c5dc56a8dcc9d DependenciesID=d24c6d6f736e59e75a49d8cd15df3248 StaticDependenciesID=417e596e38a3c9501dfb869e9c9d7aa4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.1783724Z
+  Time since last request: 0.0005446 seconds.
+  importAddress: GUID: e09ab55ffa19b4747b7707d1ca09f0c5 - Path: Assets/Models3D/Textures/Watertank/Moonbase_watertank_MoonBase_WaterTank_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e09ab55ffa19b4747b7707d1ca09f0c5 - Path: Assets/Models3D/Textures/Watertank/Moonbase_watertank_MoonBase_WaterTank_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e09ab55ffa19b4747b7707d1ca09f0c5' -> (Import Result ID: '0ebae108e280ecb4e217223da0c4ca6f') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95c673d77021911179c40cf3709f4fad DependenciesID=5db69843e094428ebcb70c9360f29367 StaticDependenciesID=12115b4c6069bff4ce020173629c821e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.2352959Z
+  Time since last request: 0.0004999 seconds.
+  importAddress: GUID: 48760a921dd92ff488bb4572c0d21979 - Path: Assets/Models3D/Prefabs/Moonbase_OxygenTank.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 48760a921dd92ff488bb4572c0d21979 - Path: Assets/Models3D/Prefabs/Moonbase_OxygenTank.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 48760a921dd92ff488bb4572c0d21979' -> (Import Result ID: '73c2e7cdcef2fa4b9458101385acd50d') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8fb8bdfbbe8d32ece75cabd83e1e1cb9 DependenciesID=dddea332c9ae9320dcad5f7e55a394b6 StaticDependenciesID=6ec49e62d92950aab1ad416a773ffabd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.2695381Z
+  Time since last request: 0.0004662 seconds.
+  importAddress: GUID: 7e51e9fc339e8ae44b7bd49378bc23de - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7e51e9fc339e8ae44b7bd49378bc23de - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_Moonbase_Gun_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7e51e9fc339e8ae44b7bd49378bc23de' -> (Import Result ID: 'aa6f7b505b8668af2697b60f23fcb21e') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9caa2026b6499d077a890a575882f01 DependenciesID=b151995eb9b7cbdad78ab87ebee22e4e StaticDependenciesID=852d4c569b269b779024eb69130ca256 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.3160115Z
+  Time since last request: 0.0005107 seconds.
+  importAddress: GUID: e350518416e4f7f4c8c56367ac5efa02 - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e350518416e4f7f4c8c56367ac5efa02 - Path: Assets/Models3D/Textures/Gun/Moonbase_Gun_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e350518416e4f7f4c8c56367ac5efa02' -> (Import Result ID: '622ecef3e33b7cebee08ac1ad3600c9d') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=da39d318aaaf34925e8a3c4c7af7ca5d DependenciesID=02cd5abd1043002686787ff61fe0258e StaticDependenciesID=dbafd089f04dafb9991878eec937af88 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.3575027Z
+  Time since last request: 0.0005028 seconds.
+  importAddress: GUID: 3b8d75d0143cb41ed9ba3452236511c6 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3b8d75d0143cb41ed9ba3452236511c6 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3b8d75d0143cb41ed9ba3452236511c6' -> (Import Result ID: '0e4b9774ade6aaac300ce41d65e7b9dc') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e30389ef7ee1f660f302ce2f76c27dd DependenciesID=d9df384d9ec3dea4e50bfffd0f909db9 StaticDependenciesID=1980ede3679ec6280e2588dab6b3fd7b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.3884605Z
+  Time since last request: 0.0004814 seconds.
+  importAddress: GUID: 811ad48b91b606b469b801d87551684e - Path: Assets/Models3D/Textures/StarTexture/2048/frontImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 811ad48b91b606b469b801d87551684e - Path: Assets/Models3D/Textures/StarTexture/2048/frontImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 811ad48b91b606b469b801d87551684e' -> (Import Result ID: '924531bdfaf445d0c6dbf4dd2325041b') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f3e842b66b2e9d2fddf5278ad33b09b0 DependenciesID=4c9c6f0d5320539da807e341f7ba04ad StaticDependenciesID=efc736122d219e0ddd107f3f9767979b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.4350693Z
+  Time since last request: 0.0006339 seconds.
+  importAddress: GUID: 49329d1ce7863164b8db933f2cf81bd2 - Path: Assets/Models3D/Textures/MoonBase/moonCapsule_MoonCapsule_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 49329d1ce7863164b8db933f2cf81bd2 - Path: Assets/Models3D/Textures/MoonBase/moonCapsule_MoonCapsule_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 49329d1ce7863164b8db933f2cf81bd2' -> (Import Result ID: 'a80c954503c39ad312221382e9c52f80') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ddae05d6263ee5e70c14f3cdddfc3fa1 DependenciesID=3bc39ccd4fe05f5ccd634069b66b8705 StaticDependenciesID=89baecde244c45c745c3d941941646bf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.4782941Z
+  Time since last request: 0.0008044 seconds.
+  importAddress: GUID: 8a0ff692cce26a844a5a2b79be9817ee - Path: Assets/Models3D/Textures/StarTexture/2048/downImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8a0ff692cce26a844a5a2b79be9817ee - Path: Assets/Models3D/Textures/StarTexture/2048/downImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8a0ff692cce26a844a5a2b79be9817ee' -> (Import Result ID: 'ec841ab7b387f7dc800e87fcaddefdd3') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bd3563614f7c457e96150f2095f97d58 DependenciesID=8241419c5821acd5c74135428d4fb7ae StaticDependenciesID=f4a5c13cef45a2b6588805378dec38aa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.5559273Z
+  Time since last request: 0.0297721 seconds.
+  importAddress: GUID: 4805ba9a1e941a54788b045329582024 - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_Emission.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4805ba9a1e941a54788b045329582024 - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_Emission.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4805ba9a1e941a54788b045329582024' -> (Import Result ID: '5f6e9e0c48b80dd88ab956aa0d685bed') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09bdc9680131b359e952ab66d8bb71b0 DependenciesID=fdb360560b134cc79c926e9d3fea9364 StaticDependenciesID=f34a0bb87e6850720b53f92b4e98ebc9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.5917116Z
+  Time since last request: 0.0007323 seconds.
+  importAddress: GUID: 44911638d6e003a4182c32b071419904 - Path: Assets/MateriauxPerso/Checker.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 44911638d6e003a4182c32b071419904 - Path: Assets/MateriauxPerso/Checker.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 44911638d6e003a4182c32b071419904' -> (Import Result ID: 'd0659e6048a40a7c18bab43e36d62083') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f2d2e39cc74d402d5cc89a6fe3f77e3 DependenciesID=de66a6c7e6671fad31d2b5589277842d StaticDependenciesID=4f5bb2d0acbcca06394f40fa2670c822 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.6317371Z
+  Time since last request: 0.0006325 seconds.
+  importAddress: GUID: f898ba78d5bb54631b24143790f84e54 - Path: Assets/Models3D/Textures/Watertank - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f898ba78d5bb54631b24143790f84e54 - Path: Assets/Models3D/Textures/Watertank - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f898ba78d5bb54631b24143790f84e54' -> (Import Result ID: 'fa45deb8d86a1b0f107cf78ad6cba2c6') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=07c45c7f7e5a0a8e7397a779d7f029b7 DependenciesID=eeb4ac7fb3de988bd4f0b68772f72381 StaticDependenciesID=489cd9d4b55011b6b56125eb302979fc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.662527Z
+  Time since last request: 0.0007006 seconds.
+  importAddress: GUID: 7dd6a23146dbb76408e054c793f5a8ce - Path: Assets/Models3D/Terrain/New Terrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7dd6a23146dbb76408e054c793f5a8ce - Path: Assets/Models3D/Terrain/New Terrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7dd6a23146dbb76408e054c793f5a8ce' -> (Import Result ID: '6290be6af9cc66a9a47d61bc4bef88ab') in 0.064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=90f46128af34dce163ea192e4bd42f5b DependenciesID=0d6afafc8ef0c2410be4c44f0005744a StaticDependenciesID=ff2086c304bf00c0e2232cc8a1ec99ff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.7498353Z
+  Time since last request: 0.0003298 seconds.
+  importAddress: GUID: 4a3d01642383b4349a6c2778e1f1516a - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_Moonbase_Habitat_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4a3d01642383b4349a6c2778e1f1516a - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_Moonbase_Habitat_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4a3d01642383b4349a6c2778e1f1516a' -> (Import Result ID: 'fcf20ac3d9da13c83e6a4c52ea36efe3') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=04eac3e54c7d772d56a330b2d61a45fd DependenciesID=c138ae9377f8b3e09760de8d8a9c6193 StaticDependenciesID=10883ebebe7854d9b93b3da24fc5bfe3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.8105278Z
+  Time since last request: 0.0006653 seconds.
+  importAddress: GUID: 97ae155ec028ea449950619be7efa89a - Path: Assets/Models3D/Animations/Controllers/Guncontroller.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 97ae155ec028ea449950619be7efa89a - Path: Assets/Models3D/Animations/Controllers/Guncontroller.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 97ae155ec028ea449950619be7efa89a' -> (Import Result ID: '2d950f832e27418476af283e59316c74') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f22f1416a373bb91d6a13f11470df937 DependenciesID=86de531eff435f58cc857137ef99d011 StaticDependenciesID=594d593640f67035693f69789e603063 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.8502034Z
+  Time since last request: 0.000391 seconds.
+  importAddress: GUID: d9cb2653eef21354a93301925bd98af7 - Path: Assets/Models3D/Textures/OxygenTank/Moonbase_OxygenTanks_MoonBase_OxygenTanks_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d9cb2653eef21354a93301925bd98af7 - Path: Assets/Models3D/Textures/OxygenTank/Moonbase_OxygenTanks_MoonBase_OxygenTanks_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d9cb2653eef21354a93301925bd98af7' -> (Import Result ID: '36205717ef1c7655ad556effc824edfa') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0852e926134052a741b15cb3c1a0e53 DependenciesID=4e8b78d85aaa0700a341dbe956cb1baf StaticDependenciesID=1d31c0d6d798d4fb8e1c484275a48d9f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.8968469Z
+  Time since last request: 0.0005368 seconds.
+  importAddress: GUID: 70bd919e2389b084381161dbbf2d6e28 - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_Moonbase_SolarPanel_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 70bd919e2389b084381161dbbf2d6e28 - Path: Assets/Models3D/Textures/SolarPanel/Moonbase_SolarPanel_Moonbase_SolarPanel_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 70bd919e2389b084381161dbbf2d6e28' -> (Import Result ID: '9a859b8c68138a46af200e88d7d05505') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d964277d0df1c0413c431e812a1a9764 DependenciesID=a6fbb989392a97767da83c7eda82c6cb StaticDependenciesID=1aedff646ebbe473e3e46d54c2a92868 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.9588223Z
+  Time since last request: 0.000765 seconds.
+  importAddress: GUID: 15319f73ee1d84ca590c6693ca82a77f - Path: Assets/TextMesh Pro - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 15319f73ee1d84ca590c6693ca82a77f - Path: Assets/TextMesh Pro - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 15319f73ee1d84ca590c6693ca82a77f' -> (Import Result ID: '70b1d0bd4047726ecadb02f913a4f358') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=264341b947792c3f037d43a47a679dc4 DependenciesID=d90a6b87a4273350ed648654517d3332 StaticDependenciesID=950cac97f5065734367a9f9d55277832 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:15.9918775Z
+  Time since last request: 0.0006415 seconds.
+  importAddress: GUID: 5806b7c9fd6d7eb4faeeaf7d730dedba - Path: Assets/Scenes/xx_Environnement_debut.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5806b7c9fd6d7eb4faeeaf7d730dedba - Path: Assets/Scenes/xx_Environnement_debut.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5806b7c9fd6d7eb4faeeaf7d730dedba' -> (Import Result ID: 'e023738b12d225e799801dee1adc7f7c') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44aaa9ce0317be5ce72201247d93168f DependenciesID=ddb00ff8e7b8cf1fbb243c60740b99c2 StaticDependenciesID=decba734ae2621cf75c59c13dc360f2e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.033257Z
+  Time since last request: 0.0005664 seconds.
+  importAddress: GUID: 789b1400e68ed4a4b80c792b837b2713 - Path: Assets/Models3D/Textures/Asteriod - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 789b1400e68ed4a4b80c792b837b2713 - Path: Assets/Models3D/Textures/Asteriod - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 789b1400e68ed4a4b80c792b837b2713' -> (Import Result ID: '1f2429c3618386de88194bbf7e0c6f24') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9eee5332167a57fe5dee9007b9f530b2 DependenciesID=5a4043f7605a9c5d7c86c5b4ff4b592c StaticDependenciesID=9d28a6fbb97c229257985425aadfa952 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.0627248Z
+  Time since last request: 0.0006269 seconds.
+  importAddress: GUID: 71aead153a51edc4093e3b9556d6c10a - Path: Assets/Models3D/Prefabs/MoonBaseSatelliteDish.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 71aead153a51edc4093e3b9556d6c10a - Path: Assets/Models3D/Prefabs/MoonBaseSatelliteDish.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 71aead153a51edc4093e3b9556d6c10a' -> (Import Result ID: '5e95c430565f568d619b7949653ba0ae') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=002b34f2106037bb8609454adde36f73 DependenciesID=076fce534fa3e32f139701c03c3e9e0e StaticDependenciesID=cb45fc84e923bf87a379f717f8491864 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.0978108Z
+  Time since last request: 0.000355 seconds.
+  importAddress: GUID: e92b2d314c172ac42a362b0610a18736 - Path: Assets/Reticule/wp6604198.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e92b2d314c172ac42a362b0610a18736 - Path: Assets/Reticule/wp6604198.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e92b2d314c172ac42a362b0610a18736' -> (Import Result ID: '0b6bb55646b732569802b616d2fdd678') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1805a70c240b74307df40739d40a1bc2 DependenciesID=891ed97dc79a20ef36387515bbe3e236 StaticDependenciesID=fbeac3f075fc1a9d3083dc2afafb0f7a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.1401594Z
+  Time since last request: 0.0007525 seconds.
+  importAddress: GUID: c2f5c5a5e48cdbb48ba1e0d5e74528c7 - Path: Assets/Models3D/FBX/Moonbase_Platform.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c2f5c5a5e48cdbb48ba1e0d5e74528c7 - Path: Assets/Models3D/FBX/Moonbase_Platform.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c2f5c5a5e48cdbb48ba1e0d5e74528c7' -> (Import Result ID: '45ac7b5641a59d0d4a811a582829c0db') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a57cdd15a111095f757baf5d66508ef8 DependenciesID=d623db4edef464b5a2c02e16bf17e70d StaticDependenciesID=712df57d7add489837e7742e0c2e016b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.1737736Z
+  Time since last request: 0.00045 seconds.
+  importAddress: GUID: 6db343f9d3c7fa2438ff801949b44e9a - Path: Assets/Models3D/Materials/Moonbase_Habitat.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6db343f9d3c7fa2438ff801949b44e9a - Path: Assets/Models3D/Materials/Moonbase_Habitat.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6db343f9d3c7fa2438ff801949b44e9a' -> (Import Result ID: '7cb8cbd2513e064f9c9694bd5bcb571a') in 0.123 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=131179c187616f8d669650aa4cd239e3 DependenciesID=23935f09611caeada0caa9293161e24e StaticDependenciesID=94f6bf58d9e0f501dba70e6de115e073 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.318807Z
+  Time since last request: 0.0005383 seconds.
+  importAddress: GUID: 1643951e71e9710458c3366d1cca6673 - Path: Assets/Models3D/FBX/Moonbase_Habitat.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1643951e71e9710458c3366d1cca6673 - Path: Assets/Models3D/FBX/Moonbase_Habitat.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1643951e71e9710458c3366d1cca6673' -> (Import Result ID: 'eb8e7e02dd86574b73aef740fff42025') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cab9703e5ce45c2e0bd332eb88ecc0ce DependenciesID=1e16305db68037cc035d882077993787 StaticDependenciesID=2f61eab98d19954d3a08204e775406e5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.3605092Z
+  Time since last request: 0.000429 seconds.
+  importAddress: GUID: b92c03cb6dd3d8d43907dcd3e2aa6489 - Path: Assets/Models3D/Textures/Asteriod/LowPolyAsteriod_Asteriod_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b92c03cb6dd3d8d43907dcd3e2aa6489 - Path: Assets/Models3D/Textures/Asteriod/LowPolyAsteriod_Asteriod_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b92c03cb6dd3d8d43907dcd3e2aa6489' -> (Import Result ID: '3ab41de0f9b67750b0ea02073da6e1be') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79a634696ab894db2bf784e57b856e81 DependenciesID=05f8ac05d86baf0876e0283591fc6afc StaticDependenciesID=964acfd1cc790b9f46af05ef0b45f0e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.4125856Z
+  Time since last request: 0.0008831 seconds.
+  importAddress: GUID: 0afc530c0cf7088408383c57ff0b437f - Path: Assets/Models3D/Textures/terminal/Moonbase_Terminal_Moonbase_terminal_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0afc530c0cf7088408383c57ff0b437f - Path: Assets/Models3D/Textures/terminal/Moonbase_Terminal_Moonbase_terminal_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0afc530c0cf7088408383c57ff0b437f' -> (Import Result ID: '7fc3dcd1379a6d3d0e278f4f6f23b0f8') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=729b21444c2f263a8aed267e8518ad95 DependenciesID=7427bab060dec264eb676c142b029bd1 StaticDependenciesID=730400a718227c77feaeee4e079d4e19 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.4731817Z
+  Time since last request: 0.0011888 seconds.
+  importAddress: GUID: 62c63c058e8ab5d448f7c06cdac94089 - Path: Assets/Models3D/FBX/Moonbase_watertank.FBX - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 62c63c058e8ab5d448f7c06cdac94089 - Path: Assets/Models3D/FBX/Moonbase_watertank.FBX - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 62c63c058e8ab5d448f7c06cdac94089' -> (Import Result ID: '62c2ba34534703651cbd6f5d8e2ade93') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d493b4a797a3285c216974e59d6c919 DependenciesID=407edcd2c7ce747cfbab196927b795c5 StaticDependenciesID=e5893372b1ee4f14b6fef817a467784e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.5169209Z
+  Time since last request: 0.0006015 seconds.
+  importAddress: GUID: adfc3193a15464814a5facfd5810d25d - Path: Assets/Models3D/Textures/Terrain - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: adfc3193a15464814a5facfd5810d25d - Path: Assets/Models3D/Textures/Terrain - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: adfc3193a15464814a5facfd5810d25d' -> (Import Result ID: '6a9cbb2d6e42c9758721f62a339108f9') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7de8d290bf949069c21f3adeb2dd3ccc DependenciesID=631d27c1dc0eaa5ac04eeb6dc31eec36 StaticDependenciesID=24e8fd247aa570f9da8175c0bf34f911 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.5594841Z
+  Time since last request: 0.0006786 seconds.
+  importAddress: GUID: 3123566d8233ab344993cb0ae99a661a - Path: Assets/Models3D/FBX/Moonbase_SatDish.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3123566d8233ab344993cb0ae99a661a - Path: Assets/Models3D/FBX/Moonbase_SatDish.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3123566d8233ab344993cb0ae99a661a' -> (Import Result ID: 'c413b6f57a9dcd3d69bced95d0a5f4fb') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a878a6f5d462b6661d6830ab5d4ab0b DependenciesID=cb6e3d7244ae405f305cfb922a431725 StaticDependenciesID=32e3379b6f4594051e79fff1c57865e3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.6088078Z
+  Time since last request: 0.0004437 seconds.
+  importAddress: GUID: 1df504c37319bf24592fc91e7687203f - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1df504c37319bf24592fc91e7687203f - Path: Assets/Models3D/Textures/Platform/Moonbase_Platform_Moonbase_Platform_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1df504c37319bf24592fc91e7687203f' -> (Import Result ID: '0f5623348a3835d48d29f33e29ad196b') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3993cb5e2c5e5ca186d164c4f8d80e01 DependenciesID=7b99dd5d127bf0e78b10c5431372a727 StaticDependenciesID=763dbc560c8fee9c464422336cb09191 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.6624402Z
+  Time since last request: 0.0006387 seconds.
+  importAddress: GUID: 760eaa912333d574aa32054ac824b382 - Path: Assets/Models3D/Materials/Moonbase_SolarPanel.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 760eaa912333d574aa32054ac824b382 - Path: Assets/Models3D/Materials/Moonbase_SolarPanel.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 760eaa912333d574aa32054ac824b382' -> (Import Result ID: '8a636c68309a95e939d803fa03b40514') in 0.126 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fbf5dea01d24e8399425c84aae32340b DependenciesID=869c22870837e408fb456afb1a7aff2f StaticDependenciesID=2a9f90fb6bd93bd49325730d079dfb27 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.8117373Z
+  Time since last request: 0.0004888 seconds.
+  importAddress: GUID: 561a425a9d5d04b0580997bf3a432848 - Path: Assets/Models3D/Textures/StarTexture/2048 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 561a425a9d5d04b0580997bf3a432848 - Path: Assets/Models3D/Textures/StarTexture/2048 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 561a425a9d5d04b0580997bf3a432848' -> (Import Result ID: 'ec64d0fc2a53acc3b45c7b142548eb3a') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93e9a836af8b44657cd6cc5f0015990a DependenciesID=ec972eb5c8d71fd676bce3b053369413 StaticDependenciesID=8e3e52bb802bdcdc5c31cdf0272bff66 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.8527479Z
+  Time since last request: 0.0007421 seconds.
+  importAddress: GUID: d0984186a18f44fb7877907b35195704 - Path: Assets/TextMesh Pro/Fonts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d0984186a18f44fb7877907b35195704 - Path: Assets/TextMesh Pro/Fonts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d0984186a18f44fb7877907b35195704' -> (Import Result ID: '1856ff815d50f3b756a31fa232a967c0') in 0.035 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7243a368ceeb0dfa84c12e5a8073c27c DependenciesID=5ee5431668c85d3ade2b1c785fb22d3a StaticDependenciesID=eb636805735725009ac4d0718c7baaa9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.9118323Z
+  Time since last request: 0.0006044 seconds.
+  importAddress: GUID: b221de8d2c2724011860ead15419ff52 - Path: Assets/Models3D/Textures/terminal - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b221de8d2c2724011860ead15419ff52 - Path: Assets/Models3D/Textures/terminal - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b221de8d2c2724011860ead15419ff52' -> (Import Result ID: '7fb41bc941c3ebbcfb47fea71db72c06') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5b8e8bb2ad8c35761c07ec38c033471 DependenciesID=8fbab9a94b50334d93358da3fcbbbc62 StaticDependenciesID=0494d514516f1933eaad7dd10b397715 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:16.9454661Z
+  Time since last request: 0.0006139 seconds.
+  importAddress: GUID: 297d46fb97b604f48880aa092b6ade79 - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 297d46fb97b604f48880aa092b6ade79 - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 297d46fb97b604f48880aa092b6ade79' -> (Import Result ID: '2195e657b14ee8de7f5baede1d4300ba') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f57c43a75161992d2be4004d35432cc4 DependenciesID=4dec61eb91f4fd1995734f3be64bd9f5 StaticDependenciesID=e3c362f706c19438a3cec53f5b327b9f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.0045976Z
+  Time since last request: 0.0007373 seconds.
+  importAddress: GUID: aa210487499ec974981cbb6b3655b04d - Path: Assets/Models3D/FBX/Moonbase_SolarPanel.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: aa210487499ec974981cbb6b3655b04d - Path: Assets/Models3D/FBX/Moonbase_SolarPanel.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: aa210487499ec974981cbb6b3655b04d' -> (Import Result ID: '4e6b97796df30f48e6190b94c5975177') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b401ca1fe7621fdb336b41d9c6f96ad3 DependenciesID=556ecb7fcd984267d78e5ce03e8da37e StaticDependenciesID=7eb3dbe009aaaf74e7519a0c4ba3c054 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.0477224Z
+  Time since last request: 0.0006572 seconds.
+  importAddress: GUID: 8d64277840fd71d42a3fc16ad0622f01 - Path: Assets/MateriauxPerso/tennisBall 1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8d64277840fd71d42a3fc16ad0622f01 - Path: Assets/MateriauxPerso/tennisBall 1.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8d64277840fd71d42a3fc16ad0622f01' -> (Import Result ID: '742c83b016180fe33f951c48025fe847') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1faa417d9e2e564ecf9cb4de1cc9f5ca DependenciesID=83a3d6f6ece3f4de2781af39ca57a0e0 StaticDependenciesID=13542f6f34f6309ef0806fe85e45cc50 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.0753089Z
+  Time since last request: 0.0005624 seconds.
+  importAddress: GUID: c0b685de4ccee7a4f9a800605e675347 - Path: Assets/Models3D/Textures/OxygenTank/Moonbase_OxygenTanks_MoonBase_OxygenTanks_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c0b685de4ccee7a4f9a800605e675347 - Path: Assets/Models3D/Textures/OxygenTank/Moonbase_OxygenTanks_MoonBase_OxygenTanks_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c0b685de4ccee7a4f9a800605e675347' -> (Import Result ID: '40aa8a6b37bfd313042fb993729aaa49') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=214c4d3562d96556aaf752f6fa37d516 DependenciesID=9a8dbf6613e87d2879d53b61c0c831be StaticDependenciesID=558ef2337d1d1ccbabb541ac81cf9f80 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.1072856Z
+  Time since last request: 0.0006823 seconds.
+  importAddress: GUID: 3997e2241185407d80309a82f9148466 - Path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3997e2241185407d80309a82f9148466 - Path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3997e2241185407d80309a82f9148466' -> (Import Result ID: '06f8c016294d85e8ece075443a5a2161') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71a5e949029df9bd0fceba168f7e1e4b DependenciesID=3c659c7b7b22945a1146f72e40b319da StaticDependenciesID=8e5895dc576eb58bf911f851783afdca 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.1314738Z
+  Time since last request: 0.0005463 seconds.
+  importAddress: GUID: 4ab07ac3e1aac41479dc71bd4c20fced - Path: Assets/Models3D/Textures/MoonBase/moonCapsule_MoonCapsule_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4ab07ac3e1aac41479dc71bd4c20fced - Path: Assets/Models3D/Textures/MoonBase/moonCapsule_MoonCapsule_AlbedoTransparency.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4ab07ac3e1aac41479dc71bd4c20fced' -> (Import Result ID: '6bf982872a3aa75a4443a9d13b476506') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=428ea9185d151210a9fef1a5d03f4553 DependenciesID=508bcda01dd3dcd20b2a88d60ad03c84 StaticDependenciesID=48a5dc34890f0e175c3871d0950cb026 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.1647675Z
+  Time since last request: 0.0005503 seconds.
+  importAddress: GUID: 9a2b334da50fc4dc09799a97527fe5ec - Path: Assets/Models3D/Textures/SolarPanel - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9a2b334da50fc4dc09799a97527fe5ec - Path: Assets/Models3D/Textures/SolarPanel - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9a2b334da50fc4dc09799a97527fe5ec' -> (Import Result ID: '87bcd3f08930b1c83c766c986663d64b') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a35a3e9e499609543255acb3fd159c25 DependenciesID=477961b73b6719333d8592fc5c975ab4 StaticDependenciesID=629ab416f7203e793be1e8a2cad1b2b4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.1969645Z
+  Time since last request: 0.0009139 seconds.
+  importAddress: GUID: a4a2ead619cd17745940ab6d92ebc912 - Path: Assets/Models3D/Materials/MoonBase_WaterTank.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a4a2ead619cd17745940ab6d92ebc912 - Path: Assets/Models3D/Materials/MoonBase_WaterTank.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a4a2ead619cd17745940ab6d92ebc912' -> (Import Result ID: '84c3e8a986c59f433ace9f11d1755218') in 0.143 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d62de013b94e2a44fe84f9c25b34ec2e DependenciesID=1def42bd7ffcfbf59b7a86ad1a9f26fe StaticDependenciesID=ca3a3d583f27c851a0032f741f5b1fe9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.361702Z
+  Time since last request: 0.0003422 seconds.
+  importAddress: GUID: 8f586378b4e144a9851e7b34d9b748ee - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8f586378b4e144a9851e7b34d9b748ee - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8f586378b4e144a9851e7b34d9b748ee' -> (Import Result ID: 'fdc7b23d298439ced29c17b73abbe06b') in 0.079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd8e4a8ac665bbef2f97590ab0719398 DependenciesID=8f2c0f85cf8153e3de107cb65f1c66eb StaticDependenciesID=4d123fb2bb14576911fc61552b30c81d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.4637347Z
+  Time since last request: 0.000451 seconds.
+  importAddress: GUID: c2dc74200b32eca4389daac3248743ad - Path: Assets/Models3D/Materials/tennisBall.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c2dc74200b32eca4389daac3248743ad - Path: Assets/Models3D/Materials/tennisBall.jpg - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c2dc74200b32eca4389daac3248743ad' -> (Import Result ID: '776e6fbf83af629964c22336382d293f') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c3e0eef84640ff1d328a0448b7ea8af DependenciesID=6555d3306811e11c32aeec9c9c117ca5 StaticDependenciesID=956a906ee81e59ea18f5d07903768ef1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.5050505Z
+  Time since last request: 0.0005878 seconds.
+  importAddress: GUID: ca0c99d793887c245bbe0597159863a7 - Path: Assets/Models3D/Prefabs/MoonBase_Terminal.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ca0c99d793887c245bbe0597159863a7 - Path: Assets/Models3D/Prefabs/MoonBase_Terminal.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ca0c99d793887c245bbe0597159863a7' -> (Import Result ID: 'c81208bbdfa8781a044de26055d0e97b') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=daeab0953909d1770bed04a7c9ba8d52 DependenciesID=6c472c34e54dafd9eb98de15f45a563e StaticDependenciesID=f08f18181a11457a23937c14bc3527ed 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.539135Z
+  Time since last request: 0.0004413 seconds.
+  importAddress: GUID: d639c1f9bdfee4c629a2bab6618871fe - Path: Assets/MateriauxPerso/BlancMetal.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d639c1f9bdfee4c629a2bab6618871fe - Path: Assets/MateriauxPerso/BlancMetal.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d639c1f9bdfee4c629a2bab6618871fe' -> (Import Result ID: '9c653f898150716284b429f4acf8316f') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56d9ca7c51559bd87d4bfc93d089333e DependenciesID=22139a1c8cbfeb0944c398f0e8028e66 StaticDependenciesID=0edc6fb9e005b1591ecdbf837e60e5cd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.5774926Z
+  Time since last request: 0.000495 seconds.
+  importAddress: GUID: f7844234efcf0524abe2fff8bbe9e1be - Path: Assets/Models3D/Prefabs/New Physics Material.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f7844234efcf0524abe2fff8bbe9e1be - Path: Assets/Models3D/Prefabs/New Physics Material.physicMaterial - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f7844234efcf0524abe2fff8bbe9e1be' -> (Import Result ID: '11f589db28abe2a18b77cbeeaccbd537') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f4a0cccedad10de2fd3cb269e4d3e3e DependenciesID=9243a16ec550449acfdfd9597617bb5e StaticDependenciesID=4c89d2d5fd294da8589bd5deff0c80bf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.6120641Z
+  Time since last request: 0.0006834 seconds.
+  importAddress: GUID: bdec4e5b2b6f5484a937ff3d1a68c90c - Path: Assets/Models3D/Materials/MoonCapsule.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bdec4e5b2b6f5484a937ff3d1a68c90c - Path: Assets/Models3D/Materials/MoonCapsule.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bdec4e5b2b6f5484a937ff3d1a68c90c' -> (Import Result ID: '94d50146b840e0004e4d8709e4a138de') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9be74aa1087d75864f47c48fc4eacfad DependenciesID=c74de005511e909df651adc657dd1620 StaticDependenciesID=50e81ce04016969dadeefae3c4c16416 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.6789743Z
+  Time since last request: 0.000386 seconds.
+  importAddress: GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2e498d1c8094910479dc3e1b768306a4 - Path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2e498d1c8094910479dc3e1b768306a4' -> (Import Result ID: '113847dd760314e8b50405c4cfb6c3c3') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3f3b863fc6ee7fb3ff01fdf94d6302c5 DependenciesID=09f792cebcbaf94c639c2cd4cf63bb63 StaticDependenciesID=3eb9e8c9a4e659b9d4f0dc67a11eb36b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.7146511Z
+  Time since last request: 0.0004277 seconds.
+  importAddress: GUID: bd4229443d846446f86b109a3afae379 - Path: Assets/Models3D/Textures/OxygenTank - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bd4229443d846446f86b109a3afae379 - Path: Assets/Models3D/Textures/OxygenTank - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bd4229443d846446f86b109a3afae379' -> (Import Result ID: '014389d0144dfa4b45b7b4067fd4f0b7') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24879302f329fc4e9304e30fc3f2c0d4 DependenciesID=fdfedc533d671c5215a0c07b5b67f202 StaticDependenciesID=e21ddb20145a6c73ce3cfe1112250daf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.7426857Z
+  Time since last request: 0.0006291 seconds.
+  importAddress: GUID: 599647dc3358d58488e142324f78da27 - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_Moonbase_Habitat_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 599647dc3358d58488e142324f78da27 - Path: Assets/Models3D/Textures/Habitat/Moonbase_Habitat_Moonbase_Habitat_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 599647dc3358d58488e142324f78da27' -> (Import Result ID: '020150bd986330562ed96a12d5f455e0') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cc2d328e1a46c7220e3b8b27a849969 DependenciesID=8e84b6540dee287d0b59bd7a8652b3b8 StaticDependenciesID=6b313d79449f41ee6d3639a2edb363d2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.7971765Z
+  Time since last request: 0.0009557 seconds.
+  importAddress: GUID: a6753a2286761bb4fa85c341ce644ab4 - Path: Assets/Models3D/Textures/terminal/Moonbase_Terminal_Moonbase_terminal_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a6753a2286761bb4fa85c341ce644ab4 - Path: Assets/Models3D/Textures/terminal/Moonbase_Terminal_Moonbase_terminal_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a6753a2286761bb4fa85c341ce644ab4' -> (Import Result ID: '6be09c4acec8ae990a85abf943a17a3d') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f88ee9844487df89e17626d645c142f8 DependenciesID=520f24a3718c8b94a6feb0099c0f8839 StaticDependenciesID=bb129bc9f3a5678ac4fb1880866a48b8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.8583322Z
+  Time since last request: 0.0006247 seconds.
+  importAddress: GUID: 0d791980aec33b549b12da08490ddfe5 - Path: Assets/Models3D/Prefabs/Moonbase_Habitat.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 0d791980aec33b549b12da08490ddfe5 - Path: Assets/Models3D/Prefabs/Moonbase_Habitat.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 0d791980aec33b549b12da08490ddfe5' -> (Import Result ID: 'd843d83805a11857837abeba0a94850f') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cbf6819ce1fc9fcecc8f19565c10bb4a DependenciesID=42d9020bb21ed248c43bdd0b854106b1 StaticDependenciesID=b485c02e18a7b4adfe0412d35ebbb759 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:17.8909335Z
+  Time since last request: 0.0004954 seconds.
+  importAddress: GUID: 209ee38e7816be941b7252492e10e600 - Path: Assets/Models3D/Materials/Moonbase_terminal.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 209ee38e7816be941b7252492e10e600 - Path: Assets/Models3D/Materials/Moonbase_terminal.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 209ee38e7816be941b7252492e10e600' -> (Import Result ID: '31d1445abd88535bb2792bb4abc46f47') in 0.099 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=021779c2b97b7e090cebb32cfef7788d DependenciesID=f6565bb190f432aa76b9d7fcf240cad5 StaticDependenciesID=b84b4fd2654fceb099e1ebdc8566f7d3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.0082306Z
+  Time since last request: 0.0003415 seconds.
+  importAddress: GUID: 97be0a649d74d4a6c9909de0a9410f7b - Path: Assets/Models3D/Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 97be0a649d74d4a6c9909de0a9410f7b - Path: Assets/Models3D/Animations - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 97be0a649d74d4a6c9909de0a9410f7b' -> (Import Result ID: '1e82cc2d72275f3ae40f847367849f60') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f471b8ba5fe21f3ab1546aa31181c84 DependenciesID=550bb13fb40e30dac075f19bf714a03f StaticDependenciesID=a0fe2c94b4b54f34629de67f0755cd37 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.0390233Z
+  Time since last request: 0.0005954 seconds.
+  importAddress: GUID: c03e176118ce95241ad31ae68cdb4293 - Path: Assets/Models3D/FBX/Moonbase_Gun.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c03e176118ce95241ad31ae68cdb4293 - Path: Assets/Models3D/FBX/Moonbase_Gun.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c03e176118ce95241ad31ae68cdb4293' -> (Import Result ID: '0015fe1081445d82a7441d5464a9dd81') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64fa75b253d5be3dba95919f9c85375a DependenciesID=5bf659643a6b56d859307a8b6a1f26d4 StaticDependenciesID=c8506cff8acda5ae1eac8dec9c613ae3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.0996412Z
+  Time since last request: 0.0003326 seconds.
+  importAddress: GUID: a7c2d32481230184187ce13bfeb37a8f - Path: Assets/Models3D/Textures/StarTexture/2048/backImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a7c2d32481230184187ce13bfeb37a8f - Path: Assets/Models3D/Textures/StarTexture/2048/backImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a7c2d32481230184187ce13bfeb37a8f' -> (Import Result ID: 'e68945be25fd93fb0b6bd23edf1d1e0e') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a00b2f8134e6d31ec299b6665b475c28 DependenciesID=cee47e417004f35c4554192bca3d662a StaticDependenciesID=f6d18f343e2f8014606a5efbc83a858c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.1432654Z
+  Time since last request: 0.0006351 seconds.
+  importAddress: GUID: 394a6fb029e057e429da551b7091f319 - Path: Assets/Models3D/Prefabs/SolarPanel.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 394a6fb029e057e429da551b7091f319 - Path: Assets/Models3D/Prefabs/SolarPanel.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 394a6fb029e057e429da551b7091f319' -> (Import Result ID: 'a6dc35ddaecb7a85a91f63d9c44e28e1') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb8c0005f3be65ce5e9faecf2fc1ee48 DependenciesID=58dcf88a04cec804c6996f6c4ab9d297 StaticDependenciesID=c1268f558becb1b543e733eee42986eb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.1745406Z
+  Time since last request: 0.0004241 seconds.
+  importAddress: GUID: 5a4de52b696e33344b82ae6b67222bb2 - Path: Assets/Models3D/Textures/OxygenTank/Moonbase_OxygenTanks_MoonBase_OxygenTanks_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5a4de52b696e33344b82ae6b67222bb2 - Path: Assets/Models3D/Textures/OxygenTank/Moonbase_OxygenTanks_MoonBase_OxygenTanks_MetallicSmoothness.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5a4de52b696e33344b82ae6b67222bb2' -> (Import Result ID: '99533e689865a6d2d272d36885a99564') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc8f2c29442e31074e0d6f22999ec87a DependenciesID=8647cbe043bf8fd532233cd4c7b59d35 StaticDependenciesID=d7c04dfdf9fb2215d9df27f2eee52bf7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.2177103Z
+  Time since last request: 0.0005925 seconds.
+  importAddress: GUID: d2ccdd3f5fac4994ea89a1f295f22a86 - Path: Assets/Models3D/Textures/OxygenTank/MoonBase_OxygenTanks_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d2ccdd3f5fac4994ea89a1f295f22a86 - Path: Assets/Models3D/Textures/OxygenTank/MoonBase_OxygenTanks_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d2ccdd3f5fac4994ea89a1f295f22a86' -> (Import Result ID: '10c90f554d91be488cf996e53219a4ff') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb816ab049193d5ba304cc0c3d0b9392 DependenciesID=b5fdd89fc99ca7743512c8106b7794d6 StaticDependenciesID=cd292e5bf65a45e80eccb45f644745bf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.2587791Z
+  Time since last request: 0.0006698 seconds.
+  importAddress: GUID: 713b784fb19dcca4d9196d9b7df6adf8 - Path: Assets/Models3D/Textures/Asteriod/Asteriod_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 713b784fb19dcca4d9196d9b7df6adf8 - Path: Assets/Models3D/Textures/Asteriod/Asteriod_ambient_occlusion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 713b784fb19dcca4d9196d9b7df6adf8' -> (Import Result ID: 'd5921c56f191a3fc53b666c26cf69fb9') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dba1c29c511631c1874ca556d99b2550 DependenciesID=6488db7f72a39238b7a20fb74f556043 StaticDependenciesID=c94f7910479535e28a30538420744f33 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.2974141Z
+  Time since last request: 0.0004952 seconds.
+  importAddress: GUID: a50bf7a349b4e5a4d90dee61c17b8541 - Path: Assets/Models3D/FBX/moonCapsule.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a50bf7a349b4e5a4d90dee61c17b8541 - Path: Assets/Models3D/FBX/moonCapsule.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a50bf7a349b4e5a4d90dee61c17b8541' -> (Import Result ID: '1b1871faaf51abc7b3869f1cbf0e65e8') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5873d41d8d65bb61d96a6b65a33e5498 DependenciesID=d70ce002443c8eca0c61e13a5a30a402 StaticDependenciesID=17e2a7bcbaf94b75f21ee7efe04738f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.3317802Z
+  Time since last request: 0.0003597 seconds.
+  importAddress: GUID: 96a3c2236a1c6974da595c10642abfce - Path: Assets/Models3D/Textures/StarTexture/2048/leftImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 96a3c2236a1c6974da595c10642abfce - Path: Assets/Models3D/Textures/StarTexture/2048/leftImage.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 96a3c2236a1c6974da595c10642abfce' -> (Import Result ID: 'ddf500de741b287a4d7e883e8a9cd38d') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca740cdc19d5fb6826c84c14090a9850 DependenciesID=dcdb95b8fb717cdadff75fbc94401eb8 StaticDependenciesID=0fa45d3afb08a81af7960090a409db57 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.3766364Z
+  Time since last request: 0.0007004 seconds.
+  importAddress: GUID: 5286ebae3da754c0b859956df208e77e - Path: Assets/Models3D/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5286ebae3da754c0b859956df208e77e - Path: Assets/Models3D/Materials - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5286ebae3da754c0b859956df208e77e' -> (Import Result ID: '9a15b5f4c63e7e26dd1f28ae8607d221') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f377b4a1964214c2f42ddf29f656760e DependenciesID=ccfd4659dd431f59737720ec27faae3e StaticDependenciesID=4625a54a599b7500371685ceccd5e275 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.4049028Z
+  Time since last request: 0.0006316 seconds.
+  importAddress: GUID: 091d72eb460f44dd192f387c7125146b - Path: Assets/Models3D - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 091d72eb460f44dd192f387c7125146b - Path: Assets/Models3D - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 091d72eb460f44dd192f387c7125146b' -> (Import Result ID: 'be84f8f6d268eab3deee6ccabb42a75b') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45435196f0556fe3949e97c1086b49c1 DependenciesID=4c626ae7dd4ad0033e1a2ae37419517a StaticDependenciesID=68c1bb2ee9805bcd0b831ba9ed0a3bdd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.4347927Z
+  Time since last request: 0.0005459 seconds.
+  importAddress: GUID: 690a28728391c3a4f90a9b1ae501ba91 - Path: Assets/Models3D/Animations/Animations/GunFire.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 690a28728391c3a4f90a9b1ae501ba91 - Path: Assets/Models3D/Animations/Animations/GunFire.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 690a28728391c3a4f90a9b1ae501ba91' -> (Import Result ID: 'bd1ca8776c9b2e515a5a864fbd565395') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38ee1e4af69605fdc8b7f1ec8fc11f5c DependenciesID=41fc9f7ce470f825615a67f2230d5bd7 StaticDependenciesID=2183d776c6bc97463b126eb873a02260 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.464961Z
+  Time since last request: 0.0005899 seconds.
+  importAddress: GUID: 4ed55ba8ad4d1421d92499c345602853 - Path: Assets/TextMesh Pro/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4ed55ba8ad4d1421d92499c345602853 - Path: Assets/TextMesh Pro/Shaders - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4ed55ba8ad4d1421d92499c345602853' -> (Import Result ID: '82f5fa1debd59f686dfdf02c23afa1fc') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=791bda3daef370f0acb266dd7661ae9c DependenciesID=494e812d2bd9396a2e816f6f6dfbc6d4 StaticDependenciesID=ffdcda626bde603f4eab802c2cbf17eb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.4941684Z
+  Time since last request: 0.0005119 seconds.
+  importAddress: GUID: 15a2077f68f904f4d8012f50ab44b602 - Path: Assets/Models3D/Textures/Platform - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 15a2077f68f904f4d8012f50ab44b602 - Path: Assets/Models3D/Textures/Platform - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 15a2077f68f904f4d8012f50ab44b602' -> (Import Result ID: '9835e346fce6808d6cd377a6511a07d8') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd94ee28e1fcead7238866ca0a793bee DependenciesID=175512b76c75075529a25148be5a4cab StaticDependenciesID=16a5af90ff8d40b0229df3c991be6617 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.5164509Z
+  Time since last request: 0.0005582 seconds.
+  importAddress: GUID: d3bbd1a4016d1b34aa1e756490829ebb - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_Moonbase_SatDish_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d3bbd1a4016d1b34aa1e756490829ebb - Path: Assets/Models3D/Textures/Satellite Dish/Moonbase_SatDish_Moonbase_SatDish_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d3bbd1a4016d1b34aa1e756490829ebb' -> (Import Result ID: '2f89ab4ff2f7f4a71a9969d782fa344d') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98a090abc27c5a92a2e9d694da2ea4b9 DependenciesID=161a708e5d24bf30412c24760e308fc3 StaticDependenciesID=9bc88651de5210edff1a572c1f09524a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.5670237Z
+  Time since last request: 0.0007105 seconds.
+  importAddress: GUID: 5f01730d794be4583a5912a7220b4b7a - Path: Assets/Models3D/FBX - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5f01730d794be4583a5912a7220b4b7a - Path: Assets/Models3D/FBX - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5f01730d794be4583a5912a7220b4b7a' -> (Import Result ID: 'e81e4bb74bea68d57210b7a1429d7756') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=058a6c5732a36cd3fda4b79cc2b0bc45 DependenciesID=01f42b4d7bd7f0bac6e08f6561d11678 StaticDependenciesID=c06405c662e9bbc24bd8911e5470ba54 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.595427Z
+  Time since last request: 0.0005571 seconds.
+  importAddress: GUID: bea67fa3f9c32a74eaf4b70109465de2 - Path: Assets/Models3D/Textures/MoonBase/moonCapsule_MoonCapsule_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bea67fa3f9c32a74eaf4b70109465de2 - Path: Assets/Models3D/Textures/MoonBase/moonCapsule_MoonCapsule_Normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bea67fa3f9c32a74eaf4b70109465de2' -> (Import Result ID: 'ab25386764c04723ea39067626d75b8d') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d32d07a45981966a69db37112915e3c4 DependenciesID=6c42ba6caddeb400513bfcf9ffde86e7 StaticDependenciesID=6953100a314d7487651b37aca3f6fe13 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.6411869Z
+  Time since last request: 0.0005895 seconds.
+  importAddress: GUID: f9e1600d71b1411458300eec55b56f05 - Path: Assets/Models3D/Textures/Terrain/BaseLayer.terrainlayer - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f9e1600d71b1411458300eec55b56f05 - Path: Assets/Models3D/Textures/Terrain/BaseLayer.terrainlayer - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f9e1600d71b1411458300eec55b56f05' -> (Import Result ID: 'dbb4138525d5667009f5eb35086cdeb4') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7cea4cceff8e1199dc2b0463f2baa3e5 DependenciesID=2ad804028570470841de866df66103f3 StaticDependenciesID=06ac062136e3b10c80f4a3a23bb7df55 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.7168061Z
+  Time since last request: 0.023126 seconds.
+  importAddress: GUID: fa69697be3070b04a893666f5947f18c - Path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/RuntimeDebugWindow_PanelSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fa69697be3070b04a893666f5947f18c - Path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/RuntimeDebugWindow_PanelSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fa69697be3070b04a893666f5947f18c' -> (Import Result ID: '6ae1df80863144ce77d6fdcf82d7af39') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fa64482dca7b9952799f04a03f25303c DependenciesID=42cc7f312ccd063d15831c55c405453c StaticDependenciesID=b6ab6ebc8b370c290f6fb037b77fdb2b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.7813111Z
+  Time since last request: 0.0003968 seconds.
+  importAddress: GUID: e3265ab4bf004d28a9537516768c1c75 - Path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e3265ab4bf004d28a9537516768c1c75 - Path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e3265ab4bf004d28a9537516768c1c75' -> (Import Result ID: 'e222611ddadbe8261513670a9c5dfd86') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aca126f0562536769b37bd285877ecf2 DependenciesID=5ae60698658aeeb34fbc7e0ba6852f81 StaticDependenciesID=fa1e3516c3e03ed309c88c65720f1d20 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.8175603Z
+  Time since last request: 0.0004493 seconds.
+  importAddress: GUID: dce3da72783309e49a01920c0ff13f84 - Path: Assets/Oculus/OculusProjectConfig.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dce3da72783309e49a01920c0ff13f84 - Path: Assets/Oculus/OculusProjectConfig.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dce3da72783309e49a01920c0ff13f84' -> (Import Result ID: '2fef6d032b5f085a2ab657de26ccf01e') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be48fc3de3e3eaee8bfe1cde52957f84 DependenciesID=43a9e657d0322764b3268697ba7fb2c7 StaticDependenciesID=26fcbaadeb266959994a1ecf48d77a88 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.8512324Z
+  Time since last request: 0.0006119 seconds.
+  importAddress: GUID: b50e7913b81709a43a910af57879f24b - Path: Assets/StreamingAssets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b50e7913b81709a43a910af57879f24b - Path: Assets/StreamingAssets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b50e7913b81709a43a910af57879f24b' -> (Import Result ID: '9bdaa5409d938cca9c699ac37490bd42') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b848ad8fc5bd9615aa52275b33f3c8c4 DependenciesID=2dd2c11c94ee30950136b58ef252b9cb StaticDependenciesID=3398c3ff205e96d3aeeb45913f789fb1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.8798379Z
+  Time since last request: 0.000534 seconds.
+  importAddress: GUID: 6ed2983a3c2b641d586e0335d138f3a5 - Path: Assets/Models3D/Textures/Satellite Dish - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6ed2983a3c2b641d586e0335d138f3a5 - Path: Assets/Models3D/Textures/Satellite Dish - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6ed2983a3c2b641d586e0335d138f3a5' -> (Import Result ID: '75737aeeaef18aac475719e5e3da5f52') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02f6d0c237990716852391baec80061a DependenciesID=4e4cafde91a3a3a87a08a1c1a1e08049 StaticDependenciesID=e97692fd037ca7a98e271e58d5fa3412 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-30T12:19:18.9122624Z
+  Time since last request: 0.0005918 seconds.
+  importAddress: GUID: 3ac3d2d9c7e5a0249b795343151a34b4 - Path: Assets/Resources/OculusRuntimeSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3ac3d2d9c7e5a0249b795343151a34b4 - Path: Assets/Resources/OculusRuntimeSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3ac3d2d9c7e5a0249b795343151a34b4' -> (Import Result ID: '7fcd06871b880cc499724961839ced1e') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96ed5dde016a80363f4b6a46a0c3b7d2 DependenciesID=bd0ed1658e016a316def0567e110dd69 StaticDependenciesID=74744c06992ffeeb073547a7ee927d39 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 22.33 ms, found 23 plugins.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (3.2 MB). Loaded Objects now: 12254.
+Memory consumption went from 485.6 MB to 482.4 MB.
+Total: 25.379400 ms (FindLiveObjects: 0.674200 ms CreateObjectMapping: 1.185400 ms MarkObjects: 22.671600 ms  DeleteObjects: 0.845900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
