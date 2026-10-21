@@ -1,0 +1,872 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'fr' Physical Memory: 28330 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau" at "2026-10-21T13:31:06.3417088Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-21T13:31:06Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 36048, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              130b5c056dd84495a086c47d937a26e8
+  Correlation Id:          1952abb037aa1808825571fe7e287c14
+  External correlation Id: 6471087089989285397
+  Machine Id:              38a2xp5jTUHMWTaAZnWFeybQ1e8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-oliau" (connect: 0.00s, validation: 0.01s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau-notifications" at "2026-10-21T13:31:06.4037726Z"
+[Licensing::Module] Licensing Background thread has ended after 0.06s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW9
+-projectPath
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/ExperimentationPassthroughVR
+-logFile
+Logs/AssetImportWorkerHW9.log
+-srvPort
+59293
+-parentPid
+43788
+-analyticsCloudUserId
+3574297690481
+-analyticsCloudProjectId
+255ae3f9-6f55-4ab8-baff-0676fe1de3d8
+-analyticsLocalProjectId
+466d8d0e3112ba14ca9dbc940286bbd6
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+8c1a9f4e1690790c866bd886746040db216e6665
+-cbmMachineId
+38a2xp5jTUHMWTaAZnWFeybQ1e8=
+-licensingIpc
+LicenseClient-oliau
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/ExperimentationPassthroughVR
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/ExperimentationPassthroughVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [17452]  Target information:
+
+Player connection [17452]  * "[IP] 10.50.8.75 [Port] 0 [Flags] 2 [Guid] 4166685470 [EditorId] 4166685470 [Version] 1048832 [Id] WindowsEditor(7,OLI-SCHOOL-LAP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17452] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17452] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 3574297690481-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 85.38 ms, found 23 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 4.43 ms.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/ExperimentationPassthroughVR/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon 780M Graphics (ID=0x1900)
+    Vendor:          ATI
+    VRAM:            14165 MB
+    App VRAM Budget: 17399 MB
+    Driver:          32.0.22024.19001
+    Unified Memory Architecture
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006959 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.534 seconds
+Domain Reload Profiling: 1438ms
+	BeginReloadAssembly (285ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (142ms)
+	LoadAllAssembliesAndSetupDomain (437ms)
+		LoadAssemblies (275ms)
+		AnalyzeDomain (325ms)
+			TypeCache.Refresh (322ms)
+				TypeCache.ScanAssembly (303ms)
+	FinalizeReload (535ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (93ms)
+			ProcessInitializeOnLoadMethodAttributes (261ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 29.92 ms, found 23 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 28.55 ms, found 23 plugins.
+I1021 09:31:13.699502 17452 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+I1021 09:31:13.854128 17452 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+I1021 09:31:14.046462 17452 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+I1021 09:31:14.234758 17452 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.346 seconds
+Domain Reload Profiling: 5246ms
+	BeginReloadAssembly (298ms)
+		DisableScriptedObjects (37ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (144ms)
+	LoadAllAssembliesAndSetupDomain (1420ms)
+		LoadAssemblies (762ms)
+		AnalyzeDomain (542ms)
+			TypeCache.Refresh (371ms)
+				TypeCache.ScanAssembly (335ms)
+			BuildScriptInfoCaches (160ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3347ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (2547ms)
+			ProcessInitializeOnLoadMethodAttributes (307ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 29.13 ms, found 23 plugins.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 11135 unused Assets / (13.3 MB). Loaded Objects now: 12239.
+Memory consumption went from 485.0 MB to 471.8 MB.
+Total: 36.448100 ms (FindLiveObjects: 1.402800 ms CreateObjectMapping: 5.060600 ms MarkObjects: 23.527100 ms  DeleteObjects: 6.454200 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:18.7306805Z
+  Time since last request: 658560.47989900002722 seconds.
+  importAddress: GUID: 891cb734b1022d246a31907346236591 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomModel/Materials/Red.mat - Importer: PreviewImporter
+Importing 'GUID: 891cb734b1022d246a31907346236591 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomModel/Materials/Red.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 891cb734b1022d246a31907346236591' -> (Import Result ID: '204baa5749568da121b79897229c0736') in 0.344 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8c8f2a1420244add2180a6e7687b0c1 DependenciesID=e5db395f0f4f0ef4534ae87d87f390ac StaticDependenciesID=57b35e5d04cb3840b3b7d6ec978e2ab4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:21.563108Z
+  Time since last request: 2.4715077 seconds.
+  importAddress: GUID: 2956750bad65b8b4eb7b65861fd116de - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/BigRedButton/Materials/PodiumMat.fbx - Importer: PreviewImporter
+Importing 'GUID: 2956750bad65b8b4eb7b65861fd116de - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/BigRedButton/Materials/PodiumMat.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2956750bad65b8b4eb7b65861fd116de' -> (Import Result ID: '11e882c0ee9d6d0b57a674442eebbab9') in 0.274 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e8ea1b3d2fbaed417f2570c96f87dc9 DependenciesID=8bb41e048b0b627ebeba4848b6a0e635 StaticDependenciesID=afd984a4ce9ba3a0b714899952fa9334 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:23.1218062Z
+  Time since last request: 1.2698159 seconds.
+  importAddress: GUID: a13e8526653289447b7bcf8d6ae4121e - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Plants/Materials/PlantShelvesMat.mat - Importer: PreviewImporter
+Importing 'GUID: a13e8526653289447b7bcf8d6ae4121e - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Plants/Materials/PlantShelvesMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a13e8526653289447b7bcf8d6ae4121e' -> (Import Result ID: '1f70b70672126f0b3d67ba715b1fbf58') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2aff0382e919ee5058959fa387d95377 DependenciesID=fcc51ebaccd67b0038881c034f5cb8c7 StaticDependenciesID=3a6f9e8c76ac54c5973f6eff795ffe6f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:26.8739573Z
+  Time since last request: 3.6918295 seconds.
+  importAddress: GUID: f6602475aaec734419a2c47b17d62531 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomModel/Materials/Plane.mat - Importer: PreviewImporter
+Importing 'GUID: f6602475aaec734419a2c47b17d62531 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/RoomModel/Materials/Plane.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f6602475aaec734419a2c47b17d62531' -> (Import Result ID: 'd98cef73bda115b45150eb52638d0f59') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ac5a6e5a79fd6f0a07a09f42c88d759 DependenciesID=1a0e5abb5ea7e128c5f76f6c751ce37a StaticDependenciesID=50de463bd39440457a1dff547dd31c56 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:27.496354Z
+  Time since last request: 0.5983049 seconds.
+  importAddress: GUID: 49544f7c35ed0ea438c0a8d5336dca23 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/PingPong/Materials/PingPngMaterial.fbx - Importer: PreviewImporter
+Importing 'GUID: 49544f7c35ed0ea438c0a8d5336dca23 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/PingPong/Materials/PingPngMaterial.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 49544f7c35ed0ea438c0a8d5336dca23' -> (Import Result ID: '2f529242ddf3124a3301fc3eb0527597') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c90f81cb4833dbb67d170353b18ef37 DependenciesID=fa568819abac94e3f00278e6ef0b03a3 StaticDependenciesID=3699ddd7e4a8eaf996fa9ea2fac9d130 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:28.9684829Z
+  Time since last request: 1.4214098 seconds.
+  importAddress: GUID: c3ba18e9fa5e9104098cbdbb3e23a5b4 - Path: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx - Importer: PreviewImporter
+Importing 'GUID: c3ba18e9fa5e9104098cbdbb3e23a5b4 - Path: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForRift/left_touch_controller_model_skel.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c3ba18e9fa5e9104098cbdbb3e23a5b4' -> (Import Result ID: 'b99a283eb0aea1a4e959c5c329b40b5d') in 0.252 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60e241fb2e64056f5ea0de6852e48d5e DependenciesID=c482518e2d92bb452e44ce9b5107dd7f StaticDependenciesID=d82c97e412a8326b25dd394efe899d21 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:29.4087778Z
+  Time since last request: 0.1751977 seconds.
+  importAddress: GUID: e616a4eb1b541bc498887ab3e34dfd70 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/PaperParticle.mat - Importer: PreviewImporter
+Importing 'GUID: e616a4eb1b541bc498887ab3e34dfd70 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/PaperParticle.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e616a4eb1b541bc498887ab3e34dfd70' -> (Import Result ID: 'dea99d6daeea6dc1bc9a6e9c2aebe96d') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53cd82b01f82a55ae95c6b97219de0bf DependenciesID=086603ece3a0e7bdba97b0841f8d7472 StaticDependenciesID=f63a8d741c04bb07365c2e16c9187c84 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:31.2275623Z
+  Time since last request: 1.7916313 seconds.
+  importAddress: GUID: 8b2601bbc5e1b6c4cb90cdf387dd0155 - Path: Packages/com.meta.xr.sdk.core/Materials/OVRHandRay.mat - Importer: PreviewImporter
+Importing 'GUID: 8b2601bbc5e1b6c4cb90cdf387dd0155 - Path: Packages/com.meta.xr.sdk.core/Materials/OVRHandRay.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8b2601bbc5e1b6c4cb90cdf387dd0155' -> (Import Result ID: '66a0e53ba45fd1c15f5fa90427825de3') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f4e301ec37a9162c9cfadc5b037353f DependenciesID=0415bc265dfcbed25c98f2015d8a7ef8 StaticDependenciesID=a61be3172959ab9f111265a43a892880 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:31.7228873Z
+  Time since last request: 0.4619525 seconds.
+  importAddress: GUID: 01ac879f6ce09924e9c26663f798beaf - Path: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat - Importer: PreviewImporter
+Importing 'GUID: 01ac879f6ce09924e9c26663f798beaf - Path: Packages/com.meta.xr.sdk.core/Meshes/OculusTouchForQuestAndRiftS/Materials/OculusTouchForQuestAndRiftS_Material.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 01ac879f6ce09924e9c26663f798beaf' -> (Import Result ID: '9ddee16c862b675594db383eb456713d') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e7f36fd0baa0510cdc184fc8a3fcdae DependenciesID=9612304af37ad3212b1915292970a327 StaticDependenciesID=3aaaa87cd7a1e064b504d6e2b355f65d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:31.7633887Z
+  Time since last request: 0.0005431 seconds.
+  importAddress: GUID: 5f29396426b8b4d4990fdf2b26ea041b - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/ORANGE_Lamp.mat - Importer: PreviewImporter
+Importing 'GUID: 5f29396426b8b4d4990fdf2b26ea041b - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/ORANGE_Lamp.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5f29396426b8b4d4990fdf2b26ea041b' -> (Import Result ID: '4f051a3651701d4e7ec8ca58f20cd522') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6df6180e451ffd397404b82cfaf1f06e DependenciesID=0c9944b3a060e0b14bac68955abb7b3f StaticDependenciesID=bfec64f62d49bb4319fecab79544ed02 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:32.076575Z
+  Time since last request: 0.2865479 seconds.
+  importAddress: GUID: 697d9a99ae3c7784bbef700ed300a1ca - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/OculusHandWire.mat - Importer: PreviewImporter
+Importing 'GUID: 697d9a99ae3c7784bbef700ed300a1ca - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/OculusHandWire.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 697d9a99ae3c7784bbef700ed300a1ca' -> (Import Result ID: '9f04923f584bc22709a1cbf9ec0f580f') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f8268d2f718767f22597968b2ea0c56a DependenciesID=37b262127b2292ed1baee3f01183655c StaticDependenciesID=850b9fb88fbba2fec0cfe28e6f58d463 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:32.6669582Z
+  Time since last request: 0.5608188 seconds.
+  importAddress: GUID: 3dc9b36eb85fa424489d9d859f737ab4 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/OculusCursorMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 3dc9b36eb85fa424489d9d859f737ab4 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/OculusCursorMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3dc9b36eb85fa424489d9d859f737ab4' -> (Import Result ID: '14cc1cdc6096ebbc79daa665ccec0913') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95e880269a335f71b0ba50da986c4d71 DependenciesID=3d74c8762d3ea290a9a00c1fcf3ec891 StaticDependenciesID=20ec69ad02a122c8c0bdc131fd9eacdb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:32.9708878Z
+  Time since last request: 0.2797332 seconds.
+  importAddress: GUID: d1388ed1b34adcf4091263a34d4237d4 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/CoffeeCup/CoffeeCupHulls.fbx - Importer: PreviewImporter
+Importing 'GUID: d1388ed1b34adcf4091263a34d4237d4 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/CoffeeCup/CoffeeCupHulls.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d1388ed1b34adcf4091263a34d4237d4' -> (Import Result ID: 'f3c957f8adf83dc63d3f1eb5e4c235ca') in 0.210 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44959400883d7d06183e9029819f3174 DependenciesID=ab7e3e9482d99458c96ea846e81c2943 StaticDependenciesID=f4554a6a48e10fcf69520af74a7583a9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:33.5671408Z
+  Time since last request: 0.3742171 seconds.
+  importAddress: GUID: 32f3c3c2771c8c8419bbb708b84b1eb5 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/MRDeskTransparent.mat - Importer: PreviewImporter
+Importing 'GUID: 32f3c3c2771c8c8419bbb708b84b1eb5 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/MRDeskTransparent.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 32f3c3c2771c8c8419bbb708b84b1eb5' -> (Import Result ID: '86d28adde4508f98cc85b7b58195ea89') in 0.071 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09319390bc12de211917c2db039c593f DependenciesID=293fea931c69ecc5005729a611b3bc0c StaticDependenciesID=ee0e853593e0e18173e9e16359b1ed9b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:37.199872Z
+  Time since last request: 3.5489692 seconds.
+  importAddress: GUID: 8dc22c820b620ed47bc3d6d66d49d671 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/Locomotion/Materials/MetaSecondaryGradientMat.mat - Importer: PreviewImporter
+Importing 'GUID: 8dc22c820b620ed47bc3d6d66d49d671 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Meshes/Locomotion/Materials/MetaSecondaryGradientMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8dc22c820b620ed47bc3d6d66d49d671' -> (Import Result ID: '6c23eb27902c72ec6cdf7f7730dffdcc') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=17ff13d1ca5b9a624ebc51c1d9724f0c DependenciesID=014d2eac2c761a7c189ca5a6dc7a0522 StaticDependenciesID=5eae9298c18922a2b0d247a6114e5536 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:39.0600774Z
+  Time since last request: 1.8378676 seconds.
+  importAddress: GUID: 6fce4d906dba56f4bb507682dbb5b81d - Path: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/Materials/MetaQuestProRight_Material.fbx - Importer: PreviewImporter
+Importing 'GUID: 6fce4d906dba56f4bb507682dbb5b81d - Path: Packages/com.meta.xr.sdk.core/Meshes/MetaQuestTouchPro/Materials/MetaQuestProRight_Material.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6fce4d906dba56f4bb507682dbb5b81d' -> (Import Result ID: '1809c3eb9086aec3a4dca3ca05a4ec3c') in 0.135 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93298bd4af8ca199d4b44614c9ed3af1 DependenciesID=722abfc926af2e10337c5f5a013ba5ce StaticDependenciesID=518961086896494a0b46fbde995f2874 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:39.2073669Z
+  Time since last request: 0.0003458 seconds.
+  importAddress: GUID: 7cee51529ca3046bd8a94b96d93191ea - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Locomotion/Materials/MetaLocoTutorialUIMat.fbx - Importer: PreviewImporter
+Importing 'GUID: 7cee51529ca3046bd8a94b96d93191ea - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Locomotion/Materials/MetaLocoTutorialUIMat.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7cee51529ca3046bd8a94b96d93191ea' -> (Import Result ID: 'c6bdd9b6a228a47296f97835ee4c5daf') in 0.271 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1291ff0378e2073cfca07306a69b3573 DependenciesID=92ff97e525a3466b4fc8e2e9cf8b3097 StaticDependenciesID=804ae1fd386e9bccf6095f98a44dc664 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:40.1368805Z
+  Time since last request: 0.6457522 seconds.
+  importAddress: GUID: 71942363c5608a64bb62421349d39c9c - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Mesh2D-Unlit-Default.mat - Importer: PreviewImporter
+Importing 'GUID: 71942363c5608a64bb62421349d39c9c - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Mesh2D-Unlit-Default.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 71942363c5608a64bb62421349d39c9c' -> (Import Result ID: '2ee3a2d9d1ca2ce4f19fca5da717f20a') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f49cb7c0255a9840af9914778a04af5 DependenciesID=022315e18bc89bf36fffe430231963da StaticDependenciesID=cd466a7b8eb8e652550a01b2621135ca 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:40.2019738Z
+  Time since last request: 0.0007792 seconds.
+  importAddress: GUID: 48df1ae397f9bdd4ea4d2edc2d118061 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Doll/Models/Doll.fbx - Importer: PreviewImporter
+Importing 'GUID: 48df1ae397f9bdd4ea4d2edc2d118061 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Doll/Models/Doll.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 48df1ae397f9bdd4ea4d2edc2d118061' -> (Import Result ID: '9421b726ee8b5e138e0bfa8edd311632') in 0.051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e224cd9936cea9397a6ada7b2ccc89f2 DependenciesID=3e405b6c622d6cc695da76ba3257db88 StaticDependenciesID=27359ceb6857b08b75d78922fd8e0e85 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:40.3349154Z
+  Time since last request: 0.0682136 seconds.
+  importAddress: GUID: e49d984a2592be24bb49b34adb522013 - Path: Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Art/SHUB_Sample/Materials/lowerBody_mtl.mat - Importer: PreviewImporter
+Importing 'GUID: e49d984a2592be24bb49b34adb522013 - Path: Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Art/SHUB_Sample/Materials/lowerBody_mtl.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e49d984a2592be24bb49b34adb522013' -> (Import Result ID: '74584ee29418a922e0b93bb6593b40ec') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3db674d50968dea1689637ed679cf13a DependenciesID=65b4899bd505858d736894ef64afdee0 StaticDependenciesID=1aa1c60206e323b2f19efa9482f4cd85 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:40.3580565Z
+  Time since last request: 0.0004994 seconds.
+  importAddress: GUID: 75c836cb04e7d124b9c2829fd90ab362 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/MapWithPins/Materials/MapMat.mat - Importer: PreviewImporter
+Importing 'GUID: 75c836cb04e7d124b9c2829fd90ab362 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/MapWithPins/Materials/MapMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 75c836cb04e7d124b9c2829fd90ab362' -> (Import Result ID: 'ba59ee84bb3660e1d280de82d749e344') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf9bb71561d3416064092a6aa1247db6 DependenciesID=2eed7e4a7d3fac3c09bf7dac86e66937 StaticDependenciesID=0dd9a97a833d6bace1f191422ad0d347 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:40.9001026Z
+  Time since last request: 0.5096012 seconds.
+  importAddress: GUID: d25913b42605b06438cb4c4909128209 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Locomotion/Models/Materials/LocomotionSlidingDoorMat.mat - Importer: PreviewImporter
+Importing 'GUID: d25913b42605b06438cb4c4909128209 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Locomotion/Models/Materials/LocomotionSlidingDoorMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d25913b42605b06438cb4c4909128209' -> (Import Result ID: '11cbeaa522df4a8bad63f401d83576d3') in 0.052 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=676dd43b6a0719b2043df7ef30f3d2d5 DependenciesID=6cb1a6acc88e0973680e467f20833d89 StaticDependenciesID=63122c7d37e1d15a95bcf3d2dc818319 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:41.0044478Z
+  Time since last request: 0.0391016 seconds.
+  importAddress: GUID: 116ea48a5d0307d4b99006d38bafbb80 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Locomotion/Models/Materials/LocomotionMirrorMat.mat - Importer: PreviewImporter
+Importing 'GUID: 116ea48a5d0307d4b99006d38bafbb80 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Locomotion/Models/Materials/LocomotionMirrorMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 116ea48a5d0307d4b99006d38bafbb80' -> (Import Result ID: 'b08eb5b8ec3d3483ae74aff3b1e7c99a') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa3cdf792102584d553fda3dd76fb58f DependenciesID=e8f1c549ba9cf14b3bc7ad78d369e97e StaticDependenciesID=778a34f3457a7ea2fed6e46186e858df 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:41.0284064Z
+  Time since last request: 0.0004607 seconds.
+  importAddress: GUID: 62dbb38de162ebe4a8477298e58468be - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Locomotion/Models/Materials/LocomotionRugMat.mat - Importer: PreviewImporter
+Importing 'GUID: 62dbb38de162ebe4a8477298e58468be - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Locomotion/Models/Materials/LocomotionRugMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 62dbb38de162ebe4a8477298e58468be' -> (Import Result ID: '75677f0316efe7971b864423dd02388b') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57e6bbbbf66df7d383d6dea0b68755ad DependenciesID=de480d3594c11b201c29c5761d4b2637 StaticDependenciesID=1337f6c3454336003927c961269ff1b2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:42.0501226Z
+  Time since last request: 0.9867116 seconds.
+  importAddress: GUID: 9c1b64233560e0c4a9e466e92347a2aa - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Locomotion/Models/Materials/LocomotionConcreteMat.mat - Importer: PreviewImporter
+Importing 'GUID: 9c1b64233560e0c4a9e466e92347a2aa - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Locomotion/Models/Materials/LocomotionConcreteMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9c1b64233560e0c4a9e466e92347a2aa' -> (Import Result ID: '679985551e5920c9dc8722ac81aa14c1') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=79bd89e82ebf78e473a836e0941a23a5 DependenciesID=b87096c01220b6a5b787714e9c92198b StaticDependenciesID=66e7ad148c53f7d3a7df2e5cbba63120 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:42.5523672Z
+  Time since last request: 0.4649408 seconds.
+  importAddress: GUID: 3f1a8ea57450bd749a74467129ec5145 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/LinearGradientUILight.mat - Importer: PreviewImporter
+Importing 'GUID: 3f1a8ea57450bd749a74467129ec5145 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/LinearGradientUILight.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3f1a8ea57450bd749a74467129ec5145' -> (Import Result ID: '1f05555c2e79697652f98913cab929e3') in 0.053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c4bb840d393e5535c8476eeef954616 DependenciesID=d8d18eb72e6a17b57b657f60f7fb4b67 StaticDependenciesID=3d64648185bb48816cd5f5b7a1b8903b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:43.7237609Z
+  Time since last request: 1.1057833 seconds.
+  importAddress: GUID: 5dd40ba251cb98747a696b72bc347fe9 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Screen/Models/ScreenMesh.fbx - Importer: PreviewImporter
+Importing 'GUID: 5dd40ba251cb98747a696b72bc347fe9 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Screen/Models/ScreenMesh.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5dd40ba251cb98747a696b72bc347fe9' -> (Import Result ID: '00d79e9a6323c0532729ff8b79f24217') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35421a0bad6fd3240ab526a043515bd7 DependenciesID=b6665808886045149d1350563b8c41e0 StaticDependenciesID=986169dc9a0b62817a5766dcd632a11e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:43.7949996Z
+  Time since last request: 0.0273087 seconds.
+  importAddress: GUID: ccf589b723c074315bad425b4e7654cf - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/InvisibleOccluder.mat - Importer: PreviewImporter
+Importing 'GUID: ccf589b723c074315bad425b4e7654cf - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/InvisibleOccluder.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ccf589b723c074315bad425b4e7654cf' -> (Import Result ID: '3ebedee7f1898a2a6595364e77b88be4') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73ccef55bae12c950b1aa91dad8c5af9 DependenciesID=d1f2159e3486e1c86d8078c462b531ff StaticDependenciesID=618e04e3bd10669e2d4921b9d15d513b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:44.3234607Z
+  Time since last request: 0.4950659 seconds.
+  importAddress: GUID: fee06ce933b1d5a4aa7f40a94d09e642 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Materials/IconAnchor.mat - Importer: PreviewImporter
+Importing 'GUID: fee06ce933b1d5a4aa7f40a94d09e642 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Materials/IconAnchor.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fee06ce933b1d5a4aa7f40a94d09e642' -> (Import Result ID: 'a60623d6db08bb963609b371921d629d') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab16d5051b31608bb54acfaeee2cdcfb DependenciesID=fc3a8584b3a534fa86160933be3a503a StaticDependenciesID=a46335d5c707ff907c2acadb91c91962 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:44.3452743Z
+  Time since last request: 0.0008209 seconds.
+  importAddress: GUID: 30f92f92e33677c4fb334dc96f67e6ac - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/InteractionLabelMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 30f92f92e33677c4fb334dc96f67e6ac - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/InteractionLabelMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 30f92f92e33677c4fb334dc96f67e6ac' -> (Import Result ID: 'eade7119759f9ac4c39ae00d280c5759') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=73b8af3642cc7633fbeea546d2926aaf DependenciesID=5824e5aa5f6931f6ee438f75e5e1f205 StaticDependenciesID=b0bdc4762737f22a1beffae7dc56fe1b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:44.4001206Z
+  Time since last request: 0.0005829 seconds.
+  importAddress: GUID: d5e2ab92e53f69e40a760f658d55cb3d - Path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/RealHands/Materials/HandMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: d5e2ab92e53f69e40a760f658d55cb3d - Path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Blocks/RealHands/Materials/HandMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d5e2ab92e53f69e40a760f658d55cb3d' -> (Import Result ID: '9df0b66bded0614163060b0cadca77f4') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d4d68f8542427dc5f6fd2b92d7b2188 DependenciesID=931e0fe6af879c090ae58e1257f3abb4 StaticDependenciesID=aa8a5354c45a4c47a5919f05643e067b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:45.311552Z
+  Time since last request: 0.8550278 seconds.
+  importAddress: GUID: 275b2c99765ede142919b05d8a0a22b0 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Materials/Green.mat - Importer: PreviewImporter
+Importing 'GUID: 275b2c99765ede142919b05d8a0a22b0 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/SampleSpatialAnchorController/Materials/Green.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 275b2c99765ede142919b05d8a0a22b0' -> (Import Result ID: 'c792f4e89f2e5d4b1fa690afa5b365ae') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8bd13b68e049aec0d36e5eeb4e6c2847 DependenciesID=9a2481b1890d38539f9c809a88d7c21d StaticDependenciesID=3d328044161c4145a3bf6f6d7b045aa8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:46.5110008Z
+  Time since last request: 1.1734001 seconds.
+  importAddress: GUID: 3fac3b9744290eb4c89b0e4ffd5fe085 - Path: Packages/com.meta.xr.sdk.core/Materials/GazePointer.mat - Importer: PreviewImporter
+Importing 'GUID: 3fac3b9744290eb4c89b0e4ffd5fe085 - Path: Packages/com.meta.xr.sdk.core/Materials/GazePointer.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3fac3b9744290eb4c89b0e4ffd5fe085' -> (Import Result ID: '1b7ffaa74d3d5eed2009c1fe02280c16') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b339cf51a1ee18b23ec2c75f321f6f88 DependenciesID=2c94f8c4f718f310147fcf99845ff33b StaticDependenciesID=1b2477ff14a53f3db4a0b5802bc924ba 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:46.5744239Z
+  Time since last request: 0.0386061 seconds.
+  importAddress: GUID: d316ee3a9f545fd45b8e8cb39b07d075 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/MRDesk/Models/MRDesk.fbx - Importer: PreviewImporter
+Importing 'GUID: d316ee3a9f545fd45b8e8cb39b07d075 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/MRDesk/Models/MRDesk.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d316ee3a9f545fd45b8e8cb39b07d075' -> (Import Result ID: 'c0b904c7adaee2c72742995d9f1f9ffb') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d699b16c9538604b3e9b5bbf611651c4 DependenciesID=82fa14ec5bc6dde66dc2ce8ef245d11a StaticDependenciesID=65cb4caafcab966d767aba33bacf04c7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:47.1940546Z
+  Time since last request: 0.5772596 seconds.
+  importAddress: GUID: 66ad1818cc27f3840b0350726d52fa3d - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Screen/Materials/FrameMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 66ad1818cc27f3840b0350726d52fa3d - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Screen/Materials/FrameMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 66ad1818cc27f3840b0350726d52fa3d' -> (Import Result ID: '2c4796e0ce3af67db649dbd259a366df') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d9ed92fdda34dec6b1c177c7fcb0d41 DependenciesID=3e1ab0557576bcd56e828d6bc64ac610 StaticDependenciesID=67a24f7df0ff92b1acfbd6d7bd3deb70 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:47.6900472Z
+  Time since last request: 0.4697182 seconds.
+  importAddress: GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-ThinItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b2ea3b3f1765e544b9eb5bd1a93a91ce' -> (Import Result ID: '9ca9fe1a59edc3504d22c0025eb31f06') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22cac67e4b13489eb351f59da76a1027 DependenciesID=37e3f4c1e5a94ba6ed0cc3afc5d64466 StaticDependenciesID=5cec895830a042bf104e4333d85d7b76 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:48.4215035Z
+  Time since last request: 0.6862042 seconds.
+  importAddress: GUID: 5e63515167650a541b309ba3bfd4db3d - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf - Importer: PreviewImporter
+Importing 'GUID: 5e63515167650a541b309ba3bfd4db3d - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-LightItalic.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5e63515167650a541b309ba3bfd4db3d' -> (Import Result ID: '334aace048ab83563b8ea70aca8ee8c1') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e745d8cab27588fefc3c0ee7e742f76d DependenciesID=e061574e4e01c675c7ea2697a7369233 StaticDependenciesID=e7b238c09fb1c6c56ce7d01048b94d99 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:48.4841827Z
+  Time since last request: 0.0365319 seconds.
+  importAddress: GUID: 1062c701058745940ae5dca6219c64c8 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf - Importer: PreviewImporter
+Importing 'GUID: 1062c701058745940ae5dca6219c64c8 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Black.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1062c701058745940ae5dca6219c64c8' -> (Import Result ID: '2220ae6da78c59d7d87751cbcdfd1fb6') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1515b54376c65ee4a1762e5d28481488 DependenciesID=b4e639f59f4e518e0f9bd45d0ab4d088 StaticDependenciesID=c93b1b4c7cec5656f4e5dae47047c866 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:48.5105699Z
+  Time since last request: 0.0017865 seconds.
+  importAddress: GUID: 2a29e27936eb547458f646f71125b264 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf - Importer: PreviewImporter
+Importing 'GUID: 2a29e27936eb547458f646f71125b264 - Path: Packages/com.unity.searcher/Editor/Resources/FlatSkin/Font/Roboto-Light.ttf - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2a29e27936eb547458f646f71125b264' -> (Import Result ID: '3def0a577bc930c1be7d264ce8bd90ca') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9a9ab3fcb97b0e92f95a192ed5aacd85 DependenciesID=f7d42488d6dee89b9ac2d62062cd2ac7 StaticDependenciesID=f2d609909bbae4a08a07a5341e539153 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:51.3024948Z
+  Time since last request: 2.7678997 seconds.
+  importAddress: GUID: cf0d37021f24b2a4c95eca3ff115aed2 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Torch/Particles/Materials/Flame.mat - Importer: PreviewImporter
+Importing 'GUID: cf0d37021f24b2a4c95eca3ff115aed2 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Torch/Particles/Materials/Flame.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf0d37021f24b2a4c95eca3ff115aed2' -> (Import Result ID: 'a180d8a6fa3b918c0490c77a502376ad') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=189e270f6d82b9428fe521c5a164e2bc DependenciesID=a65fe9e94434b82fc9f0e82f251847d8 StaticDependenciesID=efd26bde5de0bf5c62708c24342f2db9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:51.3740567Z
+  Time since last request: 0.047534 seconds.
+  importAddress: GUID: c456081e148f67a4c9ceaa2b8ad7969d - Path: Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Art/SHUB_Sample/Materials/eyePupil_mtl.mat - Importer: PreviewImporter
+Importing 'GUID: c456081e148f67a4c9ceaa2b8ad7969d - Path: Packages/com.meta.xr.sdk.voice/Lib/Wit.ai/Art/SHUB_Sample/Materials/eyePupil_mtl.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c456081e148f67a4c9ceaa2b8ad7969d' -> (Import Result ID: '70b5bb1c2dbf7f21346e50b52aa80752') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8299040031451136de06f144531bd277 DependenciesID=420191567015eefa8bb1f4bbf630b8ab StaticDependenciesID=34b01b3ad75f0172f5049a6173d7f54d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:52.1554752Z
+  Time since last request: 0.7517907 seconds.
+  importAddress: GUID: c8abc1d05afcf524eb9f7657ed06700d - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/DotGridUnlit.mat - Importer: PreviewImporter
+Importing 'GUID: c8abc1d05afcf524eb9f7657ed06700d - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/DotGridUnlit.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c8abc1d05afcf524eb9f7657ed06700d' -> (Import Result ID: '90d1ced4fdd5bd735e0b276c72c63652') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=63c0be225f83522bddb1a1b98da71666 DependenciesID=ceff998eebff1f281399a45ddfe1e9e6 StaticDependenciesID=ce7346fa74770576c061344263a056bd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:31:55.3304325Z
+  Time since last request: 3.1511314 seconds.
+  importAddress: GUID: 7e589f294e82af44da827505993fac92 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/MRDesk/Models/MRDeskShadow.fbx - Importer: PreviewImporter
+Importing 'GUID: 7e589f294e82af44da827505993fac92 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/MRDesk/Models/MRDeskShadow.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7e589f294e82af44da827505993fac92' -> (Import Result ID: 'cd3d800746f82ff435d6e0dd9accd2d9') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=582b6f77ad7d7346a8d322e67c846598 DependenciesID=b80cde45090c17426c309ca4c86b8780 StaticDependenciesID=e2fda55e9ec6774977f79654d126d2ac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:01.7449863Z
+  Time since last request: 6.3730977 seconds.
+  importAddress: GUID: 9b4e681081e2b4c469111bb649e2f7ee - Path: Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 9b4e681081e2b4c469111bb649e2f7ee - Path: Packages/com.unity.render-pipelines.universal/Shaders/Decal.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9b4e681081e2b4c469111bb649e2f7ee' -> (Import Result ID: 'ee85eb0b31737fe66ed4b08d21844679') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86ac05476f0f073584742046fe7ceeaf DependenciesID=34679c786128b19446b65a3ff8be807c StaticDependenciesID=76d231d1b1785fd81cdeb82c3063fb16 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:01.7685432Z
+  Time since last request: 0.0001855 seconds.
+  importAddress: GUID: 9ddb41cc68095b641a1142a5eb433344 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/PassthroughWindow/Materials/DeprecatedSelectivePassthrough.mat - Importer: PreviewImporter
+Importing 'GUID: 9ddb41cc68095b641a1142a5eb433344 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/PassthroughWindow/Materials/DeprecatedSelectivePassthrough.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9ddb41cc68095b641a1142a5eb433344' -> (Import Result ID: '1ab928215100395249b5fae07d4f0916') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c1e0b69e0252e22a546419cbd24c5cf DependenciesID=62f5a90db9843bdbfeae281378ba70fb StaticDependenciesID=e34b36e756fcd5076e91570af66f88f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:02.8613035Z
+  Time since last request: 1.0718382 seconds.
+  importAddress: GUID: 2166f2a4aa6de4f559e94d7173fca686 - Path: Packages/com.unity.xr.arfoundation/Assets/Materials/DebugBoundingBox.mat - Importer: PreviewImporter
+Importing 'GUID: 2166f2a4aa6de4f559e94d7173fca686 - Path: Packages/com.unity.xr.arfoundation/Assets/Materials/DebugBoundingBox.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2166f2a4aa6de4f559e94d7173fca686' -> (Import Result ID: 'b49831399281f7f2f4bddd8167ca0297') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c4feff6fa548fedbd6124bf72319f3d DependenciesID=6e77b3b7f4d4a03304be83471649d169 StaticDependenciesID=d057ec752f1e3bee2edf4988c577cf59 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:02.8922137Z
+  Time since last request: 0.0003726 seconds.
+  importAddress: GUID: 32c9cae82fc27e4429ecd48a7c3ea496 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/DebugUnlitMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 32c9cae82fc27e4429ecd48a7c3ea496 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/DebugUnlitMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 32c9cae82fc27e4429ecd48a7c3ea496' -> (Import Result ID: '5645535bc4e5506155a4851dd38fc689') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b33b6e7a08c90d861af81d97a386bd8e DependenciesID=dba417839e266b89fabad67808402aab StaticDependenciesID=57e2d8cbe15a50921641754acc4cf5d5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:04.1694195Z
+  Time since last request: 1.2510853 seconds.
+  importAddress: GUID: 9531aa878fd5c4749b288b72024e8d2f - Path: Packages/com.meta.xr.sdk.core/Materials/cursor_timer_material.mat - Importer: PreviewImporter
+Importing 'GUID: 9531aa878fd5c4749b288b72024e8d2f - Path: Packages/com.meta.xr.sdk.core/Materials/cursor_timer_material.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9531aa878fd5c4749b288b72024e8d2f' -> (Import Result ID: '8543d9df392be6e7f977259bb9371b44') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7fa3e09d248c694f90a9b91c9a0c9c9 DependenciesID=1fea5b194b4edcdd03210b73281bd60e StaticDependenciesID=6db6e472cc7bb11678305103175c4182 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:04.5620415Z
+  Time since last request: 0.368943 seconds.
+  importAddress: GUID: 62db2d638434d5a488dfb1e789e34b37 - Path: Packages/com.meta.xr.sdk.core/Materials/CubeMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 62db2d638434d5a488dfb1e789e34b37 - Path: Packages/com.meta.xr.sdk.core/Materials/CubeMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 62db2d638434d5a488dfb1e789e34b37' -> (Import Result ID: '76c504289ea3bf76a1b49de25abcdd66') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1d3b6a87102fcd864de9ba34a978de6 DependenciesID=21cd0b5424edb87145325c23ef55c3e2 StaticDependenciesID=ef4088783b727da3beef0acc4f4cb3e5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:05.6251914Z
+  Time since last request: 1.0318273 seconds.
+  importAddress: GUID: 817c954a31a114577b56080dd5ca87c3 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.fbx - Importer: PreviewImporter
+Importing 'GUID: 817c954a31a114577b56080dd5ca87c3 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/ChessPiece/Materials/ChessPieceMaterial.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 817c954a31a114577b56080dd5ca87c3' -> (Import Result ID: 'f2ec9fa04052a6434774b9921813caf7') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b998a216e7bbdd880d4b839acad2c1d5 DependenciesID=a7e7f3bba222e002e352eb5fc37a8350 StaticDependenciesID=c7029d141f1bc8d9af70e0457addfd8c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:05.7516818Z
+  Time since last request: 0.0818001 seconds.
+  importAddress: GUID: ad2fe8667068d1f4bb7e0322311f8705 - Path: Assets/MRUKSamples/VirtualHome/Furniture/Cabinet/Cabinet.fbx - Importer: PreviewImporter
+Importing 'GUID: ad2fe8667068d1f4bb7e0322311f8705 - Path: Assets/MRUKSamples/VirtualHome/Furniture/Cabinet/Cabinet.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ad2fe8667068d1f4bb7e0322311f8705' -> (Import Result ID: '6a5e6b88a000f58129a1b40fd6a1a81e') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5936ea01cc2810e8d64c21a961f61e82 DependenciesID=ccb918e71c12be9fef86a69421c972ae StaticDependenciesID=a26570b3903fe6153b23eb127acf9274 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:06.4577629Z
+  Time since last request: 0.6682341 seconds.
+  importAddress: GUID: 72c78ce3c437b6146a8939d3c0881f50 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/WaterParticles/BubblePopParticle.fbx - Importer: PreviewImporter
+Importing 'GUID: 72c78ce3c437b6146a8939d3c0881f50 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/WaterParticles/BubblePopParticle.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 72c78ce3c437b6146a8939d3c0881f50' -> (Import Result ID: '021680f6cc7ae3b4100d14a76ce5c575') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=23a7bed9131e776e1d0d68c0cc69cb5e DependenciesID=fba1fb1c5c5833d64921f554266a4bbc StaticDependenciesID=dd07caa5402bd99c7f185ed9a77f00cb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:06.5680736Z
+  Time since last request: 0.07329 seconds.
+  importAddress: GUID: 33372feefe2aa594aa9278863b518f7e - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/BLUE_Table.mat - Importer: PreviewImporter
+Importing 'GUID: 33372feefe2aa594aa9278863b518f7e - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/BLUE_Table.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 33372feefe2aa594aa9278863b518f7e' -> (Import Result ID: '59ca301e678a5dd7758e8582bb5a9947') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1bbc2fea999d68928c09283edecc73f1 DependenciesID=7d9e26d2abad5ca1bb1d8ac77313752d StaticDependenciesID=4df71d73986f7c32fbca0150ee7e27f5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:07.4737804Z
+  Time since last request: 0.8812085 seconds.
+  importAddress: GUID: f55c0510071df304a9c250b081e5efca - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/BlobShadow.mat - Importer: PreviewImporter
+Importing 'GUID: f55c0510071df304a9c250b081e5efca - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/BlobShadow.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f55c0510071df304a9c250b081e5efca' -> (Import Result ID: '5009b2893f795f8bbcb67e87690d80ec') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c56512be02e40a0ced477cc3126deee DependenciesID=3ff875e94c95c98d86ed7603c948cf38 StaticDependenciesID=7ef4a4c0ebee0f58515dca696879e387 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:08.0100031Z
+  Time since last request: 0.5138222 seconds.
+  importAddress: GUID: 267e2151ff1c046c282a725a08fb90bc - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/BigStone/Materials/BigStoneMat.fbx - Importer: PreviewImporter
+Importing 'GUID: 267e2151ff1c046c282a725a08fb90bc - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/BigStone/Materials/BigStoneMat.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 267e2151ff1c046c282a725a08fb90bc' -> (Import Result ID: '60226c35f79ea1c7a8c8326b4786d337') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ddd68478ef973bed7eb31a843e351269 DependenciesID=de0d35b5110b904b438b7516ff7caafb StaticDependenciesID=95dd16d79e3c2f770dc9f9539fcd22ba 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:08.3800083Z
+  Time since last request: 0.3183311 seconds.
+  importAddress: GUID: 5c81372d981403744adbdda4433c9c11 - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 5c81372d981403744adbdda4433c9c11 - Path: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive/AutodeskInteractiveTransparent.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5c81372d981403744adbdda4433c9c11' -> (Import Result ID: '164d0659af5913c8fcaee90603fb44b7') in 0.201 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12716e1d5a07ad5256d80038c6415341 DependenciesID=046d3e34aa426da0acb1cefb592e372a StaticDependenciesID=2503ad625f5d402941c2339f1fb8e506 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:32:09.7731782Z
+  Time since last request: 1.1794702 seconds.
+  importAddress: GUID: fc45cb79fc76bc04b9f27e9886ee5474 - Path: Assets/MRUKSamples/VirtualHome/Materials/ArtFrame3.mat - Importer: PreviewImporter
+Importing 'GUID: fc45cb79fc76bc04b9f27e9886ee5474 - Path: Assets/MRUKSamples/VirtualHome/Materials/ArtFrame3.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fc45cb79fc76bc04b9f27e9886ee5474' -> (Import Result ID: '44ded2e03dd47fbdaae75f99759758da') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5987067d49ecd3ad91af6117fc8f57a1 DependenciesID=05eecd46ab7439a8d1cdf7df38d01bf3 StaticDependenciesID=93f3aa1f79d2551e5ac4e23b4253b0d0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 118.90 ms, found 23 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 103.01 ms, found 23 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  7.724 seconds
+Domain Reload Profiling: 12841ms
+	BeginReloadAssembly (1262ms)
+		DisableScriptedObjects (126ms)
+		CreateAndSetChildDomain (357ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (56ms)
+	initialDomainReloadingComplete (436ms)
+	LoadAllAssembliesAndSetupDomain (3328ms)
+		LoadAssemblies (2630ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (60ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (7728ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			BeforeProcessingInitializeOnLoad (392ms)
+			ProcessInitializeOnLoadAttributes (4470ms)
+			ProcessInitializeOnLoadMethodAttributes (1006ms)
+			AfterProcessingInitializeOnLoad (45ms)
+			EditorAssembliesLoaded (4ms)
+		AwakeInstancesAfterBackupRestoration (103ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 120.93 ms, found 23 plugins.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11133 unused Assets / (9.5 MB). Loaded Objects now: 12368.
+Memory consumption went from 497.0 MB to 487.5 MB.
+Total: 148.543200 ms (FindLiveObjects: 5.955800 ms CreateObjectMapping: 22.123800 ms MarkObjects: 94.000000 ms  DeleteObjects: 26.453400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

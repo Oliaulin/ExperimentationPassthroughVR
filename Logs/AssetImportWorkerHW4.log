@@ -1,0 +1,523 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.9f1 (b57deb96f08d) revision 11894251'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'fr' Physical Memory: 28330 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau" at "2026-10-21T13:13:38.4670443Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-21T13:13:38Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 36048, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              98a569e924c240969ae8787f15de5bef
+  Correlation Id:          1952abb037aa1808825571fe7e287c14
+  External correlation Id: 383945308706958136
+  Machine Id:              38a2xp5jTUHMWTaAZnWFeybQ1e8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-oliau" (connect: 0.00s, validation: 0.01s, handshake: 0.07s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-oliau-notifications" at "2026-10-21T13:13:38.5459146Z"
+[Licensing::Module] Licensing Background thread has ended after 0.08s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW4
+-projectPath
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/ExperimentationPassthroughVR
+-logFile
+Logs/AssetImportWorkerHW4.log
+-srvPort
+59293
+-parentPid
+43788
+-analyticsCloudUserId
+3574297690481
+-analyticsCloudProjectId
+255ae3f9-6f55-4ab8-baff-0676fe1de3d8
+-analyticsLocalProjectId
+466d8d0e3112ba14ca9dbc940286bbd6
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+8c1a9f4e1690790c866bd886746040db216e6665
+-cbmMachineId
+38a2xp5jTUHMWTaAZnWFeybQ1e8=
+-licensingIpc
+LicenseClient-oliau
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/ExperimentationPassthroughVR
+C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/ExperimentationPassthroughVR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [43780]  Target information:
+
+Player connection [43780]  * "[IP] 10.50.8.75 [Port] 0 [Flags] 2 [Guid] 2866013148 [EditorId] 2866013148 [Version] 1048832 [Id] WindowsEditor(7,OLI-SCHOOL-LAP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [43780] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [43780] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 3574297690481-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 72.25 ms, found 23 plugins.
+Unity memory allocator detected: MetaXRAudio native memory allocations will be tracked.
+Preloading 2 native plugins for Editor in 4.32 ms.
+Initialize engine version: 6000.5.9f1 (b57deb96f08d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/oliau/Desktop/TIM 2026/2-Automne/5-ExperimentationJeu/projets/ExperimentationPassthroughVR/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        AMD Radeon 780M Graphics (ID=0x1900)
+    Vendor:          ATI
+    VRAM:            14165 MB
+    App VRAM Budget: 17399 MB
+    Driver:          32.0.22024.19001
+    Unified Memory Architecture
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004804 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 1141ms
+	BeginReloadAssembly (146ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (314ms)
+		LoadAssemblies (140ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (202ms)
+	FinalizeReload (571ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (273ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+Curl error 3: URL rejected: Malformed input to a URL function
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 33.76 ms, found 23 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 34.07 ms, found 23 plugins.
+I1021 09:13:46.352048 43780 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+I1021 09:13:46.549713 43780 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+I1021 09:13:46.766179 43780 OVRTelemetry.cpp:57] Telemetry_Init: calling startSession with engineName=Unity, pluginVersion=1.207.0
+I1021 09:13:46.961421 43780 OVRTelemetry.cpp:61] Telemetry_Init: startSession completed successfully
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  3.235 seconds
+Domain Reload Profiling: 5781ms
+	BeginReloadAssembly (393ms)
+		DisableScriptedObjects (23ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (191ms)
+	LoadAllAssembliesAndSetupDomain (1918ms)
+		LoadAssemblies (1177ms)
+		AnalyzeDomain (675ms)
+			TypeCache.Refresh (473ms)
+				TypeCache.ScanAssembly (426ms)
+			BuildScriptInfoCaches (190ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3236ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (2408ms)
+			ProcessInitializeOnLoadMethodAttributes (294ms)
+			AfterProcessingInitializeOnLoad (12ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 37.45 ms, found 23 plugins.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 11135 unused Assets / (14.1 MB). Loaded Objects now: 12239.
+Memory consumption went from 484.7 MB to 470.6 MB.
+Total: 41.227600 ms (FindLiveObjects: 1.430800 ms CreateObjectMapping: 6.126900 ms MarkObjects: 25.754700 ms  DeleteObjects: 7.911900 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:50.997006Z
+  Time since last request: 657512.85846599994693 seconds.
+  importAddress: GUID: 7901d8219f6a24ef0a60ce89da693f9c - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Screen/Materials/ScreenMaterial.fbx - Importer: PreviewImporter
+Importing 'GUID: 7901d8219f6a24ef0a60ce89da693f9c - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Screen/Materials/ScreenMaterial.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7901d8219f6a24ef0a60ce89da693f9c' -> (Import Result ID: '0b3dd45d4ec0e001099e19b06e50bd44') in 0.527 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98bbb30514f2dde9ad45c83b9e674d4a DependenciesID=5af663b80f3180f5f9de6385348dcc12 StaticDependenciesID=11b10790c22c5f4257eee4b3756e14cf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:51.5984079Z
+  Time since last request: 0.0544864 seconds.
+  importAddress: GUID: 15b1d5ff3d274694e8d0c6cb466a4ae6 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/Shared/Material/SharedMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 15b1d5ff3d274694e8d0c6cb466a4ae6 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/Shared/Material/SharedMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 15b1d5ff3d274694e8d0c6cb466a4ae6' -> (Import Result ID: '051c6b6ba512cdca3abeab41e68c35d3') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6717e8761f500b0cf5f2a3022f82a624 DependenciesID=01445a4109f00a7d18a4162276b22c51 StaticDependenciesID=186342202657a88654036b5fbc668744 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:51.6280239Z
+  Time since last request: 0.0005511 seconds.
+  importAddress: GUID: a4487a0c19d31684c91760d7b608f795 - Path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationBodyMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: a4487a0c19d31684c91760d7b608f795 - Path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationBodyMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a4487a0c19d31684c91760d7b608f795' -> (Import Result ID: 'cfa8f04296022117525561d708681ce8') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=beb32e5cd41bcfc8e78dc12e53c3fc1b DependenciesID=322a90cfe0b20fed66a33daefa64b11d StaticDependenciesID=4516e1769e4acc631ac8123e328f14e4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:52.6199703Z
+  Time since last request: 0.9508602 seconds.
+  importAddress: GUID: 7f1d579c79ac0442e8d4a7f213a675d0 - Path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationDefaultTrackedImage.mat - Importer: PreviewImporter
+Importing 'GUID: 7f1d579c79ac0442e8d4a7f213a675d0 - Path: Packages/com.unity.xr.arfoundation/Assets/Materials/SimulationDefaultTrackedImage.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7f1d579c79ac0442e8d4a7f213a675d0' -> (Import Result ID: 'f652b160bfb3f980569848c40d59ac39') in 0.072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=005560067a911a726222d9cd7e505fc0 DependenciesID=55294719b113a5f7cce39325fa614bea StaticDependenciesID=ba75fc8a528e2ef9551e81a372f9daa2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:53.5401297Z
+  Time since last request: 0.8362888 seconds.
+  importAddress: GUID: 9c05c5a6e4902ff4082cfb34e5b64b2d - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/HandTracking/Materials/SkeletonBoneMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 9c05c5a6e4902ff4082cfb34e5b64b2d - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/HandTracking/Materials/SkeletonBoneMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9c05c5a6e4902ff4082cfb34e5b64b2d' -> (Import Result ID: 'e51953583234f629e206baf8362e7201') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=382674c141d8518ce6343162c54ca2da DependenciesID=aa007976f414ea3ccedd93a29c80134b StaticDependenciesID=733a37c9b7efc339bd7f0d317fb086e7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:54.0128446Z
+  Time since last request: 0.4447519 seconds.
+  importAddress: GUID: bcabde3367c999648a9a72e6a803e07c - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Slingshot/Materials/SlingshotMaterial.fbx - Importer: PreviewImporter
+Importing 'GUID: bcabde3367c999648a9a72e6a803e07c - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Props/Slingshot/Materials/SlingshotMaterial.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bcabde3367c999648a9a72e6a803e07c' -> (Import Result ID: 'ecdb125a15ad146902591905b565d045') in 0.440 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cf3b837631d02883821e3ae637bba9cd DependenciesID=55bb5154fa15758e49952537a50a3cd1 StaticDependenciesID=5e3630c2717e6fd3fb9aba6e9ff4c0fa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:55.5735494Z
+  Time since last request: 1.1061412 seconds.
+  importAddress: GUID: c5f016c75329b6944b4f8f8141620a3e - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/SmallRoom/Materials/SmallRoomFurnitureMat.mat - Importer: PreviewImporter
+Importing 'GUID: c5f016c75329b6944b4f8f8141620a3e - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/SmallRoom/Materials/SmallRoomFurnitureMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c5f016c75329b6944b4f8f8141620a3e' -> (Import Result ID: '13d41c95ef050aa34172ee6efb6efa58') in 0.111 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9428ce1bb71e7a512817fc9fd8bd72a DependenciesID=1c66dbf2a291b04d7dd6ce2b9c261fb4 StaticDependenciesID=b01c2b67566a495b8cc2336c9b061daa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:56.242063Z
+  Time since last request: 0.5442474 seconds.
+  importAddress: GUID: 39529bfee90df16499ae08d968e12ea7 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/SmallRoom/Materials/SmallRoomWoodMat.mat - Importer: PreviewImporter
+Importing 'GUID: 39529bfee90df16499ae08d968e12ea7 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/SmallRoom/Materials/SmallRoomWoodMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 39529bfee90df16499ae08d968e12ea7' -> (Import Result ID: '849a0738eda5a63c74a8e8251db4dec7') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=273fbb0aa70f8bcf766752bc325ae89a DependenciesID=2e5f6d1dbcff395bee4a71d90570cf4e StaticDependenciesID=0fb8cf7c75ac787be9b6a70b42e375b3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:56.2754244Z
+  Time since last request: 0.0005836 seconds.
+  importAddress: GUID: 9875a245ac49007498213638a307faa1 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat - Importer: PreviewImporter
+Importing 'GUID: 9875a245ac49007498213638a307faa1 - Path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/SpatialMappingWireframe.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9875a245ac49007498213638a307faa1' -> (Import Result ID: '07995da0f1148bed0fd55755ada6211e') in 0.132 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=434f8bfb8ec7b811b695ad7a09f9bbb0 DependenciesID=c6abeee63956b24bb170bbddca3ff235 StaticDependenciesID=b5acf1e252894d3608c48402eb060604 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:57.5316325Z
+  Time since last request: 1.1086993 seconds.
+  importAddress: GUID: 9920c1f1781549a46ba081a2a15a16ec - Path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph - Importer: PreviewImporter
+Importing 'GUID: 9920c1f1781549a46ba081a2a15a16ec - Path: Packages/com.unity.render-pipelines.universal/Shaders/Nature/SpeedTree8_PBRLit.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9920c1f1781549a46ba081a2a15a16ec' -> (Import Result ID: 'bc752949b2c2d962d0f5a09bcd977636') in 1.168 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=49d36b29c5cbb3b38fb143129dc2f671 DependenciesID=1deff18a3cb6b6acb7044da264124ad3 StaticDependenciesID=a87ad68b0744d6afa86936406120b785 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:58.9879841Z
+  Time since last request: 0.2755141 seconds.
+  importAddress: GUID: 6962da96577ae9f4fbed0b037c9934d6 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/StencilClear.mat - Importer: PreviewImporter
+Importing 'GUID: 6962da96577ae9f4fbed0b037c9934d6 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/StencilClear.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6962da96577ae9f4fbed0b037c9934d6' -> (Import Result ID: '56aba2f4617f5c419084322e5e809cd6') in 0.042 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a40094af315c659174046a662efc49a1 DependenciesID=87e16430d7d0e727191f872cccae24f0 StaticDependenciesID=acfefa74d44bf2176f6e45bbaedb26cc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:13:59.3436762Z
+  Time since last request: 0.3008512 seconds.
+  importAddress: GUID: d1db167176e2336489d4579647585c53 - Path: Assets/MRUKSamples/VirtualHome/Furniture/Stool/Stool.fbx - Importer: PreviewImporter
+Importing 'GUID: d1db167176e2336489d4579647585c53 - Path: Assets/MRUKSamples/VirtualHome/Furniture/Stool/Stool.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d1db167176e2336489d4579647585c53' -> (Import Result ID: '702a95dea2d14cd88bccb9ff2fb8e2f7') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6fc6972d4a8753cd77cfc1a7b5d94b64 DependenciesID=1554838071d5128ec19c39fc955d52a4 StaticDependenciesID=6602a5896754f1e5a653db9755d85f92 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:14:01.1535648Z
+  Time since last request: 1.7511228 seconds.
+  importAddress: GUID: 9d107f2f043e1ed408b970f146718017 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/HandTracking/Materials/SystemGestureHandMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: 9d107f2f043e1ed408b970f146718017 - Path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/HandTracking/Materials/SystemGestureHandMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9d107f2f043e1ed408b970f146718017' -> (Import Result ID: 'c50a5f0aa8373fa6960ffb3ac687aaf0') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ba44e88ff09708302945e94df9423bd DependenciesID=6d0b388e405b9e8d065fa50bbff3f6b6 StaticDependenciesID=7d095cbf391fdb504c64d0dbef254bc1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:14:01.1822564Z
+  Time since last request: 0.000443 seconds.
+  importAddress: GUID: bf59b10353515d4479c50bf628679733 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/TeleportReticleMaterial.mat - Importer: PreviewImporter
+Importing 'GUID: bf59b10353515d4479c50bf628679733 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Materials/TeleportReticleMaterial.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bf59b10353515d4479c50bf628679733' -> (Import Result ID: 'd6d8b5e35334042cc86974e902006f8f') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e5029b38574a8741605eaf1466388a5 DependenciesID=121cd2288e729963511245431352fdb0 StaticDependenciesID=e22f42d6d1bf0b020a1b6c328fe08b71 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:14:01.9337703Z
+  Time since last request: 0.7182004 seconds.
+  importAddress: GUID: 479d627c07ecbfe49a4be981663e6aed - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Room/Models/SmallRoom.fbx - Importer: PreviewImporter
+Importing 'GUID: 479d627c07ecbfe49a4be981663e6aed - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Objects/Environment/Room/Models/SmallRoom.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 479d627c07ecbfe49a4be981663e6aed' -> (Import Result ID: '90b5d095e5193292f4b3832516a23a22') in 0.305 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=079963bc2d96065d63652e1648f106c5 DependenciesID=fba848c8d5f439d77091ed64a6034e11 StaticDependenciesID=9842ac9a9ca24efe3cf8f55e68270a1d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:14:05.4456753Z
+  Time since last request: 3.1931819 seconds.
+  importAddress: GUID: def488a52add6574d9f295a507032cb8 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/Terrain Simple.shadergraph - Importer: PreviewImporter
+Importing 'GUID: def488a52add6574d9f295a507032cb8 - Path: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline/Terrain Simple.shadergraph - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: def488a52add6574d9f295a507032cb8' -> (Import Result ID: 'dbdd93a994586d3a866f7bae147f31d3') in 0.422 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc4796091f61fefcfe2eebfd538aab93 DependenciesID=ce7f38ed70ce48ce3fac06cf38ff6389 StaticDependenciesID=901e4bff19a75cc47d4c86286a081bb2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:14:06.6831375Z
+  Time since last request: 0.8009298 seconds.
+  importAddress: GUID: a4c9f2c1fbaa2df4b96621830e060af2 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/ThumbsUp.mat - Importer: PreviewImporter
+Importing 'GUID: a4c9f2c1fbaa2df4b96621830e060af2 - Path: Packages/com.meta.xr.sdk.interaction/Runtime/Sample/Materials/ThumbsUp.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a4c9f2c1fbaa2df4b96621830e060af2' -> (Import Result ID: '3c10704ed3ac1f57f605c82a64f18f0a') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16d08c0a0b4a09f9e28041037bbf2ffb DependenciesID=f87f184a8cf7b3bd25d1e0bafb715b63 StaticDependenciesID=fa24289e8892e0ee7198791c76a372b5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-21T13:14:08.5386446Z
+  Time since last request: 1.815 seconds.
+  importAddress: GUID: 69e54be2e702f984683fa4816dc4b0f8 - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/TransparentSceneAnchor.mat - Importer: PreviewImporter
+Importing 'GUID: 69e54be2e702f984683fa4816dc4b0f8 - Path: Packages/com.meta.xr.mrutilitykit/Core/Materials/TransparentSceneAnchor.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 69e54be2e702f984683fa4816dc4b0f8' -> (Import Result ID: '6bd672b1aa5a43e3e967d6a1fcf62e63') in 0.238 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13a71a6eb390a60e8469678aaa027a85 DependenciesID=abec8008085b4b5b3b7f6a389d7c0ef7 StaticDependenciesID=7d857cae1b3e33349ed7c895c635d680 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+E1021 09:14:51.385795 24760 TigonCurlRequestAdapter.cpp:900] [fdc8def67f0b304d] Request failed from curl: curl (28): Timeout was reached: Operation timed out after 5004 milliseconds with 0 bytes received
+E1021 09:14:51.914872  9348 TigonCurlRequestAdapter.cpp:901] [31cba5964c4aa87e] Request failed from curl: curl (28): Timeout was reached: Recv failure: Connection was reset
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Script 'CharacterController' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerNetworking.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindow.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizerStyles.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/RuntimeOptimizer/RuntimeOptimizer.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowDetailsExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlocksWindowCollectionsPageExtension.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 136.06 ms, found 23 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 115.31 ms, found 23 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  7.504 seconds
+Domain Reload Profiling: 12811ms
+	BeginReloadAssembly (1150ms)
+		DisableScriptedObjects (109ms)
+		CreateAndSetChildDomain (324ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (579ms)
+	LoadAllAssembliesAndSetupDomain (3450ms)
+		LoadAssemblies (2565ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (77ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (7508ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			BeforeProcessingInitializeOnLoad (352ms)
+			ProcessInitializeOnLoadAttributes (4349ms)
+			ProcessInitializeOnLoadMethodAttributes (1092ms)
+			AfterProcessingInitializeOnLoad (46ms)
+			EditorAssembliesLoaded (3ms)
+		AwakeInstancesAfterBackupRestoration (105ms)
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 108.94 ms, found 23 plugins.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 11133 unused Assets / (11.0 MB). Loaded Objects now: 12362.
+Memory consumption went from 489.7 MB to 478.7 MB.
+Total: 156.740300 ms (FindLiveObjects: 3.828500 ms CreateObjectMapping: 19.465000 ms MarkObjects: 100.551800 ms  DeleteObjects: 32.887400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
