@@ -1,13 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\ExperimentationPassthroughVR\\",
+  "WorkspaceRootPath": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\shaders\\OcclusionShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\shaders\\OcclusionShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,28 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OVRManager.cs",
-              "DocumentMoniker": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
-              "ToolTip": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
-              "ViewState": "AgIAAGQNAAAAAAAAAAAwwHsNAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T14:23:56.181Z",
+              "Title": "OcclusionShader.shader",
+              "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\shaders\\OcclusionShader.shader",
+              "RelativeDocumentMoniker": "Assets\\shaders\\OcclusionShader.shader",
+              "ToolTip": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\shaders\\OcclusionShader.shader",
+              "RelativeToolTip": "Assets\\shaders\\OcclusionShader.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-10-21T23:43:39.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OVRManager.cs",
+              "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
+              "ToolTip": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T14:23:56.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "FindSpawnPositions.cs",
-              "DocumentMoniker": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs",
+              "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs",
-              "ToolTip": "C:\\Users\\oliau\\Desktop\\TIM 2026\\2-Automne\\5-ExperimentationJeu\\projets\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs",
+              "ToolTip": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs",
               "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-20T14:18:01.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-20T14:18:01.228Z"
             }
           ]
         }
