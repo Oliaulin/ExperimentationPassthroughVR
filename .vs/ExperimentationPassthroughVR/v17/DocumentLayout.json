@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@d4cd875f54ee\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.core@d4cd875f54ee\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.interaction@b0ce09a959ae\\Runtime\\Scripts\\Interaction\\Models\\Grab\\GrabInteractable.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.meta.xr.sdk.interaction@b0ce09a959ae\\Runtime\\Scripts\\Interaction\\Models\\Grab\\GrabInteractable.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\scripts\\DestructibleGlobalMeshManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\DestructibleGlobalMeshManager.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\scripts\\DestructibleGlobalMeshManager-uh.cs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\scripts\\DestructibleGlobalMeshManager-uh.cs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\shaders\\OcclusionShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\shaders\\OcclusionShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -27,6 +43,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OVRConfigurationTaskUpdaterSummary.cs",
+              "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@d4cd875f54ee\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@d4cd875f54ee\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
+              "ToolTip": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@d4cd875f54ee\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.core@d4cd875f54ee\\Editor\\OVRProjectSetup\\Tasks\\Processors\\OVRConfigurationTaskUpdaterSummary.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAADwv90AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T19:45:39.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GrabInteractable.cs",
+              "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.interaction@b0ce09a959ae\\Runtime\\Scripts\\Interaction\\Models\\Grab\\GrabInteractable.cs",
+              "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.interaction@b0ce09a959ae\\Runtime\\Scripts\\Interaction\\Models\\Grab\\GrabInteractable.cs",
+              "ToolTip": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.interaction@b0ce09a959ae\\Runtime\\Scripts\\Interaction\\Models\\Grab\\GrabInteractable.cs",
+              "RelativeToolTip": "Library\\PackageCache\\com.meta.xr.sdk.interaction@b0ce09a959ae\\Runtime\\Scripts\\Interaction\\Models\\Grab\\GrabInteractable.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAADwv4QAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T19:38:03.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DestructibleGlobalMeshManager.cs",
+              "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\scripts\\DestructibleGlobalMeshManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DestructibleGlobalMeshManager.cs",
+              "ToolTip": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\scripts\\DestructibleGlobalMeshManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\DestructibleGlobalMeshManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T22:46:35.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DestructibleGlobalMeshManager-uh.cs",
+              "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\scripts\\DestructibleGlobalMeshManager-uh.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\DestructibleGlobalMeshManager-uh.cs",
+              "ToolTip": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\scripts\\DestructibleGlobalMeshManager-uh.cs",
+              "RelativeToolTip": "Assets\\scripts\\DestructibleGlobalMeshManager-uh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-23T22:46:32.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "OcclusionShader.shader",
               "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Assets\\shaders\\OcclusionShader.shader",
               "RelativeDocumentMoniker": "Assets\\shaders\\OcclusionShader.shader",
@@ -34,12 +99,11 @@
               "RelativeToolTip": "Assets\\shaders\\OcclusionShader.shader",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-10-21T23:43:39.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-21T23:43:39.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "OVRManager.cs",
               "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.sdk.core@3c8a98bf2e9a\\Scripts\\OVRManager.cs",
@@ -50,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "FindSpawnPositions.cs",
               "DocumentMoniker": "C:\\Users\\oliau\\Documents\\GitHub\\ExperimentationPassthroughVR\\Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.meta.xr.mrutilitykit@2693f4226edc\\Core\\Scripts\\FindSpawnPositions.cs",
